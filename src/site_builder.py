@@ -8,15 +8,28 @@ import markdown
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 try:
-    from src.research_core import DEFAULT_DIGEST_DIR, DEFAULT_PORTFOLIO, load_portfolio
+    from src.research_core import (
+        DEFAULT_DIGEST_DIR,
+        DEFAULT_PORTFOLIO,
+        load_portfolio,
+        read_latest_intelligence_snapshot,
+    )
 except ModuleNotFoundError:
-    from research_core import DEFAULT_DIGEST_DIR, DEFAULT_PORTFOLIO, load_portfolio
+    from research_core import (
+        DEFAULT_DIGEST_DIR,
+        DEFAULT_PORTFOLIO,
+        load_portfolio,
+        read_latest_intelligence_snapshot,
+    )
 
 
 ROOT = Path(__file__).resolve().parents[1]
 TEMPLATES = ROOT / "templates"
 STATIC = ROOT / "static"
 DEFAULT_SITE_DIR = ROOT / "docs"
+
+def slugify_digest_path(path: Path) -> str:
+    return path.with_suffix(".html").name
 
 
 def markdown_to_html(markdown_text: str) -> str:
@@ -27,10 +40,6 @@ def markdown_to_html(markdown_text: str) -> str:
         markdown_text,
         extensions=["extra", "sane_lists", "tables"],
     )
-
-
-def slugify_digest_path(path: Path) -> str:
-    return path.with_suffix(".html").name
 
 
 def render_environment() -> Environment:
@@ -61,6 +70,7 @@ def build_static_site(
     portfolio_items = [holding for holding in holdings if holding.bucket == "portfolio"]
     watchlist_items = [holding for holding in holdings if holding.bucket == "watchlist"]
     digest_paths = sorted(digest_dir.glob("*-daily-digest.md"), reverse=True) if digest_dir.exists() else []
+    _, intelligence_snapshot = read_latest_intelligence_snapshot(digest_dir)
 
     latest_digest_html = ""
     latest_digest_name = "No digest yet"
@@ -106,6 +116,9 @@ def build_static_site(
             watchlist_count=len(watchlist_items),
             latest_digest_name=latest_digest_name,
             latest_digest_html=latest_digest_html,
+            signal_board=intelligence_snapshot.get("signal_board", []),
+            cross_themes=intelligence_snapshot.get("cross_themes", []),
+            top_risks=intelligence_snapshot.get("top_risks", []),
             recent_digests=recent_digests[:12],
         ),
         encoding="utf-8",

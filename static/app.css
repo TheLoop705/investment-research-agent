@@ -200,6 +200,92 @@ button {
   gap: 12px;
 }
 
+.signal-grid,
+.theme-list {
+  display: grid;
+  gap: 12px;
+}
+
+.signal-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.signal-card,
+.theme-row {
+  padding: 14px;
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.signal-header,
+.signal-badges {
+  display: flex;
+  gap: 8px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.signal-header strong,
+.theme-row strong {
+  display: block;
+}
+
+.signal-header span,
+.theme-row span {
+  color: var(--text-soft);
+  font-size: 0.9rem;
+}
+
+.signal-overview {
+  margin: 10px 0 12px;
+  color: var(--text-soft);
+}
+
+.signal-block h3 {
+  margin: 0 0 6px;
+  font-size: 0.95rem;
+}
+
+.signal-block ul,
+.risk-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--text-soft);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  border-radius: 999px;
+  padding: 4px 9px;
+  font-size: 0.8rem;
+  border: 1px solid var(--panel-border);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.chip-high {
+  border-color: rgba(208, 109, 98, 0.5);
+  color: #ffc1ba;
+}
+
+.chip-medium {
+  border-color: rgba(209, 139, 74, 0.5);
+  color: #ffd6ac;
+}
+
+.chip-low,
+.chip-neutral {
+  border-color: rgba(111, 212, 155, 0.35);
+  color: var(--text-main);
+}
+
+.theme-row p {
+  margin: 8px 0 0;
+  color: var(--text-soft);
+}
+
 .holding-row,
 .feed-row {
   display: grid;
@@ -338,6 +424,10 @@ textarea {
 
   .side-column {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .signal-grid {
+    grid-template-columns: 1fr;
   }
 }
 

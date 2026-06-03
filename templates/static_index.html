@@ -40,6 +40,56 @@
           <section class="panel">
             <div class="panel-heading">
               <div>
+                <h2>Signal board</h2>
+                <p>Clustered, decision-focused ticker intelligence from the latest news run.</p>
+              </div>
+            </div>
+            {% if signal_board %}
+              <div class="signal-grid">
+                {% for signal in signal_board[:6] %}
+                  <article class="signal-card">
+                    <div class="signal-header">
+                      <div>
+                        <strong>{{ signal.ticker }}</strong>
+                        <span>{{ signal.company }}</span>
+                      </div>
+                      <div class="signal-badges">
+                        <span class="chip chip-neutral">{{ signal.dominant_event }}</span>
+                        <span class="chip chip-{{ signal.decision_relevance|lower }}">{{ signal.decision_relevance }}</span>
+                      </div>
+                    </div>
+                    <p class="signal-overview">{{ signal.overview }}</p>
+                    {% if signal.catalysts %}
+                      <div class="signal-block">
+                        <h3>Catalysts</h3>
+                        <ul>
+                          {% for catalyst in signal.catalysts[:2] %}
+                            <li>{{ catalyst }}</li>
+                          {% endfor %}
+                        </ul>
+                      </div>
+                    {% endif %}
+                    {% if signal.risks %}
+                      <div class="signal-block">
+                        <h3>Risks</h3>
+                        <ul>
+                          {% for risk in signal.risks[:2] %}
+                            <li>{{ risk }}</li>
+                          {% endfor %}
+                        </ul>
+                      </div>
+                    {% endif %}
+                  </article>
+                {% endfor %}
+              </div>
+            {% else %}
+              <p class="empty-state">No signal board available yet.</p>
+            {% endif %}
+          </section>
+
+          <section class="panel">
+            <div class="panel-heading">
+              <div>
                 <h2>Latest digest</h2>
                 <p>Published automatically from the newest generated digest.</p>
               </div>
@@ -50,6 +100,46 @@
         </div>
 
         <aside class="side-column">
+          <section class="panel">
+            <div class="panel-heading">
+              <div>
+                <h2>Cross-holding themes</h2>
+                <p>Shared narratives across multiple tracked names.</p>
+              </div>
+            </div>
+            {% if cross_themes %}
+              <div class="theme-list">
+                {% for theme in cross_themes[:5] %}
+                  <article class="theme-row">
+                    <strong>{{ theme.theme }}</strong>
+                    <span>{{ theme.count }} names</span>
+                    <p>{{ theme.tickers | join(', ') }}</p>
+                  </article>
+                {% endfor %}
+              </div>
+            {% else %}
+              <p class="empty-state">No repeated cross-holding themes yet.</p>
+            {% endif %}
+          </section>
+
+          <section class="panel">
+            <div class="panel-heading">
+              <div>
+                <h2>Risk flags</h2>
+                <p>Highest-signal negative or cautionary developments.</p>
+              </div>
+            </div>
+            {% if top_risks %}
+              <ul class="risk-list">
+                {% for risk in top_risks[:8] %}
+                  <li><strong>{{ risk.ticker }}</strong>: {{ risk.risk }}</li>
+                {% endfor %}
+              </ul>
+            {% else %}
+              <p class="empty-state">No material risk flags surfaced in the latest run.</p>
+            {% endif %}
+          </section>
+
           <section class="panel">
             <div class="panel-heading">
               <div>

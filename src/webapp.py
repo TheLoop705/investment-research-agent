@@ -21,6 +21,7 @@ try:
         load_portfolio,
         load_portfolio_data,
         read_latest_digest,
+        read_latest_intelligence_snapshot,
         remove_custom_feed,
         remove_holding,
         run_digest,
@@ -36,6 +37,7 @@ except ModuleNotFoundError:
         load_portfolio,
         load_portfolio_data,
         read_latest_digest,
+        read_latest_intelligence_snapshot,
         remove_custom_feed,
         remove_holding,
         run_digest,
@@ -71,6 +73,7 @@ def build_dashboard_context(message: str = "", tone: str = "success") -> dict[st
     portfolio_data = load_portfolio_data(DEFAULT_PORTFOLIO)
     holdings, custom_feeds = load_portfolio(DEFAULT_PORTFOLIO)
     latest_digest_path, latest_digest_markdown = read_latest_digest(DEFAULT_DIGEST_DIR)
+    _, intelligence_snapshot = read_latest_intelligence_snapshot(DEFAULT_DIGEST_DIR)
     digest_paths = list_digest_paths(DEFAULT_DIGEST_DIR)
 
     holdings_by_bucket = {
@@ -89,6 +92,9 @@ def build_dashboard_context(message: str = "", tone: str = "success") -> dict[st
         "digest_count": len(digest_paths),
         "latest_digest_name": latest_digest_path.name if latest_digest_path else "No digest yet",
         "latest_digest_html": render_digest(latest_digest_markdown),
+        "signal_board": intelligence_snapshot.get("signal_board", []),
+        "cross_themes": intelligence_snapshot.get("cross_themes", []),
+        "top_risks": intelligence_snapshot.get("top_risks", []),
         "recent_digests": digest_paths[:8],
         "portfolio_count": len(portfolio_data["portfolio"]),
         "watchlist_count": len(portfolio_data["watchlist"]),
