@@ -1,78 +1,131 @@
-# Daily Portfolio Digest – 2026-06-04
+# Daily Portfolio Digest – 2026-06-03
 
 ---
 
 ## 1. Executive Summary
-- **Ouster (OUST)** gained strong attention from new partnerships scaling digital lidar for autonomous and counter-UAS applications. Despite recent analyst downgrades, shares more than doubled YTD following strategic deals.
-- **Ambarella (AMBA)** delivered Q1 earnings inline with revenue growth driven by automotive and edge AI chip strength; expanded strategic partnerships (notably with Hanwha).
-- **Sivers Semiconductors (SIVE)** surged on an $800M pipeline and CHIPS Act related deals but faces sharp short interest and intense scrutiny.
-- **American Superconductor (AMSC)** posted record revenues but cautious guidance and missed earnings weighed on sentiment.
-- **Super Micro Computer (SMCI)** dropped ~9% despite a $2B India AI deal; AI infrastructure competition intensifies.
-- **Vicor (VICR)** sustained strong momentum with raised guidance on AI data center demand and insider sales noted.
-- **Infineon (IFX)** strengthened AI and power semiconductor focus via NVIDIA ecosystem partnerships; data center and quantum-era security highlights.
-- **Texas Instruments (TXN)** showed capital discipline with CFO change; analog semiconductor leadership amid AI-driven market rotations.
-- **Harmonic (HLIT)** continues momentum with broadband/video delivery wins and good earnings estimate revisions.
-- Other portfolio stocks showed no major headline shifts today.
+- **Ouster (OUST)** sees growing partnership momentum in digital lidar and counter-UAS systems but mixed analyst sentiment persists, balancing rapid stock appreciation with valuation scrutiny.
+- **Ambarella (AMBA)** posts solid Q1 earnings led by automotive sector strength and advances edge AI strategy bolstered by a Hanwha partnership.
+- **Sivers Semiconductors (SIVE)** experiences a volatile surge on retail interest and has key CHIPS Act-linked contracts, driving growth but raising questions on sustainability.
+- **American Superconductor (AMSC)** reports record revenues but misses earnings with cautious guidance; margin pressures and data center demand trends warrant monitoring.
+- **Super Micro Computer (SMCI)** shares dropped amid mixed AI infrastructure deal news and sector-wide competitor volatility.
+- **Vicor (VICR)** maintains positive momentum following record AI data-center demand and raised guidance.
+- **Infineon (IFX)** reinforces leadership in power semiconductors with NVIDIA partnerships, physical AI security advances, and AI data center growth opportunities.
+- **Texas Instruments (TXN)** draws attention for a CFO transition amidst strong analog semiconductor Q1 performance and market leadership vs NVIDIA.
+- **Harmonic (HLIT)** rides strong broadband/video delivery momentum while maintaining good stock momentum.
+- Other portfolio companies show limited fresh news; CPS Technologies (CPSH) announces stock offering and maintains steady earnings trends.
 
 ---
 
 ## 2. Portfolio Updates
 
-| Ticker | Key Updates |
-| --- | --- |
-| OUST | New collaboration with FieldAI to scale REV8 digital lidar in tough environments; multiple strategic counter-UAS lidar partnerships announced recently; analyst coverage initiated by Roth/MKM; strong YTD performance but valuation questions linger. |
-| AMBA | Q1 revenue growth driven by automotive segment and edge AI chips; Hanwha long-term edge AI partnership finalized; management highlights strategic shift to an AI-enabled go-to-market approach. |
-| SIVE | Q1 earnings confirm $800M pipeline; strategic collaboration with GlobalFoundries on AI optical solutions; stock surged 1700% recently amid surge in retail interest but exposed to sharp shorting pressure and scrutiny. |
-| AMSC | Record Q4 revenue but mixed Q1 results with cautious outlook; earnings beat on revenue but missed on EPS; analyst questions revolve around guidance and sustainable growth. |
-| SMCI | Stock down 9%, pressured despite a $2B AI infrastructure deal in India; competitive AI server infrastructure landscape heating up; AMD and Nvidia competition noted. |
-| VICR | Raised Q2 revenue guidance on AI data center demand; shares up ~10%; insider stock sales also disclosed; sector momentum continuing with power modules for AI compute. |
-| IFX | Partnership with NVIDIA MGX AI Factory ecosystem announced to enhance AI server power delivery; spotlight on data center revenue doubling prospects and enhanced AI security solutions. |
-| TXN | CFO transition to insider Julie Knecht announced focusing on capital discipline and AI investments; stock technicals improving (cross above 20-day moving average); outperforming Nvidia so far in 2026. |
-| HLIT | Continued earnings estimate upgrades driven by new broadband and video delivery wins; 52-week highs reached; Swiss broadcaster Canal Alpha signed streaming deal; momentum strong. |
-| Others (CPSH, MRVL, NOW, AAOI, TSM, SHMD, ASE, LPK, NVTS, SMSN, AMPX, PENG, ADEA, M7U, XFAB) | No significant news reported in the review period. |
+### OUST (Ouster)
+- Multiple partnerships launched enhancing digital lidar in autonomous perception and counter-drone applications, e.g., with FieldAI and ARGUS Interception.
+- Shares doubled YTD but face analyst valuation skepticism (downgrade to neutral by some).
+- New coverage by Roth/MKM shows growing institutional interest.
+- Emerging use cases in next-gen inspection (Gecko Robotics) highlight technology expansion.  
+**Link:** [Ouster partnerships and coverage](https://finance.yahoo.com/sectors/technology/articles/ouster-fieldai-collaborate-scale-autonomous-100000689.html)
+
+### AMBA (Ambarella)
+- Meets Q1 revenue and earnings estimates; record automotive chipset revenue supports growth.
+- Hanwha partnership and renewed edge AI strategy may reframe market approach.
+- Analyst briefings emphasize auto sector strength and diversified product roadmap.
+**Link:** [Ambarella Q1 Earnings & Strategy](https://finance.yahoo.com/markets/stocks/articles/ambarellas-q1-earnings-meet-estimates-140700679.html)
+
+### SIVE (Sivers Semiconductors)
+- Stock surged ~1700% fueled by retail and social media interest plus CHIPS Act contract exposure (~$800M pipeline).
+- Nominated new board members to support strategic growth.
+- Partnership with GlobalFoundries advances AI data center photonic solutions.
+- Short interest rose sharply, warranting close monitoring.
+**Link:** [Sivers surge and pipeline](https://finance.yahoo.com/markets/stocks/articles/sivers-semiconductors-800m-pipeline-chips-200220460.html)
+
+### AMSC (American Superconductor)
+- Q4 record revenues but earnings miss; cautious outlook due to margin pressures and mixed demand signals.
+- Data center and traditional energy remain key drivers; guidance calls for careful watch.
+- Analyst questions highlight outlook uncertainty.
+**Link:** [AMSC earnings review](https://finance.yahoo.com/markets/stocks/articles/american-superconductor-amsc-valuation-record-210824083.html)
+
+### SMCI (Super Micro Computer)
+- Shares fell 9%, driven by competitor Gorilla Technology’s 20% drop despite a $2B India AI infrastructure deal.
+- Market volatility among AI infrastructure hardware providers likely impacting sentiment.
+- AMD’s Helios platform and Dell’s uneven trend also factor into sector dynamics.
+**Link:** [SMCI and sector volatility](https://247wallst.com/investing/2026/06/03/super-micro-computer-sinks-9-gorilla-technology-tumbles-20-despite-2-billion-india-ai-infrastructure-deal/)
+
+### VICR (Vicor)
+- Up 10%+ after raising Q2 revenue guidance citing record AI data center demand.
+- Insider sales noted but framed positively in light of growth.
+- Sector peers like Wolfspeed also strong, indicating broad power-chip demand.
+**Link:** [Vicor guidance and AI demand](https://finance.yahoo.com/markets/stocks/articles/vicor-corporation-revises-q2-2026-120000713.html)
+
+### IFX (Infineon Technologies)
+- Deepening NVIDIA partnership in MGX AI Factory ecosystem for optimized power delivery in AI servers.
+- Announced new physical AI security product with certified TPM for NVIDIA Jetson.
+- Highlighted wide bandgap semiconductor market leadership and strong data center revenue growth potential linked to AI.
+**Link:** [Infineon NVIDIA partnership & AI growth](https://finance.yahoo.com/sectors/technology/articles/infineon-joins-nvidias-mgx-ai-011500891.html)
+
+### TXN (Texas Instruments)
+- Q1 analog semiconductor results strong; stock rallies amid AI-driven industrial cycle optimism.
+- CFO transition to internal candidate emphasizes capital discipline and AI-related spending strategy.
+- Market view: TXN outperformance vs NVIDIA sparks debate over sector rotation or long-term shift.
+**Link:** [TXN earnings & CFO update](https://finance.yahoo.com/markets/stocks/articles/texas-instruments-cfo-shift-puts-230958759.html)
+
+### HLIT (Harmonic)
+- Strong broadband and AI video wins recognized; 52-week highs reached.
+- New customer launches with Swiss broadcaster Canal Alpha and Finland’s DNA.
+- Analyst earnings estimate revisions suggest upside.
+**Link:** [Harmonic broadband/video momentum](https://finance.yahoo.com/markets/stocks/articles/ai-video-broadband-wins-reveal-020316881.html)
+
+### CPSH (CPS Technologies)
+- Announced $9.6M at-the-market offering, following recent record revenue and steady earnings reports.
+- Institutional and retail ownership balance noted.
+- Focus remains on advanced materials and thermal management.
+**Link:** [CPSH stock offering](https://finance.yahoo.com/markets/stocks/articles/cps-technologies-corp-announces-pricing-120000972.html)
 
 ---
 
 ## 3. Risk Flags
-- **Sivers Semiconductors (SIVE)** faces extreme volatility with a 1700% surge but also rising short interest and public scrutiny. Pipeline execution and CHIPS Act deal risks require monitoring.
-- **Ouster (OUST)** shares have doubled in a year but face valuation concerns amidst competitive lidar space and mixed analyst sentiment.
-- **Super Micro (SMCI)** share drop highlights potential exposure to intensifying AI infrastructure competition and client concentration risk.
-- **American Superconductor (AMSC)** cautious guidance despite recent revenue records signals uncertainty in sustaining growth.
-- Insider sales at **Vicor (VICR)** along with share price strength may warrant attention on leadership confidence signals.
+- **OUST:** High valuation risk with skeptic analyst downgrades despite partnerships.
+- **SIVE:** Extreme share volatility and rising short interest post social media-driven rally; CHIPS Act contract scrutiny.
+- **AMSC:** Margin pressures and cautious guidance raise execution risks despite reported revenue growth.
+- **SMCI:** AI data center infrastructure sector volatility continues, affecting competitive positioning.
+- **TXN:** CFO transition timing coincides with market rotation risks; potential capital allocation shifts.
 
 ---
 
 ## 4. Adjacent Stocks To Research
 
-| Company | Why Adjacent |
-| --- | --- |
-| **Wolfspeed (WOLF)** | Power semiconductors segment overlapping with VICR and IFX; recent recommendations and share price surges linked to AI/server demand. |
-| **GlobalFoundries (GFS)** | Collaborating with SIVE on AI optical data center solutions; important foundry player relevant to photonics and advanced semiconductors. |
-| **NVIDIA (NVDA)** | Key AI infrastructure and server partner for IFX and SMCI ecosystem; market leader shaping AI hardware spending trends. |
-| **Hanwha (KRX: 000880)** | Partnered with AMBA on edge AI chips—a strategic alliance potentially influencing AMBA's auto AI growth. |
-| **IPG Photonics (IPGP)** | Sector adjacency through photonics and laser systems relevant to CPSH and possibly LPK; recent share price activity noted. |
+| Stock | Reason for Adjacency |
+|-------|---------------------|
+| **Wolfspeed (WOLF)** | Power-semiconductor peer to VICR and NVTS; strong AI data center/bandgap trends. |
+| **GlobalFoundries (GFS)** | Strategic partner with SIVE on AI data center photonics; foundry tech exposure. |
+| **NVIDIA (NVDA)** | MGX AI Factory ecosystem partner to IFX; AI compute hardware leader impacting multiple portfolio plays. |
+| **IPG Photonics (IPGP)** | Optical components peer related to SIVE and AAOI; recent share momentum indicates market interest. |
+| **Marvell Technology (MRVL)** | Data center/networking silicon focus aligns with IFX and SMCI AI infrastructure exposure. |
 
 ---
 
 ## 5. Questions For Follow-Up
-- How will Ouster sustain growth and margin improvement amid competitive counter-UAS and autonomous market developments?
-- What risks does the short-squeeze and regulatory focus on Sivers Semiconductors pose for pipeline execution?
-- Can Super Micro Computer leverage the $2B AI infrastructure deal to regain investor confidence amid intense competitive pressures?
-- What are the longer-term impacts of Texas Instruments’ capital discipline and CFO change on its AI investment priorities?
-- How significant is Infineon’s NVIDIA MGX AI Factory ecosystem partnership in capturing AI data center power delivery growth?
-- What is the implication of Vicor’s insider stock sales combined with raised guidance on potential mid-term share momentum?
+- How sustainable is Ouster’s recent partnership traction in the face of valuation concerns and industry competition?
+- What is the expected impact of Ambarella’s Hanwha deal on revenue diversification beyond automotive?
+- Are the retail-driven dynamics at Sivers semiconductors masking fundamental business risks or opportunities?
+- What are the primary causes of margin pressure at AMSC, and how are they addressing them alongside revenue growth?
+- How will TXN’s CFO change influence capital deployment in AI-related semiconductor investments?
+- What lessons from the SMCI and Gorilla Technology market reactions can be applied to other AI infrastructure suppliers?
 
 ---
 
 ## 6. Sources
-- [Ouster & FieldAI Collaboration — Yahoo Finance](https://finance.yahoo.com/sectors/technology/articles/ouster-fieldai-collaborate-scale-autonomous-100000689.html?.tsrc=rss)
-- [Ouster Counter-Drone Links & Valuation — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/ouster-partnerships-counter-drone-lidar-220446079.html?.tsrc=rss)
-- [Roth/MKM Coverage Ouster — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/roth-mkm-begins-coverage-ouster-082025758.html?.tsrc=rss)
-- [Ambarella Q1 Earnings & Hanwha Deal — Yahoo Finance](https://finance.yahoo.com/sectors/technology/articles/hanwha-ambarella-enter-long-term-200500283.html?.tsrc=rss)
-- [Sivers Semiconductor Surge & Pipeline — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/sivers-semiconductors-800m-pipeline-chips-200220460.html?.tsrc=rss)
-- [AMSC Q4 Earnings & Guidance — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/american-superconductor-amsc-valuation-record-210824083.html?.tsrc=rss)
-- [SMCI AI Deal & Competition — 247wallstreet](https://247wallst.com/investing/2026/06/03/super-micro-computer-sinks-9-gorilla-technology-tumbles-20-despite-2-billion-india-ai-infrastructure-deal/?.tsrc=rss)
-- [Vicor Record Demand & Insider Sales — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/vicor-vicr-10-3-record-051931168.html?.tsrc=rss)
-- [Infineon NVIDIA Partnership — Yahoo Finance](https://finance.yahoo.com/sectors/technology/articles/infineon-joins-nvidias-mgx-ai-011500315.html?.tsrc=rss)
-- [Texas Instruments CFO Change & Earnings — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/texas-instruments-cfo-shift-puts-230958759.html?.tsrc=rss)
-- [Harmonic Broadband Wins & Earnings — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/ai-video-broadband-wins-reveal-020316881.html?.tsrc=rss)
+- [Ouster & FieldAI Collaborate](https://finance.yahoo.com/sectors/technology/articles/ouster-fieldai-collaborate-scale-autonomous-100000689.html)
+- [Ouster Partnerships and Downgrade](https://finance.yahoo.com/markets/stocks/articles/analyst-downgrades-ouster-oust-neutral-232423180.html)
+- [Ambarella Q1 Earnings Report](https://finance.yahoo.com/markets/stocks/articles/ambarellas-q1-earnings-meet-estimates-140700679.html)
+- [Sivers Semiconductors Surge & Pipeline](https://finance.yahoo.com/markets/stocks/articles/sivers-semiconductors-800m-pipeline-chips-200220460.html)
+- [American Superconductor Earnings Review](https://finance.yahoo.com/markets/stocks/articles/american-superconductor-amsc-valuation-record-210824083.html)
+- [Super Micro Computer Sector Volatility](https://247wallst.com/investing/2026/06/03/super-micro-computer-sinks-9-gorilla-technology-tumbles-20-despite-2-billion-india-ai-infrastructure-deal/)
+- [Vicor Q2 Guidance Update](https://finance.yahoo.com/markets/stocks/articles/vicor-corporation-revises-q2-2026-120000713.html)
+- [Infineon & NVIDIA Partnership](https://finance.yahoo.com/sectors/technology/articles/infineon-joins-nvidias-mgx-ai-011500891.html)
+- [Texas Instruments CFO Transition](https://finance.yahoo.com/markets/stocks/articles/texas-instruments-cfo-shift-puts-230958759.html)
+- [Harmonic AI Video Wins](https://finance.yahoo.com/markets/stocks/articles/ai-video-broadband-wins-reveal-020316881.html)
+- [CPS Technologies Stock Offering](https://finance.yahoo.com/markets/stocks/articles/cps-technologies-corp-announces-pricing-120000972.html)
+
+---
+
+*Report compiled 2026-06-03 by Investment Research Assistant.*
