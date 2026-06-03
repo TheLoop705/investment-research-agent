@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ asset_prefix }}/app.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Investment Research Agent</p>
+          <h1>Portfolio dashboard</h1>
+        </div>
+        <div class="status-pill">Read-only static snapshot</div>
+      </header>
+
+      <section class="summary-grid">
+        <article class="metric">
+          <span class="metric-label">Portfolio</span>
+          <strong>{{ portfolio_count }}</strong>
+        </article>
+        <article class="metric">
+          <span class="metric-label">Watchlist</span>
+          <strong>{{ watchlist_count }}</strong>
+        </article>
+        <article class="metric">
+          <span class="metric-label">Digests</span>
+          <strong>{{ digest_count }}</strong>
+        </article>
+        <article class="metric">
+          <span class="metric-label">Latest</span>
+          <strong>{{ latest_digest_name }}</strong>
+        </article>
+      </section>
+
+      <section class="workspace-grid">
+        <div class="main-column">
+          <section class="panel">
+            <div class="panel-heading">
+              <div>
+                <h2>Latest digest</h2>
+                <p>Published automatically from the newest generated digest.</p>
+              </div>
+              <span class="timestamp">{{ generated_at }}</span>
+            </div>
+            <div class="digest-content">{{ latest_digest_html | safe }}</div>
+          </section>
+        </div>
+
+        <aside class="side-column">
+          <section class="panel">
+            <div class="panel-heading">
+              <div>
+                <h2>Portfolio</h2>
+                <p>{{ portfolio_items | length }} active holdings.</p>
+              </div>
+            </div>
+            <div class="holding-list">
+              {% for item in portfolio_items %}
+                <article class="holding-row">
+                  <div class="holding-copy">
+                    <div class="holding-title">
+                      <strong>{{ item.ticker }}</strong>
+                      <span>{{ item.company }}</span>
+                    </div>
+                    <p>{{ item.thesis }}</p>
+                    <ul class="tag-list">
+                      {% for tag in item.tags %}
+                        <li>{{ tag }}</li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                </article>
+              {% endfor %}
+            </div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-heading">
+              <div>
+                <h2>Watchlist</h2>
+                <p>{{ watchlist_items | length }} tracked names.</p>
+              </div>
+            </div>
+            <div class="holding-list">
+              {% if watchlist_items %}
+                {% for item in watchlist_items %}
+                  <article class="holding-row">
+                    <div class="holding-copy">
+                      <div class="holding-title">
+                        <strong>{{ item.ticker }}</strong>
+                        <span>{{ item.company }}</span>
+                      </div>
+                      <p>{{ item.thesis }}</p>
+                      <ul class="tag-list">
+                        {% for tag in item.tags %}
+                          <li>{{ tag }}</li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  </article>
+                {% endfor %}
+              {% else %}
+                <p class="empty-state">No watchlist items yet.</p>
+              {% endif %}
+            </div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-heading">
+              <div>
+                <h2>Custom feeds</h2>
+                <p>Additional RSS sources included in digest generation.</p>
+              </div>
+            </div>
+            <div class="feed-list">
+              {% if custom_feeds %}
+                {% for feed in custom_feeds %}
+                  <article class="feed-row feed-row-static">
+                    <a href="{{ feed }}" target="_blank" rel="noreferrer">{{ feed }}</a>
+                  </article>
+                {% endfor %}
+              {% else %}
+                <p class="empty-state">No custom feeds configured.</p>
+              {% endif %}
+            </div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-heading">
+              <div>
+                <h2>Recent digests</h2>
+                <p>Archived static digest pages.</p>
+              </div>
+            </div>
+            <ul class="digest-list">
+              {% for digest in recent_digests %}
+                <li><a href="{{ digest.href }}">{{ digest.name }}</a></li>
+              {% endfor %}
+            </ul>
+          </section>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>

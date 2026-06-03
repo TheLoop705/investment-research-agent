@@ -1,0 +1,206 @@
+{% extends "base.html" %}
+
+{% block body %}
+  <main class="page-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Investment Research Agent</p>
+        <h1>Portfolio dashboard</h1>
+      </div>
+      <form action="/digests/run" method="post">
+        <button class="primary-button" type="submit">Run digest</button>
+      </form>
+    </header>
+
+    {% if message %}
+      <section class="flash flash-{{ tone }}">
+        <p>{{ message }}</p>
+      </section>
+    {% endif %}
+
+    <section class="summary-grid">
+      <article class="metric">
+        <span class="metric-label">Portfolio</span>
+        <strong>{{ portfolio_count }}</strong>
+      </article>
+      <article class="metric">
+        <span class="metric-label">Watchlist</span>
+        <strong>{{ watchlist_count }}</strong>
+      </article>
+      <article class="metric">
+        <span class="metric-label">Digests</span>
+        <strong>{{ digest_count }}</strong>
+      </article>
+      <article class="metric">
+        <span class="metric-label">Latest</span>
+        <strong>{{ latest_digest_name }}</strong>
+      </article>
+    </section>
+
+    <section class="workspace-grid">
+      <div class="main-column">
+        <section class="panel">
+          <div class="panel-heading">
+            <div>
+              <h2>Latest digest</h2>
+              <p>Rendered from the newest markdown file in <code>digests/</code>.</p>
+            </div>
+            <span class="timestamp">{{ generated_at }}</span>
+          </div>
+          <div class="digest-content">{{ latest_digest_html | safe }}</div>
+        </section>
+      </div>
+
+      <aside class="side-column">
+        <section class="panel">
+          <div class="panel-heading">
+            <div>
+              <h2>Add holding</h2>
+              <p>Writes directly to <code>{{ portfolio_path }}</code>.</p>
+            </div>
+          </div>
+          <form class="stack-form" action="/holdings/add" method="post">
+            <label>
+              <span>Bucket</span>
+              <select name="bucket">
+                <option value="portfolio">Portfolio</option>
+                <option value="watchlist">Watchlist</option>
+              </select>
+            </label>
+            <label>
+              <span>Ticker</span>
+              <input name="ticker" placeholder="NVDA" required />
+            </label>
+            <label>
+              <span>Company</span>
+              <input name="company" placeholder="NVIDIA" />
+            </label>
+            <label>
+              <span>Yahoo symbol</span>
+              <input name="yahoo_symbol" placeholder="NVDA or IFX.DE" />
+            </label>
+            <label>
+              <span>ISIN</span>
+              <input name="isin" placeholder="Optional" />
+            </label>
+            <label>
+              <span>Tags</span>
+              <input name="tags" placeholder="ai, semiconductors, data-center" />
+            </label>
+            <label>
+              <span>Thesis</span>
+              <textarea name="thesis" rows="4" placeholder="Why this belongs in the research set"></textarea>
+            </label>
+            <button class="primary-button" type="submit">Add holding</button>
+          </form>
+        </section>
+
+        <section class="panel">
+          <div class="panel-heading">
+            <div>
+              <h2>Portfolio</h2>
+              <p>{{ portfolio_items | length }} active holdings.</p>
+            </div>
+          </div>
+          <div class="holding-list">
+            {% for item in portfolio_items %}
+              <article class="holding-row">
+                <div class="holding-copy">
+                  <div class="holding-title">
+                    <strong>{{ item.ticker }}</strong>
+                    <span>{{ item.company }}</span>
+                  </div>
+                  <p>{{ item.thesis }}</p>
+                  <ul class="tag-list">
+                    {% for tag in item.tags %}
+                      <li>{{ tag }}</li>
+                    {% endfor %}
+                  </ul>
+                </div>
+                <form action="/holdings/portfolio/{{ item.ticker }}/delete" method="post">
+                  <button class="danger-button" type="submit">Remove</button>
+                </form>
+              </article>
+            {% endfor %}
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-heading">
+            <div>
+              <h2>Watchlist</h2>
+              <p>{{ watchlist_items | length }} tracked names.</p>
+            </div>
+          </div>
+          <div class="holding-list">
+            {% if watchlist_items %}
+              {% for item in watchlist_items %}
+                <article class="holding-row">
+                  <div class="holding-copy">
+                    <div class="holding-title">
+                      <strong>{{ item.ticker }}</strong>
+                      <span>{{ item.company }}</span>
+                    </div>
+                    <p>{{ item.thesis }}</p>
+                    <ul class="tag-list">
+                      {% for tag in item.tags %}
+                        <li>{{ tag }}</li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                  <form action="/holdings/watchlist/{{ item.ticker }}/delete" method="post">
+                    <button class="danger-button" type="submit">Remove</button>
+                  </form>
+                </article>
+              {% endfor %}
+            {% else %}
+              <p class="empty-state">No watchlist items yet.</p>
+            {% endif %}
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-heading">
+            <div>
+              <h2>Custom feeds</h2>
+              <p>Optional RSS sources included in digest runs.</p>
+            </div>
+          </div>
+          <form class="inline-form" action="/feeds/add" method="post">
+            <input name="url" placeholder="https://example.com/rss.xml" required />
+            <button class="secondary-button" type="submit">Add feed</button>
+          </form>
+          <div class="feed-list">
+            {% if custom_feeds %}
+              {% for feed in custom_feeds %}
+                <article class="feed-row">
+                  <a href="{{ feed }}" target="_blank" rel="noreferrer">{{ feed }}</a>
+                  <form action="/feeds/delete" method="post">
+                    <input type="hidden" name="url" value="{{ feed }}" />
+                    <button class="danger-button" type="submit">Remove</button>
+                  </form>
+                </article>
+              {% endfor %}
+            {% else %}
+              <p class="empty-state">No custom feeds configured.</p>
+            {% endif %}
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-heading">
+            <div>
+              <h2>Recent digests</h2>
+              <p>Newest files currently on disk.</p>
+            </div>
+          </div>
+          <ul class="digest-list">
+            {% for digest in recent_digests %}
+              <li>{{ digest.name }}</li>
+            {% endfor %}
+          </ul>
+        </section>
+      </aside>
+    </section>
+  </main>
+{% endblock %}

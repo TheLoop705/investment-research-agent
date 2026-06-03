@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ asset_prefix }}/app.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Investment Research Agent</p>
+          <h1>{{ digest_name }}</h1>
+        </div>
+        <a class="secondary-link" href="{{ home_href }}">Back to dashboard</a>
+      </header>
+
+      <section class="panel">
+        <div class="panel-heading">
+          <div>
+            <h2>Digest snapshot</h2>
+            <p>Static render of the generated markdown digest.</p>
+          </div>
+          <span class="timestamp">{{ generated_at }}</span>
+        </div>
+        <div class="digest-content">{{ digest_html | safe }}</div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,272 @@
+{
+  "portfolio": [
+    {
+      "ticker": "OUST",
+      "yahoo_symbol": "OUST",
+      "company": "Ouster",
+      "thesis": "Lidar and perception hardware exposure.",
+      "tags": [
+        "lidar",
+        "sensors",
+        "autonomy"
+      ]
+    },
+    {
+      "ticker": "AMBA",
+      "yahoo_symbol": "AMBA",
+      "company": "Ambarella",
+      "thesis": "Edge AI video processing and automotive/computer vision chips.",
+      "tags": [
+        "edge-ai",
+        "vision",
+        "semiconductors"
+      ]
+    },
+    {
+      "ticker": "SIVE",
+      "yahoo_symbol": "SIVE.ST",
+      "company": "Sivers Semiconductors",
+      "thesis": "Photonics, wireless semiconductors, and co-packaged optics exposure.",
+      "tags": [
+        "photonics",
+        "semiconductors",
+        "optical"
+      ]
+    },
+    {
+      "ticker": "AMSC",
+      "yahoo_symbol": "AMSC",
+      "company": "American Superconductor",
+      "thesis": "Grid, power systems, and energy infrastructure exposure.",
+      "tags": [
+        "grid",
+        "power",
+        "energy"
+      ]
+    },
+    {
+      "ticker": "SMCI",
+      "yahoo_symbol": "SMCI",
+      "company": "Super Micro Computer",
+      "thesis": "AI server infrastructure and data center systems.",
+      "tags": [
+        "ai",
+        "servers",
+        "data-center"
+      ]
+    },
+    {
+      "ticker": "VICR",
+      "yahoo_symbol": "VICR",
+      "company": "Vicor",
+      "thesis": "High-performance power modules for compute and industrial systems.",
+      "tags": [
+        "power",
+        "semiconductors",
+        "data-center"
+      ]
+    },
+    {
+      "ticker": "IFX",
+      "yahoo_symbol": "IFX.DE",
+      "company": "Infineon Technologies",
+      "thesis": "Power semiconductors, automotive chips, and industrial electronics.",
+      "tags": [
+        "power",
+        "automotive",
+        "semiconductors"
+      ]
+    },
+    {
+      "ticker": "TXN",
+      "yahoo_symbol": "TXN",
+      "company": "Texas Instruments",
+      "thesis": "Analog semiconductors, embedded processing, and industrial cycles.",
+      "tags": [
+        "analog",
+        "industrial",
+        "semiconductors"
+      ]
+    },
+    {
+      "ticker": "HLIT",
+      "yahoo_symbol": "HLIT",
+      "company": "Harmonic",
+      "thesis": "Broadband, video delivery, and networking infrastructure.",
+      "tags": [
+        "broadband",
+        "networking",
+        "video"
+      ]
+    },
+    {
+      "ticker": "CPSH",
+      "yahoo_symbol": "CPSH",
+      "company": "CPS Technologies",
+      "thesis": "Advanced materials and thermal management exposure.",
+      "tags": [
+        "materials",
+        "thermal",
+        "defense"
+      ]
+    },
+    {
+      "ticker": "MRVL",
+      "yahoo_symbol": "MRVL",
+      "company": "Marvell Technology",
+      "thesis": "Data center, networking silicon, and custom AI infrastructure.",
+      "tags": [
+        "data-center",
+        "networking",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "NOW",
+      "yahoo_symbol": "NOW",
+      "company": "ServiceNow",
+      "thesis": "Enterprise workflow software and AI automation.",
+      "tags": [
+        "software",
+        "ai",
+        "enterprise"
+      ]
+    },
+    {
+      "ticker": "AAOI",
+      "yahoo_symbol": "AAOI",
+      "company": "Applied Optoelectronics",
+      "thesis": "Optical networking components for cloud and telecom.",
+      "tags": [
+        "optical",
+        "networking",
+        "data-center"
+      ]
+    },
+    {
+      "ticker": "TSM",
+      "yahoo_symbol": "TSM",
+      "company": "Taiwan Semiconductor Manufacturing",
+      "thesis": "Leading-edge semiconductor manufacturing and AI compute supply chain.",
+      "tags": [
+        "foundry",
+        "semiconductors",
+        "ai"
+      ]
+    },
+    {
+      "ticker": "SHMD",
+      "yahoo_symbol": "SHMD",
+      "company": "SCHMID Group",
+      "thesis": "High-tech electronics, photovoltaics, glass, and energy systems equipment.",
+      "tags": [
+        "equipment",
+        "electronics",
+        "solar"
+      ]
+    },
+    {
+      "ticker": "ASE",
+      "yahoo_symbol": "ASX",
+      "company": "ASE Technology Holding",
+      "thesis": "Semiconductor assembly, packaging, and test exposure.",
+      "tags": [
+        "packaging",
+        "semiconductors",
+        "outsourced-test"
+      ]
+    },
+    {
+      "ticker": "LPK",
+      "yahoo_symbol": "LPK.DE",
+      "company": "LPKF Laser & Electronics",
+      "thesis": "Laser systems for electronics manufacturing and advanced packaging themes.",
+      "tags": [
+        "laser",
+        "electronics",
+        "advanced-packaging"
+      ]
+    },
+    {
+      "ticker": "NVTS",
+      "yahoo_symbol": "NVTS",
+      "company": "Navitas Semiconductor",
+      "thesis": "GaN and power semiconductor exposure.",
+      "tags": [
+        "gan",
+        "power",
+        "semiconductors"
+      ]
+    },
+    {
+      "ticker": "SMSN",
+      "yahoo_symbol": "SMSN.IL",
+      "company": "Samsung Electronics GDR",
+      "thesis": "Memory, foundry, consumer devices, and AI hardware supply chain.",
+      "tags": [
+        "memory",
+        "foundry",
+        "consumer-hardware"
+      ]
+    },
+    {
+      "ticker": "AMPX",
+      "yahoo_symbol": "AMPX",
+      "company": "Amprius Technologies",
+      "thesis": "High-energy-density battery technology.",
+      "tags": [
+        "batteries",
+        "energy-storage",
+        "aviation"
+      ]
+    },
+    {
+      "ticker": "PENG",
+      "yahoo_symbol": "PENG",
+      "company": "Penguin Solutions",
+      "thesis": "Enterprise infrastructure, memory, and AI/HPC systems.",
+      "tags": [
+        "ai",
+        "hpc",
+        "infrastructure"
+      ]
+    },
+    {
+      "ticker": "ADEA",
+      "yahoo_symbol": "ADEA",
+      "company": "Adeia",
+      "thesis": "IP licensing and semiconductor/media technology patents.",
+      "tags": [
+        "ip",
+        "licensing",
+        "semiconductors"
+      ]
+    },
+    {
+      "ticker": "M7U",
+      "yahoo_symbol": "M7U.DE",
+      "company": "Nynomic",
+      "isin": "DE000A0MSN11",
+      "thesis": "Photonics and optical measurement technology.",
+      "tags": [
+        "photonics",
+        "optical",
+        "industrial"
+      ]
+    },
+    {
+      "ticker": "XFAB",
+      "yahoo_symbol": "XFAB.PA",
+      "company": "X-FAB Silicon Foundries",
+      "isin": "BE0974310428",
+      "thesis": "Specialty semiconductor foundry exposure.",
+      "tags": [
+        "foundry",
+        "semiconductors",
+        "specialty"
+      ]
+    }
+  ],
+  "watchlist": [],
+  "custom_feeds": []
+}
