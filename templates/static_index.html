@@ -40,6 +40,72 @@
           <section class="panel">
             <div class="panel-heading">
               <div>
+                <h2>Research overview</h2>
+                <p>A quick read on signal intensity, event mix, and how much of the board needs attention now.</p>
+              </div>
+            </div>
+            <div class="overview-card-grid">
+              {% for item in overview_cards %}
+                <article class="overview-stat">
+                  <span class="metric-label">{{ item.label }}</span>
+                  <strong>{{ item.value }}</strong>
+                  <p>{{ item.detail }}</p>
+                </article>
+              {% endfor %}
+            </div>
+            <div class="overview-splits">
+              <section class="mix-panel">
+                <div class="subtle-heading">
+                  <h3>Decision relevance mix</h3>
+                  <span>{{ ticker_signals | length }} names</span>
+                </div>
+                {% if relevance_mix %}
+                  <div class="bar-list">
+                    {% for item in relevance_mix %}
+                      <article class="bar-row">
+                        <div class="bar-copy">
+                          <strong>{{ item.label }}</strong>
+                          <span>{{ item.count }}</span>
+                        </div>
+                        <div class="bar-track">
+                          <div class="bar-fill bar-{{ item.label|lower }}" style="width: {{ item.share }}%"></div>
+                        </div>
+                      </article>
+                    {% endfor %}
+                  </div>
+                {% else %}
+                  <p class="empty-state">No relevance split yet.</p>
+                {% endif %}
+              </section>
+              <section class="mix-panel">
+                <div class="subtle-heading">
+                  <h3>Dominant event mix</h3>
+                  <span>{{ cluster_count }} clusters</span>
+                </div>
+                {% if event_mix %}
+                  <div class="bar-list">
+                    {% for item in event_mix %}
+                      <article class="bar-row">
+                        <div class="bar-copy">
+                          <strong>{{ item.label }}</strong>
+                          <span>{{ item.count }}</span>
+                        </div>
+                        <div class="bar-track">
+                          <div class="bar-fill bar-neutral" style="width: {{ item.share }}%"></div>
+                        </div>
+                      </article>
+                    {% endfor %}
+                  </div>
+                {% else %}
+                  <p class="empty-state">No event mix yet.</p>
+                {% endif %}
+              </section>
+            </div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-heading">
+              <div>
                 <h2>Signal board</h2>
                 <p>Clustered, decision-focused ticker intelligence from the latest news run.</p>
               </div>
@@ -50,7 +116,7 @@
                   <article class="signal-card">
                     <div class="signal-header">
                       <div>
-                        <strong>{{ signal.ticker }}</strong>
+                        <a class="ticker-link" href="tickers/{{ signal.ticker }}.html"><strong>{{ signal.ticker }}</strong></a>
                         <span>{{ signal.company }}</span>
                       </div>
                       <div class="signal-badges">
@@ -103,6 +169,137 @@
           <section class="panel">
             <div class="panel-heading">
               <div>
+                <h2>Fed monitor</h2>
+                <p>Current policy, next-meeting pricing, and the macro inputs the market is watching.</p>
+              </div>
+            </div>
+            {% if fed_monitor %}
+              <div class="fed-summary-grid">
+                <article class="overview-stat compact-stat">
+                  <span class="metric-label">Target range</span>
+                  <strong>{{ fed_monitor.current_target_range }}</strong>
+                  <p>Held at the April 29, 2026 FOMC meeting.</p>
+                </article>
+                <article class="overview-stat compact-stat">
+                  <span class="metric-label">Next meeting</span>
+                  <strong>{{ fed_monitor.market_probabilities[0].meeting_date if fed_monitor.market_probabilities else "n/a" }}</strong>
+                  <p>{{ fed_monitor.market_probabilities[0].base_case_range if fed_monitor.market_probabilities else "No pricing found" }}</p>
+                </article>
+              </div>
+
+              <div class="fed-callout">
+                <p>{{ fed_monitor.policy_summary }}</p>
+                {% if fed_monitor.next_meeting_base_case %}
+                  <p>{{ fed_monitor.next_meeting_base_case }}</p>
+                {% endif %}
+                {% if fed_monitor.effr_take %}
+                  <p>{{ fed_monitor.effr_take }}</p>
+                {% endif %}
+              </div>
+
+              <div class="subtle-heading">
+                <h3>What the Fed says it is watching</h3>
+                <span>{{ fed_monitor.released_date }}</span>
+              </div>
+              <ul class="tag-list fed-watch-list">
+                {% for item in fed_monitor.watch_items %}
+                  <li>{{ item }}</li>
+                {% endfor %}
+              </ul>
+
+              {% if fed_monitor.market_probabilities %}
+                <div class="subtle-heading">
+                  <h3>Target-range market pricing</h3>
+                  <a href="{{ fed_monitor.market_probabilities_source }}" target="_blank" rel="noreferrer">Source</a>
+                </div>
+                <div class="fed-meeting-list">
+                  {% for meeting in fed_monitor.market_probabilities[:3] %}
+                    <article class="fed-meeting-row">
+                      <div class="bar-copy">
+                        <strong>{{ meeting.meeting_date }}</strong>
+                        <span>{{ meeting.updated_at }}</span>
+                      </div>
+                      <p class="fed-base-case">Base case: {{ meeting.base_case_range }} ({{ meeting.base_case_probability }})</p>
+                      <div class="fed-prob-grid">
+                        <div>
+                          <span class="metric-label">Cut</span>
+                          <strong>{{ "%.1f"|format(meeting.cut_probability) }}%</strong>
+                        </div>
+                        <div>
+                          <span class="metric-label">Hold</span>
+                          <strong>{{ "%.1f"|format(meeting.hold_probability) }}%</strong>
+                        </div>
+                        <div>
+                          <span class="metric-label">Hike</span>
+                          <strong>{{ "%.1f"|format(meeting.hike_probability) }}%</strong>
+                        </div>
+                      </div>
+                    </article>
+                  {% endfor %}
+                </div>
+              {% endif %}
+
+              {% if fed_monitor.effr_view %}
+                <div class="subtle-heading">
+                  <h3>Within-range futures angle</h3>
+                  <a href="{{ fed_monitor.effr_view.source_url }}" target="_blank" rel="noreferrer">Source</a>
+                </div>
+                <article class="fed-effr-card">
+                  <div class="fed-prob-grid">
+                    <div>
+                      <span class="metric-label">Current EFFR est.</span>
+                      <strong>{{ fed_monitor.effr_view.current_effr_estimate }}</strong>
+                    </div>
+                    <div>
+                      <span class="metric-label">Post-meeting EFFR</span>
+                      <strong>{{ fed_monitor.effr_view.post_meeting_rate }}</strong>
+                    </div>
+                    <div>
+                      <span class="metric-label">Implied move</span>
+                      <strong>{{ fed_monitor.effr_view.change_bp }}</strong>
+                    </div>
+                  </div>
+                  <p>{{ fed_monitor.effr_view.probability_mix }}</p>
+                </article>
+              {% endif %}
+            {% else %}
+              <p class="empty-state">Fed monitor data is unavailable right now.</p>
+            {% endif %}
+          </section>
+
+          <section class="panel">
+            <div class="panel-heading">
+              <div>
+                <h2>Upcoming earnings</h2>
+                <p>Next 5 scheduled reports across the portfolio and watchlist.</p>
+              </div>
+            </div>
+            {% if earnings_calendar %}
+              <div class="earnings-list">
+                {% for event in earnings_calendar[:5] %}
+                  <article class="earnings-row">
+                    <div class="earnings-date">
+                      <strong>{{ event.display_date }}</strong>
+                      <span>{{ event.time_label }}</span>
+                    </div>
+                    <div class="earnings-copy">
+                      <div class="holding-title">
+                        <a class="ticker-link" href="tickers/{{ event.ticker }}.html"><strong>{{ event.ticker }}</strong></a>
+                        <span>{{ event.company }}</span>
+                      </div>
+                      <p>Consensus EPS {{ event.eps_forecast }} | Prior year EPS {{ event.last_year_eps }}</p>
+                    </div>
+                  </article>
+                {% endfor %}
+              </div>
+            {% else %}
+              <p class="empty-state">No upcoming earnings were found for tracked names in the current lookahead window.</p>
+            {% endif %}
+          </section>
+
+          <section class="panel">
+            <div class="panel-heading">
+              <div>
                 <h2>Cross-holding themes</h2>
                 <p>Shared narratives across multiple tracked names.</p>
               </div>
@@ -151,10 +348,10 @@
               {% for item in portfolio_items %}
                 <article class="holding-row">
                   <div class="holding-copy">
-                    <div class="holding-title">
-                      <strong>{{ item.ticker }}</strong>
+                  <div class="holding-title">
+                      <a class="ticker-link" href="tickers/{{ item.ticker }}.html"><strong>{{ item.ticker }}</strong></a>
                       <span>{{ item.company }}</span>
-                    </div>
+                  </div>
                     <p>{{ item.thesis }}</p>
                     <ul class="tag-list">
                       {% for tag in item.tags %}
@@ -180,7 +377,7 @@
                   <article class="holding-row">
                     <div class="holding-copy">
                       <div class="holding-title">
-                        <strong>{{ item.ticker }}</strong>
+                        <a class="ticker-link" href="tickers/{{ item.ticker }}.html"><strong>{{ item.ticker }}</strong></a>
                         <span>{{ item.company }}</span>
                       </div>
                       <p>{{ item.thesis }}</p>

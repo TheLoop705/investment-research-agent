@@ -5,9 +5,10 @@ import os
 import re
 from collections import Counter, defaultdict
 from dataclasses import asdict, dataclass
-from datetime import datetime
+from datetime import date, datetime, timedelta
 from difflib import SequenceMatcher
 from email.utils import parsedate_to_datetime
+from html import unescape
 from pathlib import Path
 from typing import Any
 from urllib.parse import quote, urlparse
@@ -167,6 +168,21 @@ SOURCE_QUALITY = {
     "qz.com": (2.0, "Secondary"),
     "www.trefis.com": (2.0, "Secondary"),
     "app.moby.co": (1.5, "Speculative"),
+}
+
+NASDAQ_CALENDAR_HEADERS = {
+    "User-Agent": "Mozilla/5.0",
+    "Accept": "application/json, text/plain, */*",
+    "Origin": "https://www.nasdaq.com",
+    "Referer": "https://www.nasdaq.com/",
+}
+
+WEB_FETCH_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+    ),
+    "Accept-Language": "en-US,en;q=0.9",
 }
 
 
@@ -355,18 +371,410 @@ def remove_custom_feed(url: str, path: Path = DEFAULT_PORTFOLIO) -> bool:
     return True
 
 
-def fetch_url(url: str, timeout: int = 20) -> bytes:
+def fetch_url(url: str, timeout: int = 20, headers: dict[str, str] | None = None) -> bytes:
+    request_headers = {
+        "User-Agent": (
+            "investment-research-agent/0.1 "
+            "(local portfolio research; contact: local-user)"
+        )
+    }
+    if headers:
+        request_headers.update(headers)
+
     request = Request(
         url,
-        headers={
-            "User-Agent": (
-                "investment-research-agent/0.1 "
-                "(local portfolio research; contact: local-user)"
-            )
-        },
+        headers=request_headers,
     )
     with urlopen(request, timeout=timeout) as response:
         return response.read()
+
+
+def fetch_json(url: str, timeout: int = 20, headers: dict[str, str] | None = None) -> Any:
+    return json.loads(fetch_url(url, timeout=timeout, headers=headers).decode("utf-8"))
+
+
+def strip_html_tags(value: str) -> str:
+    text = re.sub(r"<[^>]+>", " ", value)
+    text = unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def parse_rate_range_text(value: str) -> tuple[float, float] | None:
+    match = re.search(r"(\d+(?:\.\d+)?)%?\s*-\s*(\d+(?:\.\d+)?)%?", value)
+    if not match:
+        return None
+    return float(match.group(1)), float(match.group(2))
+
+
+def normalize_fed_target_range_text(value: str) -> str:
+    text = strip_html_tags(value).replace("‑", "-").replace("–", "-")
+    fraction_map = {
+        "1/4": ".25",
+        "1/2": ".50",
+        "3/4": ".75",
+    }
+    normalized_parts: list[str] = []
+    for part in [piece.strip() for piece in text.split("to")]:
+        match = re.fullmatch(r"(\d+)-(\d/\d)", part)
+        if match:
+            whole, frac = match.groups()
+            normalized_parts.append(f"{whole}{fraction_map.get(frac, '')}%")
+        else:
+            normalized_parts.append(part if part.endswith("%") else f"{part}%")
+    if len(normalized_parts) == 2:
+        return f"{normalized_parts[0]} - {normalized_parts[1]}"
+    return text
+
+
+def classify_rate_bucket(
+    bucket_range: str,
+    current_target_range: str,
+) -> str:
+    bucket = parse_rate_range_text(bucket_range)
+    current = parse_rate_range_text(current_target_range)
+    if bucket is None or current is None:
+        return "other"
+
+    if bucket[0] == current[0] and bucket[1] == current[1]:
+        return "hold"
+    if bucket[1] <= current[0]:
+        return "cut"
+    if bucket[0] >= current[1]:
+        return "hike"
+    return "other"
+
+
+def normalize_earnings_time_label(raw_value: str) -> str:
+    value = raw_value.strip()
+    normalized = value.lower()
+    if not normalized:
+        return "Time not listed"
+    if normalized in {"time-not-supplied", "not-supplied", "n/a"}:
+        return "Time not listed"
+    if normalized in {"amc", "after market close"} or "after" in normalized:
+        return "After close"
+    if normalized in {"bmo", "before market open"} or "before" in normalized:
+        return "Pre-market"
+    if "during" in normalized or "market hours" in normalized:
+        return "Market hours"
+    return value
+
+
+def normalize_optional_field(value: Any, fallback: str = "n/a") -> str:
+    text = str(value or "").strip()
+    if not text or text.lower() in {"n/a", "na", "none"}:
+        return fallback
+    return text
+
+
+def fetch_nasdaq_earnings_rows(day: date) -> list[dict[str, Any]]:
+    payload = fetch_json(
+        f"https://api.nasdaq.com/api/calendar/earnings?date={day.isoformat()}",
+        headers=NASDAQ_CALENDAR_HEADERS,
+        timeout=30,
+    )
+    rows = payload.get("data", {}).get("rows") or []
+    return [row for row in rows if isinstance(row, dict)]
+
+
+def build_upcoming_earnings_calendar(
+    holdings: list[Holding],
+    *,
+    limit: int = 5,
+    days_ahead: int = 60,
+) -> list[dict[str, str]]:
+    tracked_holdings = {holding.ticker: holding for holding in holdings}
+    if not tracked_holdings:
+        return []
+
+    upcoming: list[dict[str, str]] = []
+    seen_tickers: set[str] = set()
+    start_day = datetime.now().date()
+
+    for offset in range(days_ahead + 1):
+        day = start_day + timedelta(days=offset)
+        try:
+            rows = fetch_nasdaq_earnings_rows(day)
+        except Exception:
+            continue
+
+        for row in rows:
+            ticker = str(row.get("symbol", "")).upper().strip()
+            holding = tracked_holdings.get(ticker)
+            if holding is None or ticker in seen_tickers:
+                continue
+
+            seen_tickers.add(ticker)
+            upcoming.append(
+                {
+                    "ticker": ticker,
+                    "company": holding.company or normalize_optional_field(row.get("name"), ticker),
+                    "earnings_date": day.isoformat(),
+                    "display_date": day.strftime("%b %d"),
+                    "time_label": normalize_earnings_time_label(str(row.get("time", ""))),
+                    "fiscal_quarter": normalize_optional_field(row.get("fiscalQuarterEnding")),
+                    "eps_forecast": normalize_optional_field(row.get("epsForecast")),
+                    "last_year_eps": normalize_optional_field(row.get("lastYearEPS")),
+                    "calendar_url": f"https://www.nasdaq.com/market-activity/earnings?date={day.isoformat()}",
+                }
+            )
+            if len(upcoming) >= limit:
+                return upcoming
+
+    return upcoming
+
+
+def fetch_latest_fed_statement() -> dict[str, Any]:
+    overview_html = fetch_url(
+        "https://www.federalreserve.gov/monetarypolicy.htm",
+        headers=WEB_FETCH_HEADERS,
+        timeout=30,
+    ).decode("utf-8", errors="ignore")
+    statement_match = re.search(
+        r'FOMC Statement:\s*<a href="[^"]+">PDF</a>\s*\|\s*<a href="(?P<html>[^"]+)">HTML</a>\s*Released (?P<released>[A-Za-z]+ \d{1,2}, \d{4})',
+        overview_html,
+        flags=re.S,
+    )
+    statement_url = "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"
+    released_date = "April 29, 2026"
+    if statement_match:
+        statement_url = f"https://www.federalreserve.gov{statement_match.group('html')}"
+        released_date = statement_match.group("released")
+
+    statement_html = fetch_url(
+        statement_url,
+        headers=WEB_FETCH_HEADERS,
+        timeout=30,
+    ).decode("utf-8", errors="ignore")
+
+    target_match = re.search(
+        r"maintain the target range for the federal funds rate at ([^<]+?) percent",
+        statement_html,
+        flags=re.I,
+    )
+    target_range = normalize_fed_target_range_text(target_match.group(1)) if target_match else "3.50% - 3.75%"
+
+    policy_sentence_match = re.search(
+        r"<p>(In support of its goals,.*?returning inflation to its 2 percent objective\.)</p>",
+        statement_html,
+        flags=re.S,
+    )
+    policy_sentence = strip_html_tags(policy_sentence_match.group(1)) if policy_sentence_match else ""
+    policy_sentence = re.sub(
+        r"3[\-‑]1/2 to 3[\-‑]3/4 percent",
+        "3.50% - 3.75%",
+        policy_sentence,
+    )
+
+    watch_sentence_match = re.search(
+        r"<p>(The Committee's assessments will take into account a wide range of information,.*?developments\.)</p>",
+        statement_html,
+        flags=re.S,
+    )
+    watch_sentence = strip_html_tags(watch_sentence_match.group(1)) if watch_sentence_match else ""
+
+    return {
+        "statement_url": statement_url,
+        "released_date": released_date,
+        "current_target_range": target_range,
+        "policy_summary": policy_sentence,
+        "watch_summary": watch_sentence,
+        "watch_items": [
+            "Labor market conditions",
+            "Inflation pressures and expectations",
+            "Financial and international developments",
+        ],
+    }
+
+
+def fetch_fomc_calendar() -> list[dict[str, str]]:
+    calendar_html = fetch_url(
+        "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        headers=WEB_FETCH_HEADERS,
+        timeout=30,
+    ).decode("utf-8", errors="ignore")
+    section_match = re.search(
+        r"2026 FOMC Meetings(.*?)(?:2025 FOMC Meetings)",
+        calendar_html,
+        flags=re.S,
+    )
+    section = section_match.group(1) if section_match else calendar_html
+    meetings = []
+    for month, dates in re.findall(
+        r"<strong>(January|March|April|June|July|September|October|December)</strong></div>\s*<div class=\"fomc-meeting__date[^>]*>([^<]+)</div>",
+        section,
+        flags=re.S,
+    ):
+        meetings.append(
+            {
+                "month": month,
+                "dates": strip_html_tags(dates).replace("*", ""),
+                "label": f"{month} {strip_html_tags(dates).replace('*', '')}, 2026",
+            }
+        )
+    return meetings
+
+
+def fetch_investing_fed_probabilities(current_target_range: str) -> dict[str, Any]:
+    html = fetch_url(
+        "https://www.investing.com/central-banks/fed-rate-monitor",
+        headers=WEB_FETCH_HEADERS,
+        timeout=30,
+    ).decode("utf-8", errors="ignore")
+
+    cards = re.findall(
+        r'<div class="cardWrapper">.*?<div class="fedRateDate"[^>]*>\s*([^<]+)\s*</div>.*?<table[^>]*>(.*?)</table>\s*<div class="fedUpdate">Updated:\s*([^<]+)</div>',
+        html,
+        flags=re.S,
+    )
+
+    meetings = []
+    for meeting_date, table_html, updated_at in cards[:4]:
+        rows = re.findall(
+            r"<tr>\s*<td[^>]*>(.*?)</td>\s*<td>([^<—]+|—)</td>\s*<td>([^<—]+|—)</td>\s*<td>([^<—]+|—)</td>\s*</tr>",
+            table_html,
+            flags=re.S,
+        )
+        if not rows:
+            continue
+
+        probabilities = []
+        cut_probability = 0.0
+        hold_probability = 0.0
+        hike_probability = 0.0
+        base_case_probability = -1.0
+        base_case_range = ""
+
+        for raw_range, current_prob, previous_day, previous_week in rows:
+            rate_range = strip_html_tags(raw_range)
+            current_text = strip_html_tags(current_prob)
+            previous_day_text = strip_html_tags(previous_day)
+            previous_week_text = strip_html_tags(previous_week)
+
+            try:
+                current_value = float(current_text.replace("%", ""))
+            except ValueError:
+                current_value = 0.0
+
+            bucket = classify_rate_bucket(rate_range, current_target_range)
+            if bucket == "cut":
+                cut_probability += current_value
+            elif bucket == "hold":
+                hold_probability += current_value
+            elif bucket == "hike":
+                hike_probability += current_value
+
+            if current_value > base_case_probability:
+                base_case_probability = current_value
+                base_case_range = rate_range
+
+            probabilities.append(
+                {
+                    "range": rate_range,
+                    "current_probability": current_text,
+                    "current_probability_value": current_value,
+                    "previous_day_probability": previous_day_text,
+                    "previous_week_probability": previous_week_text,
+                }
+            )
+
+        meetings.append(
+            {
+                "meeting_date": strip_html_tags(meeting_date),
+                "updated_at": strip_html_tags(updated_at),
+                "base_case_range": base_case_range,
+                "base_case_probability": f"{base_case_probability:.1f}%" if base_case_probability >= 0 else "n/a",
+                "cut_probability": round(cut_probability, 1),
+                "hold_probability": round(hold_probability, 1),
+                "hike_probability": round(hike_probability, 1),
+                "probabilities": probabilities,
+            }
+        )
+
+    return {
+        "source_url": "https://www.investing.com/central-banks/fed-rate-monitor",
+        "meetings": meetings,
+    }
+
+
+def fetch_effr_path_view() -> dict[str, Any]:
+    html = fetch_url(
+        "https://www.frenzycap.com/fedwatch",
+        headers=WEB_FETCH_HEADERS,
+        timeout=30,
+    ).decode("utf-8", errors="ignore")
+
+    header_match = re.search(
+        r"Current EFFR estimate:\s*<strong>([^<]+)</strong>.*?Target Upper:\s*<strong>([^<]+)</strong>.*?Next FOMC:\s*<strong>([^<]+)</strong>",
+        html,
+        flags=re.S,
+    )
+    row_match = re.search(
+        r"<td><strong>([^<]+)</strong></td>\s*<td><div class=\"fw-bar-wrap d-flex\"[^>]*title=\"([^\"]+)\".*?</td>\s*<td class=\"fw-cell\">([^<]+)</td>\s*<td class=\"fw-cell\">([^<]+)</td>\s*<td class=\"fw-cell\">([^<]+)</td>\s*<td class=\"fw-cell\"[^>]*>([^<]+)</td>",
+        html,
+        flags=re.S,
+    )
+
+    if not header_match or not row_match:
+        return {}
+
+    return {
+        "source_url": "https://www.frenzycap.com/fedwatch",
+        "current_effr_estimate": strip_html_tags(header_match.group(1)),
+        "target_upper": strip_html_tags(header_match.group(2)),
+        "next_fomc": strip_html_tags(header_match.group(3)),
+        "meeting_date": strip_html_tags(row_match.group(1)),
+        "probability_mix": strip_html_tags(row_match.group(2)),
+        "implied_avg_effr": strip_html_tags(row_match.group(3)),
+        "pre_meeting_rate": strip_html_tags(row_match.group(4)),
+        "post_meeting_rate": strip_html_tags(row_match.group(5)),
+        "change_bp": strip_html_tags(row_match.group(6)).replace("−", "-"),
+    }
+
+
+def build_fed_monitor() -> dict[str, Any]:
+    fed_statement = fetch_latest_fed_statement()
+    calendar = fetch_fomc_calendar()
+    target_probs = fetch_investing_fed_probabilities(fed_statement["current_target_range"])
+    effr_view = fetch_effr_path_view()
+
+    next_meeting = target_probs["meetings"][0] if target_probs["meetings"] else {}
+    next_two = target_probs["meetings"][:3]
+    base_case = ""
+    if next_meeting:
+        base_case = (
+            f"Target-range pricing currently leans toward {next_meeting['base_case_range']} "
+            f"at the {next_meeting['meeting_date']} meeting ({next_meeting['base_case_probability']})."
+        )
+
+    effr_take = ""
+    if effr_view:
+        effr_take = (
+            f"Within-range futures math still implies an effective-rate drift from "
+            f"{effr_view['pre_meeting_rate']} to {effr_view['post_meeting_rate']} by "
+            f"{effr_view['meeting_date']} ({effr_view['change_bp']})."
+        )
+
+    return {
+        "generated_at": datetime.now().isoformat(),
+        "current_target_range": fed_statement["current_target_range"],
+        "released_date": fed_statement["released_date"],
+        "statement_url": fed_statement["statement_url"],
+        "policy_summary": fed_statement["policy_summary"],
+        "watch_summary": fed_statement["watch_summary"],
+        "watch_items": fed_statement["watch_items"],
+        "calendar": calendar[:4],
+        "market_probabilities": next_two,
+        "market_probabilities_source": target_probs["source_url"],
+        "next_meeting_base_case": base_case,
+        "effr_view": effr_view,
+        "effr_take": effr_take,
+        "macro_takeaways": [
+            "Official policy is still data-dependent, with the Fed explicitly weighing incoming data, the evolving outlook, and the balance of risks.",
+            base_case,
+            effr_take,
+        ],
+    }
 
 
 def parse_rss(content: bytes, ticker: str, company: str, source: str) -> list[NewsItem]:
@@ -882,12 +1290,93 @@ def build_news_intelligence(holdings: list[Holding], news: list[NewsItem]) -> di
 
     return {
         "generated_at": datetime.now().isoformat(),
+        "ticker_signals": ticker_signals,
         "signal_board": ticker_signals[:8],
         "cross_themes": cross_themes,
         "top_risks": top_risks,
         "follow_up_questions": follow_up_questions[:8],
         "sources": sources,
     }
+
+
+def build_dashboard_overview(intelligence: dict[str, Any]) -> dict[str, Any]:
+    ticker_signals = intelligence.get("ticker_signals", [])
+    cross_themes = intelligence.get("cross_themes", [])
+    top_risks = intelligence.get("top_risks", [])
+    earnings_calendar = intelligence.get("earnings_calendar", [])
+
+    relevance_counts = Counter(signal.get("decision_relevance", "Low") for signal in ticker_signals)
+    relevance_total = max(len(ticker_signals), 1)
+    relevance_mix = [
+        {
+            "label": label,
+            "count": relevance_counts.get(label, 0),
+            "share": round((relevance_counts.get(label, 0) / relevance_total) * 100),
+        }
+        for label in ("High", "Medium", "Low")
+        if relevance_counts.get(label, 0)
+    ]
+
+    event_counts = Counter(signal.get("dominant_event", "General") for signal in ticker_signals)
+    event_total = max(sum(event_counts.values()), 1)
+    event_mix = [
+        {
+            "label": label,
+            "count": count,
+            "share": round((count / event_total) * 100),
+        }
+        for label, count in event_counts.most_common(6)
+    ]
+
+    total_catalysts = sum(len(signal.get("catalysts", [])) for signal in ticker_signals)
+    total_clusters = sum(len(signal.get("top_clusters", [])) for signal in ticker_signals)
+    summary_cards = [
+        {
+            "label": "High relevance",
+            "value": relevance_counts.get("High", 0),
+            "detail": "names with the strongest new signal",
+        },
+        {
+            "label": "Catalysts",
+            "value": total_catalysts,
+            "detail": "constructive developments surfaced",
+        },
+        {
+            "label": "Risk flags",
+            "value": len(top_risks),
+            "detail": "negative or cautionary callouts",
+        },
+        {
+            "label": "Upcoming earnings",
+            "value": len(earnings_calendar),
+            "detail": "tracked names with the next report date",
+        },
+    ]
+
+    return {
+        "summary_cards": summary_cards,
+        "relevance_mix": relevance_mix,
+        "event_mix": event_mix,
+        "theme_count": len(cross_themes),
+        "cluster_count": total_clusters,
+    }
+
+
+def enrich_intelligence_snapshot(
+    holdings: list[Holding],
+    intelligence: dict[str, Any] | None,
+) -> dict[str, Any]:
+    snapshot = dict(intelligence or {})
+    if "earnings_calendar" not in snapshot:
+        snapshot["earnings_calendar"] = build_upcoming_earnings_calendar(holdings)
+    if "overview" not in snapshot:
+        snapshot["overview"] = build_dashboard_overview(snapshot)
+    if "fed_monitor" not in snapshot:
+        try:
+            snapshot["fed_monitor"] = build_fed_monitor()
+        except Exception:
+            snapshot["fed_monitor"] = {}
+    return snapshot
 
 
 def build_prompt(holdings: list[Holding], intelligence: dict[str, Any]) -> str:
@@ -1083,7 +1572,7 @@ def run_digest(
     news = dedupe_news(news)
     news = rank_and_trim_news(holdings, news)
 
-    intelligence = build_news_intelligence(holdings, news)
+    intelligence = enrich_intelligence_snapshot(holdings, build_news_intelligence(holdings, news))
     digest = generate_openai_digest(holdings, intelligence)
     if digest is None:
         digest = generate_fallback_digest(holdings, intelligence)

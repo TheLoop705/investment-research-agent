@@ -1,93 +1,62 @@
 # Daily Portfolio Digest
 
 ## 1. Executive Summary
-Today’s highlights center on earnings season with mixed to constructive results across multiple holdings. CPS Technologies (CPSH) reported record revenues positioning for strong 2026 growth, while American Superconductor (AMSC) showed strong profitability but saw a share price drop amid valuation concerns. Ambarella (AMBA) delivered automotive revenue growth narrowly beating Q1 estimates. Sivers Semiconductors (SIVE) secured an $8.2M production order supporting strategic growth amid positive earnings. ServiceNow (NOW) continued facing selling pressure with a 30% stock decline over 6 months, despite mixed earnings. Ouster (OUST) advanced in autonomous perception tech partnerships, offset by insider sales. ASE Technology (ASE) posted monthly revenues with mixed market sentiment on AI opportunities.
+Key earnings and partnership developments emerged today across multiple portfolio holdings with mixed-to-constructive tones. CPS Technologies (CPSH), LPKF Laser (LPK), American Superconductor (AMSC), and Sivers Semiconductors (SIVE) reported strong revenue growth and strategic initiatives supporting growth narratives. Ambarella (AMBA) posted stable earnings with automotive sector strength, while ASE Technology (ASE) showed steady monthly revenue but mixed sentiment on earnings outlook. Adeia (ADEA) outperformed Q1 estimates amid a CEO transition. Ouster (OUST) advanced a meaningful partnership to enhance autonomous perception solutions. Notably, AMSC shares dropped sharply despite favorable earnings news, highlighting valuation concerns.
 
 ## 2. Highest-Signal Portfolio Updates
 
-### CPS Technologies (CPSH)
-- Reported Q4 2025 earnings with *record revenue* and positive strategic outlook for 2026.  
-- Highlighted strength in advanced materials and thermal management segments.  
-- Price raise via $9.6M ATM equity offering announced.  
-- [Link](https://finance.yahoo.com/news/cps-technologies-corp-cpsh-q4-010209295.html?.tsrc=rss)
+- **CPS Technologies (CPSH)**: Delivered record revenue and raised expectations for 2026 growth based on earnings call highlights and Q3 results. Raised capital via a $9.6M at-the-market equity offering.  
+  *Source: [Yahoo CPSH Earnings](https://finance.yahoo.com/news/cps-technologies-corp-cpsh-q4-010209295.html?.tsrc=rss)*
 
-### American Superconductor (AMSC)
-- Delivered strong profitability and record revenue in Q4 2025.  
-- Despite financial strength, shares declined over 17% citing valuation and cautious forward outlook.  
-- Grid growth opportunities emphasized, but earnings miss in parts raised new questions.  
-- [Link1](https://finance.yahoo.com/markets/stocks/articles/american-superconductor-amsc-down-17-061139868.html?.tsrc=rss)  
-- [Link2](https://finance.yahoo.com/markets/stocks/articles/american-superconductor-amsc-valuation-record-210824083.html?.tsrc=rss)
+- **LPKF Laser & Electronics (LPK)**: Revenue growth projections support renewed optimism despite existing profitability challenges. Q4 earnings call emphasized navigating operational headwinds.  
+  *Source: [Yahoo LPK Forecast](https://finance.yahoo.com/news/lpkf-laser-electronics-xtra-lpk-191950223.html?.tsrc=rss)*
 
-### Ambarella (AMBA)
-- Q1 earnings met estimates with rising revenues driven by automotive strength.  
-- Automotive segment reached record revenue amid strategic initiatives in edge AI chip markets.  
-- Margins and profitability remain sources of cautious optimism.  
-- [Link1](https://finance.yahoo.com/markets/stocks/articles/ambarellas-q1-earnings-meet-estimates-140700679.html?.tsrc=rss)  
-- [Link2](https://finance.yahoo.com/markets/stocks/articles/ambarella-inc-amba-q1-2027-050119924.html?.tsrc=rss)
+- **American Superconductor (AMSC)**: Despite strong Q4 revenue and profitability with bullish guidance on grid infrastructure growth, shares fell 17.2% due to valuation concerns highlighted by analysts.  
+  *Source: [Yahoo AMSC Drop](https://finance.yahoo.com/markets/stocks/articles/american-superconductor-amsc-down-17-061139868.html?.tsrc=rss)*
 
-### Sivers Semiconductors (SIVE)
-- Q1 2026 earnings call emphasized strategic growth with new contracts.  
-- Won an $8.2M production order for Ka-Band beamforming ICs from ALL.SPACE, boosting commercial momentum in photonics and wireless sectors.  
-- Interim report supports ongoing expansion in optical and wireless semiconductor markets.  
-- [Link1](https://finance.yahoo.com/markets/stocks/articles/sivers-semiconductors-ab-sivef-q1-170018637.html?.tsrc=rss)  
-- [Link2](https://finance.yahoo.com/sectors/technology/articles/space-awards-8-2m-production-052300282.html?.tsrc=rss)
+- **Ambarella (AMBA)**: Q1 revenue rose driven by automotive end-market strength; earnings met estimates narrowly. Strategic positioning around edge AI and automotive vision chips was reaffirmed.  
+  *Source: [Yahoo AMBA Q1](https://finance.yahoo.com/markets/stocks/articles/ambarellas-q1-earnings-meet-estimates-140700679.html?.tsrc=rss)*
 
-### ServiceNow (NOW)
-- Stock down 30% over 6 months despite mixed earnings results.  
-- Discussions around SaaS valuation concerns and geopolitical risks affecting AI-driven enterprise automation demand.  
-- Enterprise AI governance increasing in focus, highlighting execution risks.  
-- [Link](https://finance.yahoo.com/markets/stocks/articles/servicenow-stock-plunges-30-6-124500486.html?.tsrc=rss)
+- **Sivers Semiconductors (SIVE)**: Reported strategic growth with a notable $8.2M production order for Ka-Band beamforming ICs, advancing photonics and wireless semiconductor positioning.  
+  *Source: [Yahoo SIVE Order](https://finance.yahoo.com/sectors/technology/articles/space-awards-8-2m-production-052300282.html?.tsrc=rss)*
 
-### Ouster (OUST)
-- Advanced collaboration with FieldAI on REV8 digital lidar tech for challenging autonomous applications.  
-- Insider sales: Chief Revenue Officer sold over 9,000 shares, possibly signaling internal risk sentiment.  
-- [Link1](https://finance.yahoo.com/sectors/technology/articles/ouster-fieldai-collaborate-scale-autonomous-100000689.html?.tsrc=rss)  
-- [Link2](https://www.fool.com/coverage/filings/2026/06/08/ouster-s-chief-revenue-officer-sold-over-9-000-company-shares-what-does-that-mean-for-investors/?.tsrc=rss)
+- **Adeia (ADEA)**: Surpassed Q1 earnings and revenue estimates amid a CEO transition announcement; market reacted negatively despite strong fundamentals.  
+  *Source: [Yahoo ADEA Q1](https://finance.yahoo.com/markets/stocks/articles/adeia-adea-surpasses-q1-earnings-215002374.html?.tsrc=rss)*
 
-### ASE Technology Holding (ASE)
-- Monthly net revenue release shows steady but mixed signals amid AI market narrative.  
-- Some analyses position ASE as an underappreciated AI beneficiary in semiconductor packaging.  
-- [Link](https://finance.yahoo.com/markets/stocks/articles/ase-technology-holding-co-ltd-070000472.html?.tsrc=rss)
+- **Ouster (OUST)**: Entered a partnership with FieldAI to scale autonomous perception platforms using their REV8 digital lidar, reinforcing position in challenging environments for autonomy solutions.  
+  *Source: [Yahoo OUST Partnership](https://finance.yahoo.com/sectors/technology/articles/ouster-fieldai-collaborate-scale-autonomous-100000689.html?.tsrc=rss)*
 
 ## 3. Risk Flags
-- CPSH’s recent $9.6M equity raise could dilute existing shareholders or pressure near-term stock performance.  
-- AMSC posts valuation and cautious guidance challenges despite strong revenue, implying future execution or market risk.  
-- OUST insider selling might reflect risk awareness or uncertainty at management level.  
-- ServiceNow’s steep stock decline amid mixed earnings and macro risks signals potential momentum or sentiment degradation.  
-- Profitability concerns remain for LPKF despite revenue growth forecasts.
+
+- **CPSH**: Equity offering of $9.6 million could cause short-term dilution risk.  
+- **AMSC**: Sharp share price decline despite strong earnings introduces concerns about market valuation and potential future guidance skepticism.  
+- **ADEA**: Negative share price reaction post-strong results and CEO transition raises questions about investor confidence and management continuity.  
+- **OUST**: Insider selling of over 9,000 shares by Chief Revenue Officer could be interpreted as a risk signal despite strategic partnership news.  
+  *Source: [Fool OUST Insider Sell](https://www.fool.com/coverage/filings/2026/06/08/ouster-s-chief-revenue-officer-sold-over-9-000-company-shares-what-does-that-mean-for-investors/?.tsrc=rss)*
 
 ## 4. Cross-Holding Themes
-- Semiconductor and photonics companies (SIVE, ASE, AMBA) show revenue growth aided by strategic industry contracts and automotive demand—underscoring resilient device and AI chip markets.  
-- Energy and infrastructure plays (AMSC, CPSH) balance strong revenue with valuation and capital raise risks amid fast-expanding grid modernization themes.  
-- AI and edge compute demand continues driving semiconductor players (AMBA, ASE) while enterprise software (NOW) faces valuation and geopolitical headwinds.  
-- Autonomous system technology (OUST) advances in collaboration but insider selling suggests mixed internal perspectives.
+
+- **Revenue Growth Amid Operational Challenges**: Both LPKF and CPS Technologies report strong revenue growth but face mixed operating profitability dynamics.
+- **Automotive and Edge AI Strength**: Ambarella solidifies growth through automotive chips and edge AI video processing, a trend potentially relevant to Ouster’s lidar in autonomy.
+- **Photonics & Semiconductor Integration**: Sivers and CPSH highlight strategic expansions into wireless and advanced materials/thermal management, aligned with foundry and packaging supply chain (ASE).
+- **Valuation Sensitivity**: AMSC and Adeia’s share price movements show investor sensitivity to valuation and management changes despite solid operational results.
+- **Strategic Partnerships as Growth Catalysts**: Ouster’s collaboration with FieldAI exemplifies leveraging partnerships to scale technology amidst competitive autonomy environment.
 
 ## 5. Questions For Follow-Up
-- What are the updated margin trends and guidance specifics for AMBA’s automotive segment post-Q1?  
-- How will CPSH's capital raise impact its strategic investment in advanced materials and thermal management?  
-- What factors contributed to the valuation re-rating and cautious guidance at AMSC despite record revenue?  
-- Could OUST's insider selling signal broader management concerns or align with routine portfolio actions?  
-- What are ServiceNow’s plans to navigate ongoing valuation pressures and AI governance complexities?  
-- How sustainable are ASE Technology’s recent revenue trends amid industry talk of AI semicap demand?
+
+- How sustainable is AMSC’s revenue and profit trajectory given the market’s concern over valuation? Any updates on grid growth project pipelines?
+- What are the expected impacts and timing of CPSH’s recent capital raise on growth investments or balance sheet strength?
+- Can Ambarella maintain momentum in automotive revenue amid potential semiconductor supply chain constraints or competition?
+- Will Adeia’s CEO transition impact execution on licensing and IP monetization strategies?
+- How pivotal is the Ouster-FieldAI partnership in terms of revenue scale or technology integration? Are more such alliances planned?
 
 ## 6. Sources
-- CPS Technologies Corp (CPSH) Q4 2025 Earnings Call Highlights: [Link](https://finance.yahoo.com/news/cps-technologies-corp-cpsh-q4-010209295.html?.tsrc=rss)  
-- American Superconductor (AMSC) - Profitability and Valuation:  
-  [Link1](https://finance.yahoo.com/markets/stocks/articles/american-superconductor-amsc-down-17-061139868.html?.tsrc=rss) |  
-  [Link2](https://finance.yahoo.com/markets/stocks/articles/american-superconductor-amsc-valuation-record-210824083.html?.tsrc=rss)  
-- Ambarella (AMBA) Q1 Earnings and Automotive Growth:  
-  [Link1](https://finance.yahoo.com/markets/stocks/articles/ambarellas-q1-earnings-meet-estimates-140700679.html?.tsrc=rss) |  
-  [Link2](https://finance.yahoo.com/markets/stocks/articles/ambarella-inc-amba-q1-2027-050119924.html?.tsrc=rss)  
-- Sivers Semiconductors (SIVE) Q1 and Production Order:  
-  [Link1](https://finance.yahoo.com/markets/stocks/articles/sivers-semiconductors-ab-sivef-q1-170018637.html?.tsrc=rss) |  
-  [Link2](https://finance.yahoo.com/sectors/technology/articles/space-awards-8-2m-production-052300282.html?.tsrc=rss)  
-- ServiceNow (NOW) Stock Decline and Challenges:  
-  [Link](https://finance.yahoo.com/markets/stocks/articles/servicenow-stock-plunges-30-6-124500486.html?.tsrc=rss)  
-- Ouster (OUST) Collaboration and Insider Selling:  
-  [Link1](https://finance.yahoo.com/sectors/technology/articles/ouster-fieldai-collaborate-scale-autonomous-100000689.html?.tsrc=rss) |  
-  [Link2](https://www.fool.com/coverage/filings/2026/06/08/ouster-s-chief-revenue-officer-sold-over-9-000-company-shares-what-does-that-mean-for-investors/?.tsrc=rss)  
-- ASE Technology Holding (ASE) Revenue Update:  
-  [Link](https://finance.yahoo.com/markets/stocks/articles/ase-technology-holding-co-ltd-070000472.html?.tsrc=rss)  
-- LPKF Laser & Electronics (LPK) Earnings and Outlook:  
-  [Link1](https://finance.yahoo.com/news/lpkf-laser-electronics-xtra-lpk-191950223.html?.tsrc=rss) |  
-  [Link2](https://finance.yahoo.com/markets/stocks/articles/lpkf-laser-electronics-se-lpkff-010229561.html?.tsrc=rss)
+
+- [CPSH Q4 Earnings](https://finance.yahoo.com/news/cps-technologies-corp-cpsh-q4-010209295.html?.tsrc=rss)  
+- [LPK Revenue Forecast](https://finance.yahoo.com/news/lpkf-laser-electronics-xtra-lpk-191950223.html?.tsrc=rss)  
+- [AMSC Earnings & Outlook](https://finance.yahoo.com/markets/stocks/articles/american-superconductor-amsc-down-17-061139868.html?.tsrc=rss)  
+- [AMBA Q1 Earnings](https://finance.yahoo.com/markets/stocks/articles/ambarellas-q1-earnings-meet-estimates-140700679.html?.tsrc=rss)  
+- [SIVE Ka-Band Order](https://finance.yahoo.com/sectors/technology/articles/space-awards-8-2m-production-052300282.html?.tsrc=rss)  
+- [ADEA Q1 Earnings Beat](https://finance.yahoo.com/markets/stocks/articles/adeia-adea-surpasses-q1-earnings-215002374.html?.tsrc=rss)  
+- [OUST-FieldAI Partnership](https://finance.yahoo.com/sectors/technology/articles/ouster-fieldai-collaborate-scale-autonomous-100000689.html?.tsrc=rss)  
+- [OUST Insider Selling](https://www.fool.com/coverage/filings/2026/06/08/ouster-s-chief-revenue-officer-sold-over-9-000-company-shares-what-does-that-mean-for-investors/?.tsrc=rss)
