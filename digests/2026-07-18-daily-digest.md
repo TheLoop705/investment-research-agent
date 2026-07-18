@@ -1,0 +1,66 @@
+# Daily Portfolio Digest
+
+## 1. Executive Summary
+Several portfolio companies reported earnings or provided updates that influence near-term expectations, particularly in edge AI, semiconductor growth, and industrial applications. Ambarella (AMBA) is highlighted for record automotive revenue tied to AI demand, while CPS Technologies (CPSH), LPKF Laser (LPK), and Penguin Solutions (PENG) showed noteworthy earnings momentum. Legal and valuation risks surfaced for Super Micro Computer (SMCI). Ouster (OUST) prepares for upcoming Q2 earnings amid mixed sentiment and recent share offering. Vicor (VICR) and ServiceNow (NOW) earnings anticipation remain mixed. The semiconductor and AI infrastructure sectors continue to draw incremental confidence.
+
+## 2. Highest-Signal Portfolio Updates
+
+- **AMBA (Ambarella)**: Posted record automotive AI revenue leading to profitability turnaround; company entered an $800M co-development partnership with Hanwha on edge AI chips. Stock surged over 40%, supported by accelerating AI demand in automotive sectors.  
+  Source: [Yahoo - Ambarella Earnings](https://finance.yahoo.com/technology/ai/articles/ambarella-amba-posts-record-automotive-111026278.html?.tsrc=rss)
+
+- **CPSH (CPS Technologies)**: Reported record Q4 revenue and strategic growth; strong year-over-year earnings gains position CPSH for robust 2026 outlook. Announced a $9.6M at-the-market registered direct offering, potentially dilutive but supportive of expansion.  
+  Source: [Yahoo - CPSH Earnings](https://finance.yahoo.com/news/cps-technologies-corp-cpsh-q4-010209295.html?.tsrc=rss)
+
+- **LPK (LPKF Laser & Electronics)**: Revenue growth forecast supports renewed optimism despite lingering profitability concerns. Q4 earnings call highlighted navigation of operational challenges but positive revenue trends in laser systems for electronics manufacturing.  
+  Source: [Yahoo - LPKF Revenue Forecast](https://finance.yahoo.com/news/lpkf-laser-electronics-xtra-lpk-191950223.html?.tsrc=rss)
+
+- **PENG (Penguin Solutions)**: Raised 2026 outlook and completed a buyback program; earnings estimates rising despite mixed coverage. Closed oversubscribed convertible notes offering implying fresh capital inflow and balance sheet strengthening.  
+  Sources:  
+  - [Yahoo - PENG Outlook](https://finance.yahoo.com/markets/stocks/articles/penguin-solutions-peng-14-0-191031140.html?.tsrc=rss)  
+  - [Yahoo - PENG Convertible Notes](https://finance.yahoo.com/markets/stocks/articles/penguin-solutions-announces-closing-oversubscribed-210500321.html?.tsrc=rss)
+
+- **OUST (Ouster)**: Announced Q2 2026 earnings call date; market sentiment mixed amid recent share offering causing price pressure. Long-term outlook tied to perception hardware innovation and compliance improvements in automotive lidar.  
+  Source: [Yahoo - Ouster Earnings](https://finance.yahoo.com/markets/stocks/articles/ouster-announces-date-second-quarter-100000474.html?.tsrc=rss)
+
+- **SMCI (Super Micro Computer)**: Litigation risk discussed alongside potential boost from AI cooling expansion in data centers. Valuation and legal risk remain points of investor concern ahead of earnings preview.  
+  Source: [Yahoo - SMCI Legal & AI Expansion](https://finance.yahoo.com/markets/stocks/articles/super-micro-computer-smci-fairly-131557483.html?.tsrc=rss)
+
+- **VICR (Vicor)**: Investor confidence rising heading into Q2 earnings due to AI growth demand and interest from JPMorgan. Coverage mixed on valuation but strengthening fundamentals noted.  
+  Source: [Yahoo - Vicor Earnings](https://finance.yahoo.com/markets/stocks/articles/increased-investor-confidence-boosted-vicor-130851953.html?.tsrc=rss)
+
+- **NOW (ServiceNow)**: Mixed outlook ahead of Q2 earnings; AI automation and enterprise workflow remain growth drivers. Broader cloud AI integration trends underline potential catalysts.  
+  Source: [Yahoo - ServiceNow Earnings](https://finance.yahoo.com/markets/stocks/articles/servicenow-set-report-q2-earnings-151900170.html?.tsrc=rss)
+
+## 3. Risk Flags
+
+- **CPSH**: At-the-market $9.6M share offering could cause dilution risk despite funding growth.  
+- **OUST**: Share offering led to price drop; fair value estimates imply some upside but near-term volatility possible.  
+- **SMCI**: Ongoing litigation adds uncertainty; evaluation of legal impact critical before earnings.  
+- **PENG**: Convertible notes offering increases debt profile; monitoring leverage and cash flow impact advised.
+
+## 4. Cross-Holding Themes
+
+- **AI and Automotive Momentum**: AMBA’s record AI automotive sales reinforce sector tailwinds also relevant to VICR (power modules) and SMCI (AI server infrastructure).  
+- **Capital Raises for Growth**: CPSH, PENG, and OUST all tapped equity or debt markets, signaling capital needs tied to scaling operations or R&D investments.  
+- **Earnings Focus in Semiconductor and Industrial Tech**: LPK, VICR, CPSH, and AMBA earnings stress ongoing growth but some profitability and operational concerns persist.  
+- **AI Infrastructure Expansion**: NOW and MRVL (less covered today) combine software and silicon capabilities that benefit from enterprise AI adoption trends seen in other holdings.
+
+## 5. Questions For Follow-Up
+
+- How will Ouster’s upcoming earnings detail usage growth and margin outlook after recent share offering?  
+- What are the latest developments on Super Micro Computer’s litigation, and how could resolution timing affect valuation?  
+- Will Ambarella disclose additional details on the Hanwha partnership and new edge AI product timelines?  
+- How sustainable are the revenue gains at CPS Technologies and LPKF amid profitability pressures?  
+- Are Penguin Solutions’ convertible notes tied to any covenants or refinancing risk that could impact future capital strategy?
+
+## 6. Sources
+
+- AMBA: https://finance.yahoo.com/technology/ai/articles/ambarella-amba-posts-record-automotive-111026278.html?.tsrc=rss  
+- CPSH: https://finance.yahoo.com/news/cps-technologies-corp-cpsh-q4-010209295.html?.tsrc=rss  
+- LPK: https://finance.yahoo.com/news/lpkf-laser-electronics-xtra-lpk-191950223.html?.tsrc=rss  
+- PENG: https://finance.yahoo.com/markets/stocks/articles/penguin-solutions-peng-14-0-191031140.html?.tsrc=rss  
+- PENG convertible notes: https://finance.yahoo.com/markets/stocks/articles/penguin-solutions-announces-closing-oversubscribed-210500321.html?.tsrc=rss  
+- OUST: https://finance.yahoo.com/markets/stocks/articles/ouster-announces-date-second-quarter-100000474.html?.tsrc=rss  
+- SMCI: https://finance.yahoo.com/markets/stocks/articles/super-micro-computer-smci-fairly-131557483.html?.tsrc=rss  
+- VICR: https://finance.yahoo.com/markets/stocks/articles/increased-investor-confidence-boosted-vicor-130851953.html?.tsrc=rss  
+- NOW: https://finance.yahoo.com/markets/stocks/articles/servicenow-set-report-q2-earnings-151900170.html?.tsrc=rss
