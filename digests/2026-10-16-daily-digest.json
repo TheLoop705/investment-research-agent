@@ -1,0 +1,4220 @@
+{
+  "generated_at": "2026-10-16T09:31:18.095923",
+  "ticker_signals": [
+    {
+      "ticker": "NOW",
+      "company": "ServiceNow",
+      "overview": "Earnings coverage is mixed; top signal is 'Salesforce vs. ServiceNow: Here's What Revenue Trends Tell Investors About These Software Giants and Their Move to AI' with corroborating variants.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "General",
+          "count": 5
+        },
+        {
+          "label": "Earnings",
+          "count": 1
+        },
+        {
+          "label": "Product",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Salesforce vs. ServiceNow: Here's What Revenue Trends Tell Investors About These Software Giants and Their Move to AI",
+        "ServiceNow (NOW) Unveils EmployeeWorks AI Platform",
+        "Better High-Growth Software Stock for 2026: Figma vs. ServiceNow"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "NOW",
+          "company": "ServiceNow",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Salesforce vs. ServiceNow: Here's What Revenue Trends Tell Investors About These Software Giants and Their Move to AI",
+          "representative_link": "https://www.fool.com/coverage/charts/2026/10/15/salesforce-vs-servicenow-here-s-what-revenue-trends-tell-investors-about-these-software-giants-and-their-move-to-ai/?.tsrc=rss",
+          "source_domain": "fool.com",
+          "source_quality_label": "Secondary",
+          "cluster_size": 2,
+          "latest_published": "2026-10-16T06:53:07+00:00",
+          "materiality_score": 31,
+          "catalyst": "Salesforce vs. ServiceNow: Here's What Revenue Trends Tell Investors About These Software Giants and Their Move to AI",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure",
+            "Enterprise software"
+          ],
+          "sources": [
+            {
+              "title": "Salesforce vs. ServiceNow: Here's What Revenue Trends Tell Investors About These Software Giants and Their Move to AI",
+              "link": "https://www.fool.com/coverage/charts/2026/10/15/salesforce-vs-servicenow-here-s-what-revenue-trends-tell-investors-about-these-software-giants-and-their-move-to-ai/?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "fool.com"
+            },
+            {
+              "title": "CrowdStrike vs. ServiceNow: Comparing Revenue Trends Between These Growing Software Giants",
+              "link": "https://www.fool.com/coverage/charts/2026/10/16/crowdstrike-vs-servicenow-comparing-revenue-trends-between-these-growing-software-giants/?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "fool.com"
+            }
+          ]
+        },
+        {
+          "ticker": "NOW",
+          "company": "ServiceNow",
+          "event_type": "product",
+          "event_label": "Product",
+          "impact": "positive",
+          "representative_title": "ServiceNow (NOW) Unveils EmployeeWorks AI Platform",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/servicenow-now-unveils-employeeworks-ai-171202458.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-15T17:12:02+00:00",
+          "materiality_score": 26,
+          "catalyst": "ServiceNow (NOW) Unveils EmployeeWorks AI Platform",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "ServiceNow (NOW) Unveils EmployeeWorks AI Platform",
+              "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-now-unveils-employeeworks-ai-171202458.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "NOW",
+          "company": "ServiceNow",
+          "event_type": "general",
+          "event_label": "General",
+          "impact": "neutral",
+          "representative_title": "ServiceNow advances its operational harness for enterprise AI with AI Passport and expanded governance capabilities",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/servicenow-advances-operational-harness-enterprise-130000571.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-15T13:00:00+00:00",
+          "materiality_score": 25,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure",
+            "Enterprise software"
+          ],
+          "sources": [
+            {
+              "title": "ServiceNow advances its operational harness for enterprise AI with AI Passport and expanded governance capabilities",
+              "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-advances-operational-harness-enterprise-130000571.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 31
+    },
+    {
+      "ticker": "AMPX",
+      "company": "Amprius Technologies",
+      "overview": "Earnings coverage leans constructive; top signal is 'Amprius Technologies Inc (AMPX) (Q2 2026) Earnings Call Highlights: Record Revenue and Raised ...' with corroborating variants.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "Earnings",
+          "count": 2
+        },
+        {
+          "label": "General",
+          "count": 2
+        },
+        {
+          "label": "Regulation",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Amprius Technologies Inc (AMPX) (Q2 2026) Earnings Call Highlights: Record Revenue and Raised ...",
+        "AMPX Q2 Earnings Call Highlights Higher Guidance and Drone Demand"
+      ],
+      "risks": [
+        "Amprius Technologies Shares Rise 11% After Securing Up to $75 Million Defense Grant"
+      ],
+      "top_clusters": [
+        {
+          "ticker": "AMPX",
+          "company": "Amprius Technologies",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "positive",
+          "representative_title": "Amprius Technologies Inc (AMPX) (Q2 2026) Earnings Call Highlights: Record Revenue and Raised ...",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/amprius-technologies-inc-ampx-q2-210251235.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 4,
+          "latest_published": "2026-08-12T02:14:44+00:00",
+          "materiality_score": 29,
+          "catalyst": "Amprius Technologies Inc (AMPX) (Q2 2026) Earnings Call Highlights: Record Revenue and Raised ...",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "Amprius Technologies Inc (AMPX) (Q2 2026) Earnings Call Highlights: Record Revenue and Raised ...",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/amprius-technologies-inc-ampx-q2-210251235.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            },
+            {
+              "title": "Amprius Technologies (AMPX) Reports Q2 Loss, Beats Revenue Estimates",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/amprius-technologies-ampx-reports-q2-230004082.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            },
+            {
+              "title": "Amprius (AMPX) Q2 2026 Earnings Call Transcript",
+              "link": "https://www.fool.com/earnings/call-transcripts/2026/08/11/amprius-ampx-q2-2026-earnings-call-transcript/?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "fool.com"
+            },
+            {
+              "title": "Amprius Technologies Q2 Earnings Call Highlights",
+              "link": "https://www.marketbeat.com/instant-alerts/amprius-technologies-q2-earnings-call-highlights-2026-08-05/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "marketbeat.com"
+            }
+          ]
+        },
+        {
+          "ticker": "AMPX",
+          "company": "Amprius Technologies",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "positive",
+          "representative_title": "AMPX Q2 Earnings Call Highlights Higher Guidance and Drone Demand",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/ampx-q2-earnings-call-highlights-140000411.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-08-07T14:00:00+00:00",
+          "materiality_score": 20,
+          "catalyst": "AMPX Q2 Earnings Call Highlights Higher Guidance and Drone Demand",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "AMPX Q2 Earnings Call Highlights Higher Guidance and Drone Demand",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/ampx-q2-earnings-call-highlights-140000411.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "AMPX",
+          "company": "Amprius Technologies",
+          "event_type": "general",
+          "event_label": "General",
+          "impact": "neutral",
+          "representative_title": "Amprius Technologies (AMPX) Files Shelf Registration, Is The Stock Still 61% Undervalued?",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/amprius-technologies-ampx-files-shelf-021126031.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-14T02:11:26+00:00",
+          "materiality_score": 19,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Amprius Technologies (AMPX) Files Shelf Registration, Is The Stock Still 61% Undervalued?",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/amprius-technologies-ampx-files-shelf-021126031.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 29
+    },
+    {
+      "ticker": "PENG",
+      "company": "Penguin Solutions",
+      "overview": "Earnings coverage leans constructive; top signal is 'Is Penguin Solutions (PENG) Undervalued After Its Earnings Beat And 2027 Outlook Raise?' with corroborating variants.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "Earnings",
+          "count": 3
+        },
+        {
+          "label": "Product",
+          "count": 2
+        }
+      ],
+      "catalysts": [
+        "Is Penguin Solutions (PENG) Undervalued After Its Earnings Beat And 2027 Outlook Raise?",
+        "Surging Earnings Estimates Signal Upside for Penguin Solutions, Inc. (PENG) Stock",
+        "The Top 5 Analyst Questions From Penguin Solutions\u2019s Q3 Earnings Call"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "PENG",
+          "company": "Penguin Solutions",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "positive",
+          "representative_title": "Is Penguin Solutions (PENG) Undervalued After Its Earnings Beat And 2027 Outlook Raise?",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/penguin-solutions-peng-undervalued-earnings-231808120.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 3,
+          "latest_published": "2026-10-07T23:18:08+00:00",
+          "materiality_score": 29,
+          "catalyst": "Is Penguin Solutions (PENG) Undervalued After Its Earnings Beat And 2027 Outlook Raise?",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "Is Penguin Solutions (PENG) Undervalued After Its Earnings Beat And 2027 Outlook Raise?",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/penguin-solutions-peng-undervalued-earnings-231808120.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            },
+            {
+              "title": "Penguin Solutions (PENG) Flies 13% on Stellar Earnings, FY Outlook",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/penguin-solutions-peng-flies-13-224051948.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            },
+            {
+              "title": "Penguin Solutions (PENG) Q4 2026 Earnings Call Transcript",
+              "link": "https://www.fool.com/earnings/call-transcripts/2026/10/07/penguin-solutions-peng-q4-2026-earnings-call-transcript/?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "fool.com"
+            }
+          ]
+        },
+        {
+          "ticker": "PENG",
+          "company": "Penguin Solutions",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Surging Earnings Estimates Signal Upside for Penguin Solutions, Inc. (PENG) Stock",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/surging-earnings-estimates-signal-upside-152002196.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-12T15:20:02+00:00",
+          "materiality_score": 26,
+          "catalyst": "Surging Earnings Estimates Signal Upside for Penguin Solutions, Inc. (PENG) Stock",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Surging Earnings Estimates Signal Upside for Penguin Solutions, Inc. (PENG) Stock",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/surging-earnings-estimates-signal-upside-152002196.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "PENG",
+          "company": "Penguin Solutions",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "The Top 5 Analyst Questions From Penguin Solutions\u2019s Q3 Earnings Call",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/top-5-analyst-questions-penguin-073609114.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-08T07:36:09+00:00",
+          "materiality_score": 25,
+          "catalyst": "The Top 5 Analyst Questions From Penguin Solutions\u2019s Q3 Earnings Call",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "The Top 5 Analyst Questions From Penguin Solutions\u2019s Q3 Earnings Call",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/top-5-analyst-questions-penguin-073609114.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 29
+    },
+    {
+      "ticker": "AMBA",
+      "company": "Ambarella",
+      "overview": "Earnings coverage is mixed; top signal is 'Ambarella (AMBA) Grew 2Q Revenue 13.2% and Signed 7-Year Channel Agreements. Can Edge-AI Scale Reverse Margin Compression?'.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "General",
+          "count": 3
+        },
+        {
+          "label": "Product",
+          "count": 2
+        },
+        {
+          "label": "Earnings",
+          "count": 1
+        },
+        {
+          "label": "Partnership",
+          "count": 1
+        },
+        {
+          "label": "Regulation",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Ambarella (AMBA) Grew 2Q Revenue 13.2% and Signed 7-Year Channel Agreements. Can Edge-AI Scale Reverse Margin Compression?",
+        "Ambarella (AMBA) Could Be 23% Undervalued After Its Edge AI Partnerships",
+        "Is Ambarella (AMBA) Quietly Turning Its AI SoC Footprint Into A Strategic Cloud Platform?"
+      ],
+      "risks": [
+        "Ambarella CEO Sees Edge AI Growth Across Security, Autos and Wearables"
+      ],
+      "top_clusters": [
+        {
+          "ticker": "AMBA",
+          "company": "Ambarella",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Ambarella (AMBA) Grew 2Q Revenue 13.2% and Signed 7-Year Channel Agreements. Can Edge-AI Scale Reverse Margin Compression?",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/ambarella-amba-grew-2q-revenue-231537538.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-09-04T23:15:37+00:00",
+          "materiality_score": 28,
+          "catalyst": "Ambarella (AMBA) Grew 2Q Revenue 13.2% and Signed 7-Year Channel Agreements. Can Edge-AI Scale Reverse Margin Compression?",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "Ambarella (AMBA) Grew 2Q Revenue 13.2% and Signed 7-Year Channel Agreements. Can Edge-AI Scale Reverse Margin Compression?",
+              "link": "https://finance.yahoo.com/technology/ai/articles/ambarella-amba-grew-2q-revenue-231537538.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "AMBA",
+          "company": "Ambarella",
+          "event_type": "partnership",
+          "event_label": "Partnership",
+          "impact": "positive",
+          "representative_title": "Ambarella (AMBA) Could Be 23% Undervalued After Its Edge AI Partnerships",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/ambarella-amba-could-23-undervalued-161505085.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-09-22T16:15:05+00:00",
+          "materiality_score": 23,
+          "catalyst": "Ambarella (AMBA) Could Be 23% Undervalued After Its Edge AI Partnerships",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "Ambarella (AMBA) Could Be 23% Undervalued After Its Edge AI Partnerships",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/ambarella-amba-could-23-undervalued-161505085.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "AMBA",
+          "company": "Ambarella",
+          "event_type": "product",
+          "event_label": "Product",
+          "impact": "positive",
+          "representative_title": "Is Ambarella (AMBA) Quietly Turning Its AI SoC Footprint Into A Strategic Cloud Platform?",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/ambarella-amba-quietly-turning-ai-082000255.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-09-22T08:20:00+00:00",
+          "materiality_score": 22,
+          "catalyst": "Is Ambarella (AMBA) Quietly Turning Its AI SoC Footprint Into A Strategic Cloud Platform?",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure",
+            "Enterprise software"
+          ],
+          "sources": [
+            {
+              "title": "Is Ambarella (AMBA) Quietly Turning Its AI SoC Footprint Into A Strategic Cloud Platform?",
+              "link": "https://finance.yahoo.com/technology/ai/articles/ambarella-amba-quietly-turning-ai-082000255.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 28
+    },
+    {
+      "ticker": "CPSH",
+      "company": "CPS Technologies",
+      "overview": "Earnings coverage leans constructive; top signal is 'CPS Technologies Corp (CPSH) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic ...' with corroborating variants.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "Earnings",
+          "count": 3
+        },
+        {
+          "label": "Regulation",
+          "count": 1
+        },
+        {
+          "label": "General",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "CPS Technologies Corp (CPSH) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic ...",
+        "CPS Technologies Announces Second Quarter 2026 Financial Results",
+        "CPS Technologies Schedules Its Q2 Earnings Call"
+      ],
+      "risks": [
+        "CPS Technologies Secures Initial Defense Order for Tungsten Components"
+      ],
+      "top_clusters": [
+        {
+          "ticker": "CPSH",
+          "company": "CPS Technologies",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "positive",
+          "representative_title": "CPS Technologies Corp (CPSH) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic ...",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/cps-technologies-corp-cpsh-q2-010513160.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 4,
+          "latest_published": "2026-08-07T01:05:13+00:00",
+          "materiality_score": 28,
+          "catalyst": "CPS Technologies Corp (CPSH) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic ...",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "CPS Technologies Corp (CPSH) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic ...",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/cps-technologies-corp-cpsh-q2-010513160.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            },
+            {
+              "title": "CPS Technologies Q1 Earnings Call Highlights",
+              "link": "https://www.marketbeat.com/instant-alerts/cps-technologies-q1-earnings-call-highlights-2026-05-05/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "marketbeat.com"
+            },
+            {
+              "title": "CPS Technologies Q2 Earnings Call Highlights",
+              "link": "https://www.marketbeat.com/instant-alerts/cps-technologies-q2-earnings-call-highlights-2026-08-05/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "marketbeat.com"
+            },
+            {
+              "title": "CPS Technologies Corporation Q2 2026 Earnings Call Summary",
+              "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-cps-technologies-corporation-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "app.moby.co"
+            }
+          ]
+        },
+        {
+          "ticker": "CPSH",
+          "company": "CPS Technologies",
+          "event_type": "regulation",
+          "event_label": "Regulation",
+          "impact": "neutral",
+          "representative_title": "CPS Technologies Secures Initial Defense Order for Tungsten Components",
+          "representative_link": "https://finance.yahoo.com/technology/articles/cps-technologies-secures-initial-defense-120000061.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-08-31T12:00:00+00:00",
+          "materiality_score": 20,
+          "catalyst": "",
+          "risk": "CPS Technologies Secures Initial Defense Order for Tungsten Components",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "CPS Technologies Secures Initial Defense Order for Tungsten Components",
+              "link": "https://finance.yahoo.com/technology/articles/cps-technologies-secures-initial-defense-120000061.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "CPSH",
+          "company": "CPS Technologies",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "CPS Technologies Announces Second Quarter 2026 Financial Results",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/cps-technologies-announces-second-quarter-203000896.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-08-04T20:30:00+00:00",
+          "materiality_score": 19,
+          "catalyst": "CPS Technologies Announces Second Quarter 2026 Financial Results",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "CPS Technologies Announces Second Quarter 2026 Financial Results",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/cps-technologies-announces-second-quarter-203000896.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 28
+    },
+    {
+      "ticker": "ADEA",
+      "company": "Adeia",
+      "overview": "Earnings coverage is mixed; top signal is 'Adeia Inc (ADEA) (Q2 2026) Earnings Call Highlights: Revenue Hits $96. ...' with corroborating variants.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "General",
+          "count": 2
+        },
+        {
+          "label": "Earnings",
+          "count": 1
+        },
+        {
+          "label": "Partnership",
+          "count": 1
+        },
+        {
+          "label": "Customer",
+          "count": 1
+        },
+        {
+          "label": "Management",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Adeia Inc (ADEA) (Q2 2026) Earnings Call Highlights: Revenue Hits $96. ...",
+        "Adeia Renews IP License Agreement with Spectrum",
+        "Adeia Recognized with Two Asia Pacific Business Awards Honoring Regional Innovation and Leadership"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "ADEA",
+          "company": "Adeia",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Adeia Inc (ADEA) (Q2 2026) Earnings Call Highlights: Revenue Hits $96. ...",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/adeia-inc-adea-q2-2026-050634400.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 3,
+          "latest_published": "2026-08-11T01:58:35+00:00",
+          "materiality_score": 27,
+          "catalyst": "Adeia Inc (ADEA) (Q2 2026) Earnings Call Highlights: Revenue Hits $96. ...",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Adeia Inc (ADEA) (Q2 2026) Earnings Call Highlights: Revenue Hits $96. ...",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/adeia-inc-adea-q2-2026-050634400.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            },
+            {
+              "title": "Adeia (ADEA) Q2 2026 Earnings Call Transcript",
+              "link": "https://www.fool.com/earnings/call-transcripts/2026/08/10/adeia-adea-q2-2026-earnings-call-transcript/?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "fool.com"
+            },
+            {
+              "title": "Adeia Inc. Q2 2026 Earnings Call Summary",
+              "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-adeia-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "app.moby.co"
+            }
+          ]
+        },
+        {
+          "ticker": "ADEA",
+          "company": "Adeia",
+          "event_type": "general",
+          "event_label": "General",
+          "impact": "neutral",
+          "representative_title": "Why Adeia (ADEA) Is Back In The Spotlight",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/why-adeia-adea-back-spotlight-043036247.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-16T04:30:36+00:00",
+          "materiality_score": 20,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Why Adeia (ADEA) Is Back In The Spotlight",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/why-adeia-adea-back-spotlight-043036247.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "ADEA",
+          "company": "Adeia",
+          "event_type": "partnership",
+          "event_label": "Partnership",
+          "impact": "positive",
+          "representative_title": "Adeia Renews IP License Agreement with Spectrum",
+          "representative_link": "https://finance.yahoo.com/media-advertising/articles/adeia-renews-ip-license-agreement-200500776.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-05T20:05:00+00:00",
+          "materiality_score": 18,
+          "catalyst": "Adeia Renews IP License Agreement with Spectrum",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Adeia Renews IP License Agreement with Spectrum",
+              "link": "https://finance.yahoo.com/media-advertising/articles/adeia-renews-ip-license-agreement-200500776.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 27
+    },
+    {
+      "ticker": "OUST",
+      "company": "Ouster",
+      "overview": "Partnership coverage leans constructive; top signal is 'Is Ouster (OUST) Using Drone Lidar Partnerships To Quietly Redefine Its Autonomy Strategy?'.",
+      "dominant_event": "Partnership",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "Partnership",
+          "count": 2
+        },
+        {
+          "label": "General",
+          "count": 2
+        },
+        {
+          "label": "Earnings",
+          "count": 1
+        },
+        {
+          "label": "Product",
+          "count": 1
+        },
+        {
+          "label": "Macro",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Is Ouster (OUST) Using Drone Lidar Partnerships To Quietly Redefine Its Autonomy Strategy?",
+        "Ouster Announces Date for Third Quarter 2026 Earnings Call",
+        "Is Ouster's Flyability Collaboration Expanding Lidar Applications?"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "OUST",
+          "company": "Ouster",
+          "event_type": "partnership",
+          "event_label": "Partnership",
+          "impact": "positive",
+          "representative_title": "Is Ouster (OUST) Using Drone Lidar Partnerships To Quietly Redefine Its Autonomy Strategy?",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/ouster-oust-using-drone-lidar-001611707.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-07T00:16:11+00:00",
+          "materiality_score": 26,
+          "catalyst": "Is Ouster (OUST) Using Drone Lidar Partnerships To Quietly Redefine Its Autonomy Strategy?",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Is Ouster (OUST) Using Drone Lidar Partnerships To Quietly Redefine Its Autonomy Strategy?",
+              "link": "https://finance.yahoo.com/technology/ai/articles/ouster-oust-using-drone-lidar-001611707.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "OUST",
+          "company": "Ouster",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Ouster Announces Date for Third Quarter 2026 Earnings Call",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/ouster-announces-date-third-quarter-110000222.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-13T11:00:00+00:00",
+          "materiality_score": 26,
+          "catalyst": "Ouster Announces Date for Third Quarter 2026 Earnings Call",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Ouster Announces Date for Third Quarter 2026 Earnings Call",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/ouster-announces-date-third-quarter-110000222.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "OUST",
+          "company": "Ouster",
+          "event_type": "partnership",
+          "event_label": "Partnership",
+          "impact": "positive",
+          "representative_title": "Is Ouster's Flyability Collaboration Expanding Lidar Applications?",
+          "representative_link": "https://finance.yahoo.com/technology/articles/ousters-flyability-collaboration-expanding-lidar-134000314.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-09-25T13:40:00+00:00",
+          "materiality_score": 23,
+          "catalyst": "Is Ouster's Flyability Collaboration Expanding Lidar Applications?",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Is Ouster's Flyability Collaboration Expanding Lidar Applications?",
+              "link": "https://finance.yahoo.com/technology/articles/ousters-flyability-collaboration-expanding-lidar-134000314.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 26
+    },
+    {
+      "ticker": "SIVE",
+      "company": "Sivers Semiconductors",
+      "overview": "Earnings coverage leans constructive; top signal is 'Sivers Semiconductors AB (SIVEF) (Q2 2026) Earnings Call Highlights: Pipeline Surges 268% to $1. ...'.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "General",
+          "count": 5
+        },
+        {
+          "label": "Earnings",
+          "count": 3
+        }
+      ],
+      "catalysts": [
+        "Sivers Semiconductors AB (SIVEF) (Q2 2026) Earnings Call Highlights: Pipeline Surges 268% to $1. ...",
+        "Sivers Semiconductors Reports Q2 2026 Results as Product Growth, Record Pipeline and Customer Ramps Position Company for Growth Acceleration",
+        "Invitation to Presentation of Sivers Semiconductors' Q2 2026 Report"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "SIVE",
+          "company": "Sivers Semiconductors",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "positive",
+          "representative_title": "Sivers Semiconductors AB (SIVEF) (Q2 2026) Earnings Call Highlights: Pipeline Surges 268% to $1. ...",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/sivers-semiconductors-ab-sivef-q2-010113113.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-08-28T01:01:13+00:00",
+          "materiality_score": 26,
+          "catalyst": "Sivers Semiconductors AB (SIVEF) (Q2 2026) Earnings Call Highlights: Pipeline Surges 268% to $1. ...",
+          "risk": "",
+          "theme_tags": [
+            "Semiconductor supply chain"
+          ],
+          "sources": [
+            {
+              "title": "Sivers Semiconductors AB (SIVEF) (Q2 2026) Earnings Call Highlights: Pipeline Surges 268% to $1. ...",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/sivers-semiconductors-ab-sivef-q2-010113113.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "SIVE",
+          "company": "Sivers Semiconductors",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "positive",
+          "representative_title": "Sivers Semiconductors Reports Q2 2026 Results as Product Growth, Record Pipeline and Customer Ramps Position Company for Growth Acceleration",
+          "representative_link": "https://finance.yahoo.com/technology/articles/sivers-semiconductors-reports-q2-2026-165900907.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-08-27T16:59:00+00:00",
+          "materiality_score": 25,
+          "catalyst": "Sivers Semiconductors Reports Q2 2026 Results as Product Growth, Record Pipeline and Customer Ramps Position Company for Growth Acceleration",
+          "risk": "",
+          "theme_tags": [
+            "Semiconductor supply chain"
+          ],
+          "sources": [
+            {
+              "title": "Sivers Semiconductors Reports Q2 2026 Results as Product Growth, Record Pipeline and Customer Ramps Position Company for Growth Acceleration",
+              "link": "https://finance.yahoo.com/technology/articles/sivers-semiconductors-reports-q2-2026-165900907.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "SIVE",
+          "company": "Sivers Semiconductors",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Invitation to Presentation of Sivers Semiconductors' Q2 2026 Report",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/invitation-presentation-sivers-semiconductors-q2-052500947.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-08-20T05:25:00+00:00",
+          "materiality_score": 25,
+          "catalyst": "Invitation to Presentation of Sivers Semiconductors' Q2 2026 Report",
+          "risk": "",
+          "theme_tags": [
+            "Semiconductor supply chain"
+          ],
+          "sources": [
+            {
+              "title": "Invitation to Presentation of Sivers Semiconductors' Q2 2026 Report",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/invitation-presentation-sivers-semiconductors-q2-052500947.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 26
+    },
+    {
+      "ticker": "AMSC",
+      "company": "American Superconductor",
+      "overview": "Earnings coverage is mixed; top signal is 'Q2 Earnings Roundup: American Superconductor (NASDAQ:AMSC) And The Rest Of The Renewable Energy Segment'.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "General",
+          "count": 4
+        },
+        {
+          "label": "Earnings",
+          "count": 2
+        },
+        {
+          "label": "Guidance",
+          "count": 1
+        },
+        {
+          "label": "Management",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Q2 Earnings Roundup: American Superconductor (NASDAQ:AMSC) And The Rest Of The Renewable Energy Segment",
+        "The Bull Case For American Superconductor (AMSC) Could Change Following Strong Q1 Earnings And Profitability Guidance - Learn Why",
+        "American Superconductor (AMSC) Issued Strong Guidance, Is It Still Below Fair Value?"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "AMSC",
+          "company": "American Superconductor",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Q2 Earnings Roundup: American Superconductor (NASDAQ:AMSC) And The Rest Of The Renewable Energy Segment",
+          "representative_link": "https://finance.yahoo.com/energy/articles/q2-earnings-roundup-american-superconductor-013223459.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-09-03T01:32:23+00:00",
+          "materiality_score": 26,
+          "catalyst": "Q2 Earnings Roundup: American Superconductor (NASDAQ:AMSC) And The Rest Of The Renewable Energy Segment",
+          "risk": "",
+          "theme_tags": [
+            "Power and grid"
+          ],
+          "sources": [
+            {
+              "title": "Q2 Earnings Roundup: American Superconductor (NASDAQ:AMSC) And The Rest Of The Renewable Energy Segment",
+              "link": "https://finance.yahoo.com/energy/articles/q2-earnings-roundup-american-superconductor-013223459.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "AMSC",
+          "company": "American Superconductor",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "The Bull Case For American Superconductor (AMSC) Could Change Following Strong Q1 Earnings And Profitability Guidance - Learn Why",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/bull-case-american-superconductor-amsc-081040720.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-08-18T08:10:40+00:00",
+          "materiality_score": 26,
+          "catalyst": "The Bull Case For American Superconductor (AMSC) Could Change Following Strong Q1 Earnings And Profitability Guidance - Learn Why",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "The Bull Case For American Superconductor (AMSC) Could Change Following Strong Q1 Earnings And Profitability Guidance - Learn Why",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/bull-case-american-superconductor-amsc-081040720.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "AMSC",
+          "company": "American Superconductor",
+          "event_type": "guidance",
+          "event_label": "Guidance",
+          "impact": "neutral",
+          "representative_title": "American Superconductor (AMSC) Issued Strong Guidance, Is It Still Below Fair Value?",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/american-superconductor-amsc-issued-strong-121007263.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-08-18T12:10:07+00:00",
+          "materiality_score": 24,
+          "catalyst": "American Superconductor (AMSC) Issued Strong Guidance, Is It Still Below Fair Value?",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "American Superconductor (AMSC) Issued Strong Guidance, Is It Still Below Fair Value?",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/american-superconductor-amsc-issued-strong-121007263.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 26
+    },
+    {
+      "ticker": "VICR",
+      "company": "Vicor",
+      "overview": "Earnings coverage leans constructive; top signal is 'Vicor (VICR) Reports Next Week: Wall Street Expects Earnings Growth'.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "Earnings",
+          "count": 3
+        },
+        {
+          "label": "General",
+          "count": 3
+        },
+        {
+          "label": "Analyst",
+          "count": 1
+        },
+        {
+          "label": "Litigation",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Vicor (VICR) Reports Next Week: Wall Street Expects Earnings Growth",
+        "Should You Buy, Sell, or Hold Vicor Stock Before Q3 Earnings Release?",
+        "Vicor Corporation to Hold Third Quarter Earnings Conference Call and Webcast on October 20, 2026"
+      ],
+      "risks": [
+        "USITC Institutes Investigation of Vertical Power Delivery (VPD) Modules and Computing Systems Infringing a Vicor Patent"
+      ],
+      "top_clusters": [
+        {
+          "ticker": "VICR",
+          "company": "Vicor",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "positive",
+          "representative_title": "Vicor (VICR) Reports Next Week: Wall Street Expects Earnings Growth",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/vicor-vicr-reports-next-week-130016224.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-13T13:00:16+00:00",
+          "materiality_score": 26,
+          "catalyst": "Vicor (VICR) Reports Next Week: Wall Street Expects Earnings Growth",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Vicor (VICR) Reports Next Week: Wall Street Expects Earnings Growth",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/vicor-vicr-reports-next-week-130016224.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "VICR",
+          "company": "Vicor",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Should You Buy, Sell, or Hold Vicor Stock Before Q3 Earnings Release?",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-vicor-stock-162800787.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-15T16:28:00+00:00",
+          "materiality_score": 22,
+          "catalyst": "Should You Buy, Sell, or Hold Vicor Stock Before Q3 Earnings Release?",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Should You Buy, Sell, or Hold Vicor Stock Before Q3 Earnings Release?",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-vicor-stock-162800787.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "VICR",
+          "company": "Vicor",
+          "event_type": "analyst",
+          "event_label": "Analyst",
+          "impact": "neutral",
+          "representative_title": "Wall Street Analysts Predict a 32.82% Upside in Vicor (VICR): Here's  What You Should Know",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predict-32-125502959.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-08T12:55:02+00:00",
+          "materiality_score": 21,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Wall Street Analysts Predict a 32.82% Upside in Vicor (VICR): Here's  What You Should Know",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predict-32-125502959.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 26
+    },
+    {
+      "ticker": "TXN",
+      "company": "Texas Instruments",
+      "overview": "Product coverage leans constructive; top signal is 'What Does Texas Instruments (TXN) New AI Data Center Launch Mean For Investors?'.",
+      "dominant_event": "Product",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "General",
+          "count": 2
+        },
+        {
+          "label": "Product",
+          "count": 1
+        },
+        {
+          "label": "Earnings",
+          "count": 1
+        },
+        {
+          "label": "Macro",
+          "count": 1
+        },
+        {
+          "label": "Management",
+          "count": 1
+        },
+        {
+          "label": "Regulation",
+          "count": 1
+        },
+        {
+          "label": "Customer",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "What Does Texas Instruments (TXN) New AI Data Center Launch Mean For Investors?",
+        "TXN to Report Q3 Earnings: Should You Buy, Hold or Sell the Stock?",
+        "Analog Devices (ADI) vs. TXN and ON: Can AI Infrastructure and Acquisitions Drive Its Next Growth Phase?"
+      ],
+      "risks": [
+        "Texas Instruments (TXN) Stock Falls Amid Market Uptick: What Investors Need to Know",
+        "TI unveils new ADC to enable nanosecond-level telemetry and minimize downtime in AI data centers"
+      ],
+      "top_clusters": [
+        {
+          "ticker": "TXN",
+          "company": "Texas Instruments",
+          "event_type": "product",
+          "event_label": "Product",
+          "impact": "positive",
+          "representative_title": "What Does Texas Instruments (TXN) New AI Data Center Launch Mean For Investors?",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/does-texas-instruments-txn-ai-161635867.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-14T16:16:35+00:00",
+          "materiality_score": 25,
+          "catalyst": "What Does Texas Instruments (TXN) New AI Data Center Launch Mean For Investors?",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "What Does Texas Instruments (TXN) New AI Data Center Launch Mean For Investors?",
+              "link": "https://finance.yahoo.com/technology/ai/articles/does-texas-instruments-txn-ai-161635867.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "TXN",
+          "company": "Texas Instruments",
+          "event_type": "general",
+          "event_label": "General",
+          "impact": "neutral",
+          "representative_title": "Texas Instruments (TXN) Stock Could Be 20% Overvalued As AI Data Center Push Grows",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-stock-could-152023336.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-14T15:20:23+00:00",
+          "materiality_score": 22,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "Texas Instruments (TXN) Stock Could Be 20% Overvalued As AI Data Center Push Grows",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-stock-could-152023336.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "TXN",
+          "company": "Texas Instruments",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "TXN to Report Q3 Earnings: Should You Buy, Hold or Sell the Stock?",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/txn-report-q3-earnings-buy-125400331.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-15T12:54:00+00:00",
+          "materiality_score": 22,
+          "catalyst": "TXN to Report Q3 Earnings: Should You Buy, Hold or Sell the Stock?",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "TXN to Report Q3 Earnings: Should You Buy, Hold or Sell the Stock?",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/txn-report-q3-earnings-buy-125400331.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 25
+    },
+    {
+      "ticker": "TSM",
+      "company": "Taiwan Semiconductor Manufacturing",
+      "overview": "Earnings coverage is mixed; top signal is '3 Taiwan AI Semiconductor Stocks Worth Watching After TSMC Earnings'.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "Product",
+          "count": 4
+        },
+        {
+          "label": "Earnings",
+          "count": 2
+        },
+        {
+          "label": "General",
+          "count": 1
+        },
+        {
+          "label": "Macro",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "3 Taiwan AI Semiconductor Stocks Worth Watching After TSMC Earnings",
+        "TSMC Just Posted Record Profit for the Sixth Straight Quarter. Why Did the Stock Fall?",
+        "Chip Leader TSMC Delivers Beat-And-Raise Third-Quarter Report"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "TSM",
+          "company": "Taiwan Semiconductor Manufacturing",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "3 Taiwan AI Semiconductor Stocks Worth Watching After TSMC Earnings",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/3-taiwan-ai-semiconductor-stocks-211309719.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-15T21:13:09+00:00",
+          "materiality_score": 25,
+          "catalyst": "3 Taiwan AI Semiconductor Stocks Worth Watching After TSMC Earnings",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure",
+            "Semiconductor supply chain"
+          ],
+          "sources": [
+            {
+              "title": "3 Taiwan AI Semiconductor Stocks Worth Watching After TSMC Earnings",
+              "link": "https://finance.yahoo.com/technology/ai/articles/3-taiwan-ai-semiconductor-stocks-211309719.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "TSM",
+          "company": "Taiwan Semiconductor Manufacturing",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "positive",
+          "representative_title": "TSMC Just Posted Record Profit for the Sixth Straight Quarter. Why Did the Stock Fall?",
+          "representative_link": "https://www.fool.com/investing/2026/10/15/tsmc-just-posted-record-profit-for-the-sixth-straight-quarter-why-did-the-stock-fall/?.tsrc=rss",
+          "source_domain": "fool.com",
+          "source_quality_label": "Secondary",
+          "cluster_size": 1,
+          "latest_published": "2026-10-16T02:50:02+00:00",
+          "materiality_score": 23,
+          "catalyst": "TSMC Just Posted Record Profit for the Sixth Straight Quarter. Why Did the Stock Fall?",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "TSMC Just Posted Record Profit for the Sixth Straight Quarter. Why Did the Stock Fall?",
+              "link": "https://www.fool.com/investing/2026/10/15/tsmc-just-posted-record-profit-for-the-sixth-straight-quarter-why-did-the-stock-fall/?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "fool.com"
+            }
+          ]
+        },
+        {
+          "ticker": "TSM",
+          "company": "Taiwan Semiconductor Manufacturing",
+          "event_type": "product",
+          "event_label": "Product",
+          "impact": "positive",
+          "representative_title": "Chip Leader TSMC Delivers Beat-And-Raise Third-Quarter Report",
+          "representative_link": "https://finance.yahoo.com/m/e77c8dc4-38ba-3d35-ae51-3ccbe56ac9d0/chip-leader-tsmc-delivers.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-15T20:24:52+00:00",
+          "materiality_score": 22,
+          "catalyst": "Chip Leader TSMC Delivers Beat-And-Raise Third-Quarter Report",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure",
+            "Semiconductor supply chain"
+          ],
+          "sources": [
+            {
+              "title": "Chip Leader TSMC Delivers Beat-And-Raise Third-Quarter Report",
+              "link": "https://finance.yahoo.com/m/e77c8dc4-38ba-3d35-ae51-3ccbe56ac9d0/chip-leader-tsmc-delivers.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 25
+    },
+    {
+      "ticker": "ASE",
+      "company": "ASE Technology Holding",
+      "overview": "Earnings coverage is mixed; top signal is 'ASE Technology Holding Co., Ltd. Announces Monthly Net Revenues*'.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "Product",
+          "count": 4
+        },
+        {
+          "label": "Earnings",
+          "count": 2
+        },
+        {
+          "label": "General",
+          "count": 2
+        }
+      ],
+      "catalysts": [
+        "ASE Technology Holding Co., Ltd. Announces Monthly Net Revenues*",
+        "ASE Technology, IBD Stock Of The Day, Holds In Buy Zone Ahead Of Q3 Earnings Report",
+        "ASE Technology Packs AI Chips And An Earnings Punch"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "ASE",
+          "company": "ASE Technology Holding",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "ASE Technology Holding Co., Ltd. Announces Monthly Net Revenues*",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/ase-technology-holding-co-ltd-070000777.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-12T07:00:00+00:00",
+          "materiality_score": 25,
+          "catalyst": "ASE Technology Holding Co., Ltd. Announces Monthly Net Revenues*",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "ASE Technology Holding Co., Ltd. Announces Monthly Net Revenues*",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/ase-technology-holding-co-ltd-070000777.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "ASE",
+          "company": "ASE Technology Holding",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "ASE Technology, IBD Stock Of The Day, Holds In Buy Zone Ahead Of Q3 Earnings Report",
+          "representative_link": "https://finance.yahoo.com/m/1b398e0e-df17-3f27-96de-fb115c57c01e/ase-technology%2C-ibd-stock-of.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-13T21:05:07+00:00",
+          "materiality_score": 21,
+          "catalyst": "ASE Technology, IBD Stock Of The Day, Holds In Buy Zone Ahead Of Q3 Earnings Report",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "ASE Technology, IBD Stock Of The Day, Holds In Buy Zone Ahead Of Q3 Earnings Report",
+              "link": "https://finance.yahoo.com/m/1b398e0e-df17-3f27-96de-fb115c57c01e/ase-technology%2C-ibd-stock-of.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "ASE",
+          "company": "ASE Technology Holding",
+          "event_type": "product",
+          "event_label": "Product",
+          "impact": "positive",
+          "representative_title": "ASE Technology Packs AI Chips And An Earnings Punch",
+          "representative_link": "https://finance.yahoo.com/m/72372f69-389c-3b59-bd76-e7cdbf1c6df5/ase-technology-packs-ai-chips.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-02T21:05:38+00:00",
+          "materiality_score": 18,
+          "catalyst": "ASE Technology Packs AI Chips And An Earnings Punch",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure",
+            "Semiconductor supply chain"
+          ],
+          "sources": [
+            {
+              "title": "ASE Technology Packs AI Chips And An Earnings Punch",
+              "link": "https://finance.yahoo.com/m/72372f69-389c-3b59-bd76-e7cdbf1c6df5/ase-technology-packs-ai-chips.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 25
+    },
+    {
+      "ticker": "NVTS",
+      "company": "Navitas Semiconductor",
+      "overview": "Product coverage leans constructive; top signal is 'Navitas Semiconductor (NVTS) Unveils 24 KW AI Power Board And 800V Rack Design'.",
+      "dominant_event": "Product",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "General",
+          "count": 4
+        },
+        {
+          "label": "Management",
+          "count": 2
+        },
+        {
+          "label": "Product",
+          "count": 1
+        },
+        {
+          "label": "Earnings",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Navitas Semiconductor (NVTS) Unveils 24 KW AI Power Board And 800V Rack Design",
+        "Navitas Semiconductor to Report Q3 2026 Financial Results on Tuesday, November 3, 2026"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "NVTS",
+          "company": "Navitas Semiconductor",
+          "event_type": "product",
+          "event_label": "Product",
+          "impact": "positive",
+          "representative_title": "Navitas Semiconductor (NVTS) Unveils 24 KW AI Power Board And 800V Rack Design",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/navitas-semiconductor-nvts-unveils-24-171529192.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-13T17:15:29+00:00",
+          "materiality_score": 25,
+          "catalyst": "Navitas Semiconductor (NVTS) Unveils 24 KW AI Power Board And 800V Rack Design",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure",
+            "Power and grid",
+            "Semiconductor supply chain"
+          ],
+          "sources": [
+            {
+              "title": "Navitas Semiconductor (NVTS) Unveils 24 KW AI Power Board And 800V Rack Design",
+              "link": "https://finance.yahoo.com/technology/ai/articles/navitas-semiconductor-nvts-unveils-24-171529192.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "NVTS",
+          "company": "Navitas Semiconductor",
+          "event_type": "general",
+          "event_label": "General",
+          "impact": "neutral",
+          "representative_title": "Can Navitas Semiconductor (NVTS) Turn NVIDIA-Aligned 800V AI Power Designs Into Durable Competitive Advantage?",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/navitas-semiconductor-nvts-turn-nvidia-142034941.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-14T14:20:34+00:00",
+          "materiality_score": 23,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure",
+            "Power and grid",
+            "Semiconductor supply chain"
+          ],
+          "sources": [
+            {
+              "title": "Can Navitas Semiconductor (NVTS) Turn NVIDIA-Aligned 800V AI Power Designs Into Durable Competitive Advantage?",
+              "link": "https://finance.yahoo.com/technology/ai/articles/navitas-semiconductor-nvts-turn-nvidia-142034941.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "NVTS",
+          "company": "Navitas Semiconductor",
+          "event_type": "general",
+          "event_label": "General",
+          "impact": "neutral",
+          "representative_title": "Why Navitas Semiconductor (NVTS) Shares Moved After Its Latest Update",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/why-navitas-semiconductor-nvts-shares-161754731.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-14T16:17:54+00:00",
+          "materiality_score": 20,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [
+            "Semiconductor supply chain"
+          ],
+          "sources": [
+            {
+              "title": "Why Navitas Semiconductor (NVTS) Shares Moved After Its Latest Update",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/why-navitas-semiconductor-nvts-shares-161754731.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 25
+    },
+    {
+      "ticker": "XFAB",
+      "company": "X-FAB Silicon Foundries",
+      "overview": "Earnings coverage is mixed; top signal is 'X-FAB Silicon Foundries SE (XFABF) (Q2 2026) Earnings Call Highlights: Book-to-Bill Above 1. ...' with corroborating variants.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "Analyst",
+          "count": 3
+        },
+        {
+          "label": "Earnings",
+          "count": 2
+        },
+        {
+          "label": "General",
+          "count": 1
+        },
+        {
+          "label": "Macro",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "X-FAB Silicon Foundries SE (XFABF) (Q2 2026) Earnings Call Highlights: Book-to-Bill Above 1. ...",
+        "X-FAB Second Quarter 2026 Results"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "XFAB",
+          "company": "X-FAB Silicon Foundries",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "X-FAB Silicon Foundries SE (XFABF) (Q2 2026) Earnings Call Highlights: Book-to-Bill Above 1. ...",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/x-fab-silicon-foundries-se-030029789.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 2,
+          "latest_published": "2026-08-01T03:00:29+00:00",
+          "materiality_score": 25,
+          "catalyst": "X-FAB Silicon Foundries SE (XFABF) (Q2 2026) Earnings Call Highlights: Book-to-Bill Above 1. ...",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "X-FAB Silicon Foundries SE (XFABF) (Q2 2026) Earnings Call Highlights: Book-to-Bill Above 1. ...",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/x-fab-silicon-foundries-se-030029789.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            },
+            {
+              "title": "X-FAB Silicon Foundries SE (XFABF) Q4 2025 Earnings Call Highlights: Navigating Growth Amidst ...",
+              "link": "https://finance.yahoo.com/news/x-fab-silicon-foundries-se-010432347.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "XFAB",
+          "company": "X-FAB Silicon Foundries",
+          "event_type": "analyst",
+          "event_label": "Analyst",
+          "impact": "neutral",
+          "representative_title": "Looking At The Narrative For X FAB Silicon Foundries ENXTPA XFAB After Analyst Reset",
+          "representative_link": "https://finance.yahoo.com/news/looking-narrative-x-fab-silicon-151418246.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-01-08T15:14:18+00:00",
+          "materiality_score": 15,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Looking At The Narrative For X FAB Silicon Foundries ENXTPA XFAB After Analyst Reset",
+              "link": "https://finance.yahoo.com/news/looking-narrative-x-fab-silicon-151418246.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "XFAB",
+          "company": "X-FAB Silicon Foundries",
+          "event_type": "analyst",
+          "event_label": "Analyst",
+          "impact": "neutral",
+          "representative_title": "What Analysts Think Is Shifting The Story For X-FAB Silicon Foundries Stock",
+          "representative_link": "https://finance.yahoo.com/news/analysts-think-shifting-story-x-130632526.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2025-12-25T13:06:32+00:00",
+          "materiality_score": 15,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "What Analysts Think Is Shifting The Story For X-FAB Silicon Foundries Stock",
+              "link": "https://finance.yahoo.com/news/analysts-think-shifting-story-x-130632526.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 25
+    },
+    {
+      "ticker": "IFX",
+      "company": "Infineon Technologies",
+      "overview": "Product coverage leans constructive; top signal is 'What Does Infineon Technologies (XTRA:IFX) Bangkok Chip Site Opening Change?'.",
+      "dominant_event": "Product",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "Product",
+          "count": 4
+        },
+        {
+          "label": "General",
+          "count": 3
+        },
+        {
+          "label": "Partnership",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "What Does Infineon Technologies (XTRA:IFX) Bangkok Chip Site Opening Change?",
+        "Infineon (XTRA:IFX) Stock May Be Near Fair Value After Thailand Expansion",
+        "Are Computer and Technology Stocks Lagging  Infineon Technologies (IFNNY) This Year?"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "IFX",
+          "company": "Infineon Technologies",
+          "event_type": "product",
+          "event_label": "Product",
+          "impact": "positive",
+          "representative_title": "What Does Infineon Technologies (XTRA:IFX) Bangkok Chip Site Opening Change?",
+          "representative_link": "https://finance.yahoo.com/technology/articles/does-infineon-technologies-xtra-ifx-171937386.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-14T17:19:37+00:00",
+          "materiality_score": 24,
+          "catalyst": "What Does Infineon Technologies (XTRA:IFX) Bangkok Chip Site Opening Change?",
+          "risk": "",
+          "theme_tags": [
+            "Semiconductor supply chain"
+          ],
+          "sources": [
+            {
+              "title": "What Does Infineon Technologies (XTRA:IFX) Bangkok Chip Site Opening Change?",
+              "link": "https://finance.yahoo.com/technology/articles/does-infineon-technologies-xtra-ifx-171937386.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "IFX",
+          "company": "Infineon Technologies",
+          "event_type": "general",
+          "event_label": "General",
+          "impact": "neutral",
+          "representative_title": "Infineon Technologies (XTRA:IFX) Opens Bangkok Site On Overvalued Narrative",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/infineon-technologies-xtra-ifx-opens-081404221.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-15T08:14:04+00:00",
+          "materiality_score": 20,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Infineon Technologies (XTRA:IFX) Opens Bangkok Site On Overvalued Narrative",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/infineon-technologies-xtra-ifx-opens-081404221.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "IFX",
+          "company": "Infineon Technologies",
+          "event_type": "general",
+          "event_label": "General",
+          "impact": "neutral",
+          "representative_title": "Is Infineon (XTRA:IFX) Turning Its New Bangkok Plant Into a Strategic Supply-Chain Moat?",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/infineon-xtra-ifx-turning-bangkok-130937220.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-15T13:09:37+00:00",
+          "materiality_score": 16,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "Is Infineon (XTRA:IFX) Turning Its New Bangkok Plant Into a Strategic Supply-Chain Moat?",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/infineon-xtra-ifx-turning-bangkok-130937220.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 24
+    },
+    {
+      "ticker": "MRVL",
+      "company": "Marvell Technology",
+      "overview": "Product coverage leans constructive; top signal is 'Marvell Technology (MRVL), What Is Driving The Attention Now?'.",
+      "dominant_event": "Product",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "Product",
+          "count": 6
+        },
+        {
+          "label": "Partnership",
+          "count": 1
+        },
+        {
+          "label": "General",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Marvell Technology (MRVL), What Is Driving The Attention Now?",
+        "Why Marvell Technology (MRVL) Dipped More Than Broader Market Today",
+        "Here's How Much a $1000 Investment in Marvell Technology Made 10 Years Ago Would Be Worth Today"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "MRVL",
+          "company": "Marvell Technology",
+          "event_type": "product",
+          "event_label": "Product",
+          "impact": "positive",
+          "representative_title": "Marvell Technology (MRVL), What Is Driving The Attention Now?",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-mrvl-driving-attention-011305847.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-16T01:13:05+00:00",
+          "materiality_score": 23,
+          "catalyst": "Marvell Technology (MRVL), What Is Driving The Attention Now?",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Marvell Technology (MRVL), What Is Driving The Attention Now?",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-mrvl-driving-attention-011305847.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "MRVL",
+          "company": "Marvell Technology",
+          "event_type": "product",
+          "event_label": "Product",
+          "impact": "positive",
+          "representative_title": "Why Marvell Technology (MRVL) Dipped More Than Broader Market Today",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-technology-mrvl-dipped-205002775.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-14T20:50:02+00:00",
+          "materiality_score": 23,
+          "catalyst": "Why Marvell Technology (MRVL) Dipped More Than Broader Market Today",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Why Marvell Technology (MRVL) Dipped More Than Broader Market Today",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-technology-mrvl-dipped-205002775.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "MRVL",
+          "company": "Marvell Technology",
+          "event_type": "product",
+          "event_label": "Product",
+          "impact": "positive",
+          "representative_title": "Here's How Much a $1000 Investment in Marvell Technology Made 10 Years Ago Would Be Worth Today",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/heres-much-1000-investment-marvell-113004803.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-15T11:30:04+00:00",
+          "materiality_score": 18,
+          "catalyst": "Here's How Much a $1000 Investment in Marvell Technology Made 10 Years Ago Would Be Worth Today",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Here's How Much a $1000 Investment in Marvell Technology Made 10 Years Ago Would Be Worth Today",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/heres-much-1000-investment-marvell-113004803.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 23
+    },
+    {
+      "ticker": "AAOI",
+      "company": "Applied Optoelectronics",
+      "overview": "Financing coverage leans cautious; top signal is 'Applied Optoelectronics (AAOI) Stock May Be Below Fair Value After Equity Offering'.",
+      "dominant_event": "Financing",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "Earnings",
+          "count": 2
+        },
+        {
+          "label": "Analyst",
+          "count": 2
+        },
+        {
+          "label": "General",
+          "count": 2
+        },
+        {
+          "label": "Financing",
+          "count": 1
+        },
+        {
+          "label": "Management",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Applied Optoelectronics Announces Date of Third Quarter 2026 Financial Results Conference Call",
+        "Applied Optoelectronics Is Up 175% in 2026 and Lumentum Is Up 164%: Take Profits, or Hold On for the Ride?"
+      ],
+      "risks": [
+        "Applied Optoelectronics (AAOI) Stock May Be Below Fair Value After Equity Offering",
+        "Applied Optoelectronics Dives 9% as AI Funding Fears Hit Optical Stocks; Coherent Slides 7%, Lumentum Drops 7%"
+      ],
+      "top_clusters": [
+        {
+          "ticker": "AAOI",
+          "company": "Applied Optoelectronics",
+          "event_type": "financing",
+          "event_label": "Financing",
+          "impact": "negative",
+          "representative_title": "Applied Optoelectronics (AAOI) Stock May Be Below Fair Value After Equity Offering",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-aaoi-stock-may-171518986.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-09T17:15:18+00:00",
+          "materiality_score": 23,
+          "catalyst": "",
+          "risk": "Applied Optoelectronics (AAOI) Stock May Be Below Fair Value After Equity Offering",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "Applied Optoelectronics (AAOI) Stock May Be Below Fair Value After Equity Offering",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-aaoi-stock-may-171518986.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "AAOI",
+          "company": "Applied Optoelectronics",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Applied Optoelectronics Announces Date of Third Quarter 2026 Financial Results Conference Call",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-announces-date-third-201000032.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-15T20:10:00+00:00",
+          "materiality_score": 21,
+          "catalyst": "Applied Optoelectronics Announces Date of Third Quarter 2026 Financial Results Conference Call",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Applied Optoelectronics Announces Date of Third Quarter 2026 Financial Results Conference Call",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-announces-date-third-201000032.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "AAOI",
+          "company": "Applied Optoelectronics",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Applied Optoelectronics Is Up 175% in 2026 and Lumentum Is Up 164%: Take Profits, or Hold On for the Ride?",
+          "representative_link": "https://247wallst.com/investing/2026/10/13/applied-optoelectronics-is-up-175-in-2026-and-lumentum-is-up-164-take-profits-or-hold-on-for-the-ride/?.tsrc=rss",
+          "source_domain": "247wallst.com",
+          "source_quality_label": "Speculative",
+          "cluster_size": 1,
+          "latest_published": "2026-10-13T19:10:47+00:00",
+          "materiality_score": 17,
+          "catalyst": "Applied Optoelectronics Is Up 175% in 2026 and Lumentum Is Up 164%: Take Profits, or Hold On for the Ride?",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Applied Optoelectronics Is Up 175% in 2026 and Lumentum Is Up 164%: Take Profits, or Hold On for the Ride?",
+              "link": "https://247wallst.com/investing/2026/10/13/applied-optoelectronics-is-up-175-in-2026-and-lumentum-is-up-164-take-profits-or-hold-on-for-the-ride/?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "247wallst.com"
+            }
+          ]
+        }
+      ],
+      "score": 23
+    },
+    {
+      "ticker": "HLIT",
+      "company": "Harmonic",
+      "overview": "Earnings coverage is mixed; top signal is 'Harmonic (HLIT) Q2 2026 Earnings Call Transcript'.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "General",
+          "count": 3
+        },
+        {
+          "label": "Product",
+          "count": 2
+        },
+        {
+          "label": "Earnings",
+          "count": 1
+        },
+        {
+          "label": "Regulation",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Harmonic (HLIT) Q2 2026 Earnings Call Transcript",
+        "Comcast-Backed Recon Fiber Monitoring Launch Could Be A Game Changer For Harmonic (HLIT)",
+        "Cablenet Selects Harmonic's cOS Broadband Platform to Deliver Multi-Gigabit Speeds in Cyprus"
+      ],
+      "risks": [
+        "Harmonic Security Raises $50 Million Series B, Enabling Safe AI Adoption for Millions More Employees"
+      ],
+      "top_clusters": [
+        {
+          "ticker": "HLIT",
+          "company": "Harmonic",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Harmonic (HLIT) Q2 2026 Earnings Call Transcript",
+          "representative_link": "https://www.fool.com/earnings/call-transcripts/2026/08/19/harmonic-hlit-q2-2026-earnings-call-transcript/?.tsrc=rss",
+          "source_domain": "fool.com",
+          "source_quality_label": "Secondary",
+          "cluster_size": 1,
+          "latest_published": "2026-08-20T00:00:04+00:00",
+          "materiality_score": 22,
+          "catalyst": "Harmonic (HLIT) Q2 2026 Earnings Call Transcript",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Harmonic (HLIT) Q2 2026 Earnings Call Transcript",
+              "link": "https://www.fool.com/earnings/call-transcripts/2026/08/19/harmonic-hlit-q2-2026-earnings-call-transcript/?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "fool.com"
+            }
+          ]
+        },
+        {
+          "ticker": "HLIT",
+          "company": "Harmonic",
+          "event_type": "regulation",
+          "event_label": "Regulation",
+          "impact": "neutral",
+          "representative_title": "Harmonic Security Raises $50 Million Series B, Enabling Safe AI Adoption for Millions More Employees",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/harmonic-security-raises-50-million-120000341.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-14T12:00:00+00:00",
+          "materiality_score": 22,
+          "catalyst": "",
+          "risk": "Harmonic Security Raises $50 Million Series B, Enabling Safe AI Adoption for Millions More Employees",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "Harmonic Security Raises $50 Million Series B, Enabling Safe AI Adoption for Millions More Employees",
+              "link": "https://finance.yahoo.com/technology/ai/articles/harmonic-security-raises-50-million-120000341.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "HLIT",
+          "company": "Harmonic",
+          "event_type": "general",
+          "event_label": "General",
+          "impact": "neutral",
+          "representative_title": "Harmonic (HLIT) Bets On AI Intelligence To Reshape Broadband Operations",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/harmonic-hlit-bets-ai-intelligence-061948291.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 2,
+          "latest_published": "2026-09-15T06:19:48+00:00",
+          "materiality_score": 21,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure",
+            "Optical and photonics"
+          ],
+          "sources": [
+            {
+              "title": "Harmonic (HLIT) Bets On AI Intelligence To Reshape Broadband Operations",
+              "link": "https://finance.yahoo.com/technology/ai/articles/harmonic-hlit-bets-ai-intelligence-061948291.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            },
+            {
+              "title": "Harmonic Unveils cOS SensAI Intelligence Fabric for Broadband Operations",
+              "link": "https://finance.yahoo.com/technology/ai/articles/harmonic-unveils-cos-sensai-intelligence-120000470.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 22
+    },
+    {
+      "ticker": "SMCI",
+      "company": "Super Micro Computer",
+      "overview": "Macro coverage is mixed; top signal is 'Super Micro Computer (SMCI) Suffers a Larger Drop Than the General Market: Key Insights'.",
+      "dominant_event": "Macro",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "Product",
+          "count": 2
+        },
+        {
+          "label": "General",
+          "count": 2
+        },
+        {
+          "label": "Macro",
+          "count": 1
+        },
+        {
+          "label": "Management",
+          "count": 1
+        },
+        {
+          "label": "Customer",
+          "count": 1
+        },
+        {
+          "label": "Earnings",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Taiwan to curb AI chip sales to China for more U.S. alignment- Bloomberg",
+        "3 AI Semiconductor Stocks Riding The Chip Supply Squeeze",
+        "Digi Power X pairs owned power infrastructure with Supermicro GPUs to serve enterprise AI customers"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "SMCI",
+          "company": "Super Micro Computer",
+          "event_type": "macro",
+          "event_label": "Macro",
+          "impact": "neutral",
+          "representative_title": "Super Micro Computer (SMCI) Suffers a Larger Drop Than the General Market: Key Insights",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/super-micro-computer-smci-suffers-204505640.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-13T20:45:05+00:00",
+          "materiality_score": 20,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "Super Micro Computer (SMCI) Suffers a Larger Drop Than the General Market: Key Insights",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/super-micro-computer-smci-suffers-204505640.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "SMCI",
+          "company": "Super Micro Computer",
+          "event_type": "management",
+          "event_label": "Management",
+          "impact": "neutral",
+          "representative_title": "SMCI taps former Western Digital CFO as new finance boss; shares tumble",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/smci-taps-former-western-digital-140635667.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-15T14:06:35+00:00",
+          "materiality_score": 17,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "SMCI taps former Western Digital CFO as new finance boss; shares tumble",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/smci-taps-former-western-digital-140635667.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "SMCI",
+          "company": "Super Micro Computer",
+          "event_type": "product",
+          "event_label": "Product",
+          "impact": "positive",
+          "representative_title": "Taiwan to curb AI chip sales to China for more U.S. alignment- Bloomberg",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/taiwan-curb-ai-chip-sales-063544454.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-16T06:35:44+00:00",
+          "materiality_score": 17,
+          "catalyst": "Taiwan to curb AI chip sales to China for more U.S. alignment- Bloomberg",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure",
+            "Semiconductor supply chain"
+          ],
+          "sources": [
+            {
+              "title": "Taiwan to curb AI chip sales to China for more U.S. alignment- Bloomberg",
+              "link": "https://finance.yahoo.com/technology/ai/articles/taiwan-curb-ai-chip-sales-063544454.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 20
+    },
+    {
+      "ticker": "SHMD",
+      "company": "SCHMID Group",
+      "overview": "Regulation coverage is mixed; top signal is 'SCHMID Group Secures Repeat Order Exceeding EUR 37 Million for Advanced HDI-ML and mSAP Equipment'.",
+      "dominant_event": "Regulation",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "Earnings",
+          "count": 5
+        },
+        {
+          "label": "Regulation",
+          "count": 1
+        },
+        {
+          "label": "Customer",
+          "count": 1
+        },
+        {
+          "label": "Financing",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "SCHMID (SHMD) Nearly Tripled Revenue but Cut its Adjusted EBITDA Margin Outlook. Is China Growth Too Low-Margin?",
+        "SCHMID Group Maintains \u20ac100M-Plus Revenue Target but Cuts 2026 Margin Outlook",
+        "SCHMID Group N.V. reports H1 2026 Financial Results and Updates Full-Year 2026 Guidance"
+      ],
+      "risks": [
+        "SCHMID Group Secures Repeat Order Exceeding EUR 37 Million for Advanced HDI-ML and mSAP Equipment",
+        "SCHMID Group N.V. announces a USD 20 million convertible notes financing"
+      ],
+      "top_clusters": [
+        {
+          "ticker": "SHMD",
+          "company": "SCHMID Group",
+          "event_type": "regulation",
+          "event_label": "Regulation",
+          "impact": "neutral",
+          "representative_title": "SCHMID Group Secures Repeat Order Exceeding EUR 37 Million for Advanced HDI-ML and mSAP Equipment",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/schmid-group-secures-repeat-order-213100785.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-07-07T21:31:00+00:00",
+          "materiality_score": 20,
+          "catalyst": "",
+          "risk": "SCHMID Group Secures Repeat Order Exceeding EUR 37 Million for Advanced HDI-ML and mSAP Equipment",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "SCHMID Group Secures Repeat Order Exceeding EUR 37 Million for Advanced HDI-ML and mSAP Equipment",
+              "link": "https://finance.yahoo.com/technology/ai/articles/schmid-group-secures-repeat-order-213100785.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "SHMD",
+          "company": "SCHMID Group",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "positive",
+          "representative_title": "SCHMID (SHMD) Nearly Tripled Revenue but Cut its Adjusted EBITDA Margin Outlook. Is China Growth Too Low-Margin?",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/schmid-shmd-nearly-tripled-revenue-224914917.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-08-27T22:49:14+00:00",
+          "materiality_score": 20,
+          "catalyst": "SCHMID (SHMD) Nearly Tripled Revenue but Cut its Adjusted EBITDA Margin Outlook. Is China Growth Too Low-Margin?",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "SCHMID (SHMD) Nearly Tripled Revenue but Cut its Adjusted EBITDA Margin Outlook. Is China Growth Too Low-Margin?",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/schmid-shmd-nearly-tripled-revenue-224914917.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "SHMD",
+          "company": "SCHMID Group",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "SCHMID Group Maintains \u20ac100M-Plus Revenue Target but Cuts 2026 Margin Outlook",
+          "representative_link": "https://investorshub.advfn.com/market-news/article/35010/schmid-group-maintains-e100m-plus-revenue-target-but-cuts-2026-margin-outlook?.tsrc=rss",
+          "source_domain": "investorshub.advfn.com",
+          "source_quality_label": "Secondary",
+          "cluster_size": 1,
+          "latest_published": "2026-08-25T13:41:57+00:00",
+          "materiality_score": 19,
+          "catalyst": "SCHMID Group Maintains \u20ac100M-Plus Revenue Target but Cuts 2026 Margin Outlook",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "SCHMID Group Maintains \u20ac100M-Plus Revenue Target but Cuts 2026 Margin Outlook",
+              "link": "https://investorshub.advfn.com/market-news/article/35010/schmid-group-maintains-e100m-plus-revenue-target-but-cuts-2026-margin-outlook?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "investorshub.advfn.com"
+            }
+          ]
+        }
+      ],
+      "score": 20
+    },
+    {
+      "ticker": "M7U",
+      "company": "Nynomic",
+      "overview": "Management coverage leans cautious; top signal is 'Nynomic (ETR:M7U) shareholders have endured a 72% loss from investing in the stock three years ago'.",
+      "dominant_event": "Management",
+      "decision_relevance": "Medium",
+      "event_counts": [
+        {
+          "label": "Management",
+          "count": 1
+        },
+        {
+          "label": "General",
+          "count": 1
+        }
+      ],
+      "catalysts": [],
+      "risks": [
+        "Nynomic (ETR:M7U) shareholders have endured a 72% loss from investing in the stock three years ago"
+      ],
+      "top_clusters": [
+        {
+          "ticker": "M7U",
+          "company": "Nynomic",
+          "event_type": "management",
+          "event_label": "Management",
+          "impact": "negative",
+          "representative_title": "Nynomic (ETR:M7U) shareholders have endured a 72% loss from investing in the stock three years ago",
+          "representative_link": "https://finance.yahoo.com/news/nynomic-etr-m7u-shareholders-endured-043926757.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2025-11-26T04:39:26+00:00",
+          "materiality_score": 19,
+          "catalyst": "",
+          "risk": "Nynomic (ETR:M7U) shareholders have endured a 72% loss from investing in the stock three years ago",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Nynomic (ETR:M7U) shareholders have endured a 72% loss from investing in the stock three years ago",
+              "link": "https://finance.yahoo.com/news/nynomic-etr-m7u-shareholders-endured-043926757.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "M7U",
+          "company": "Nynomic",
+          "event_type": "general",
+          "event_label": "General",
+          "impact": "neutral",
+          "representative_title": "Nynomic AG (ETR:M7U) Shares Could Be 49% Below Their Intrinsic Value Estimate",
+          "representative_link": "https://finance.yahoo.com/news/nynomic-ag-etr-m7u-shares-042321335.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2025-10-27T04:23:21+00:00",
+          "materiality_score": 17,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [
+            "Power and grid"
+          ],
+          "sources": [
+            {
+              "title": "Nynomic AG (ETR:M7U) Shares Could Be 49% Below Their Intrinsic Value Estimate",
+              "link": "https://finance.yahoo.com/news/nynomic-ag-etr-m7u-shares-042321335.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 19
+    },
+    {
+      "ticker": "LPK",
+      "company": "LPKF Laser & Electronics",
+      "overview": "Earnings coverage is mixed; top signal is 'Aeon (TSE:8267) Could Be 19% Below Fair Value On Earnings And Dividend Reset'.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "Medium",
+      "event_counts": [
+        {
+          "label": "Earnings",
+          "count": 2
+        },
+        {
+          "label": "General",
+          "count": 2
+        },
+        {
+          "label": "Guidance",
+          "count": 1
+        },
+        {
+          "label": "Partnership",
+          "count": 1
+        },
+        {
+          "label": "Financing",
+          "count": 1
+        },
+        {
+          "label": "Macro",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Aeon (TSE:8267) Could Be 19% Below Fair Value On Earnings And Dividend Reset",
+        "Avanza profit misses estimates as weaker trading offsets growth in fund income",
+        "Why OSG (TSE:6136) Is Up 5.6% After Boosting Guidance, Dividend, And Launching Share Buyback"
+      ],
+      "risks": [
+        "1470350 B.C. LTD. CLOSES C$16.5 MILLION SUBSCRIPTION RECEIPT FINANCING AS PART OF C$20 MILLION FINANCING PACKAGE IN CONNECTION WITH PROPOSED BUSINESS COMBINATION WITH ORIOR METALS CORP."
+      ],
+      "top_clusters": [
+        {
+          "ticker": "LPK",
+          "company": "LPKF Laser & Electronics",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Aeon (TSE:8267) Could Be 19% Below Fair Value On Earnings And Dividend Reset",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/aeon-tse-8267-could-19-181507745.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-15T18:15:07+00:00",
+          "materiality_score": 18,
+          "catalyst": "Aeon (TSE:8267) Could Be 19% Below Fair Value On Earnings And Dividend Reset",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "Aeon (TSE:8267) Could Be 19% Below Fair Value On Earnings And Dividend Reset",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/aeon-tse-8267-could-19-181507745.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "LPK",
+          "company": "LPKF Laser & Electronics",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Avanza profit misses estimates as weaker trading offsets growth in fund income",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/avanza-profit-misses-estimates-weaker-065032188.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-16T06:50:32+00:00",
+          "materiality_score": 17,
+          "catalyst": "Avanza profit misses estimates as weaker trading offsets growth in fund income",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Avanza profit misses estimates as weaker trading offsets growth in fund income",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/avanza-profit-misses-estimates-weaker-065032188.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "LPK",
+          "company": "LPKF Laser & Electronics",
+          "event_type": "guidance",
+          "event_label": "Guidance",
+          "impact": "positive",
+          "representative_title": "Why OSG (TSE:6136) Is Up 5.6% After Boosting Guidance, Dividend, And Launching Share Buyback",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/why-osg-tse-6136-5-221449470.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-14T22:14:49+00:00",
+          "materiality_score": 16,
+          "catalyst": "Why OSG (TSE:6136) Is Up 5.6% After Boosting Guidance, Dividend, And Launching Share Buyback",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Why OSG (TSE:6136) Is Up 5.6% After Boosting Guidance, Dividend, And Launching Share Buyback",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/why-osg-tse-6136-5-221449470.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 18
+    },
+    {
+      "ticker": "SMSN",
+      "company": "Samsung Electronics GDR",
+      "overview": "Regulation coverage leans cautious; top signal is 'AI Stocks Are Hurting. Look at These Other Sectors for Protection.'.",
+      "dominant_event": "Regulation",
+      "decision_relevance": "Medium",
+      "event_counts": [
+        {
+          "label": "General",
+          "count": 5
+        },
+        {
+          "label": "Regulation",
+          "count": 1
+        },
+        {
+          "label": "Analyst",
+          "count": 1
+        },
+        {
+          "label": "Customer",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Nvidia's key chip supplier has a surprising warning for customers",
+        "Samsung\u2019s AI glasses make a bold bet against Meta"
+      ],
+      "risks": [
+        "AI Stocks Are Hurting. Look at These Other Sectors for Protection.",
+        "Stocks rebound after tech sell-off and Indonesia shares sink on market downgrade warning"
+      ],
+      "top_clusters": [
+        {
+          "ticker": "SMSN",
+          "company": "Samsung Electronics GDR",
+          "event_type": "regulation",
+          "event_label": "Regulation",
+          "impact": "negative",
+          "representative_title": "AI Stocks Are Hurting. Look at These Other Sectors for Protection.",
+          "representative_link": "https://finance.yahoo.com/m/ae1cf62e-30be-3112-9ec5-4181307e9b31/ai-stocks-are-hurting.-look.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-15T20:13:00+00:00",
+          "materiality_score": 17,
+          "catalyst": "",
+          "risk": "AI Stocks Are Hurting. Look at These Other Sectors for Protection.",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "AI Stocks Are Hurting. Look at These Other Sectors for Protection.",
+              "link": "https://finance.yahoo.com/m/ae1cf62e-30be-3112-9ec5-4181307e9b31/ai-stocks-are-hurting.-look.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "SMSN",
+          "company": "Samsung Electronics GDR",
+          "event_type": "general",
+          "event_label": "General",
+          "impact": "neutral",
+          "representative_title": "Memory & Neocloud Panic: Time to Buy?",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/memory-neocloud-panic-time-buy-181200210.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-15T18:12:00+00:00",
+          "materiality_score": 13,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [
+            "Enterprise software"
+          ],
+          "sources": [
+            {
+              "title": "Memory & Neocloud Panic: Time to Buy?",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/memory-neocloud-panic-time-buy-181200210.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "SMSN",
+          "company": "Samsung Electronics GDR",
+          "event_type": "analyst",
+          "event_label": "Analyst",
+          "impact": "negative",
+          "representative_title": "Stocks rebound after tech sell-off and Indonesia shares sink on market downgrade warning",
+          "representative_link": "https://finance.yahoo.com/markets/world-indices/articles/stocks-rebound-tech-sell-off-060817081.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-16T06:08:17+00:00",
+          "materiality_score": 13,
+          "catalyst": "",
+          "risk": "Stocks rebound after tech sell-off and Indonesia shares sink on market downgrade warning",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Stocks rebound after tech sell-off and Indonesia shares sink on market downgrade warning",
+              "link": "https://finance.yahoo.com/markets/world-indices/articles/stocks-rebound-tech-sell-off-060817081.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 17
+    }
+  ],
+  "signal_board": [
+    {
+      "ticker": "NOW",
+      "company": "ServiceNow",
+      "overview": "Earnings coverage is mixed; top signal is 'Salesforce vs. ServiceNow: Here's What Revenue Trends Tell Investors About These Software Giants and Their Move to AI' with corroborating variants.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "General",
+          "count": 5
+        },
+        {
+          "label": "Earnings",
+          "count": 1
+        },
+        {
+          "label": "Product",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Salesforce vs. ServiceNow: Here's What Revenue Trends Tell Investors About These Software Giants and Their Move to AI",
+        "ServiceNow (NOW) Unveils EmployeeWorks AI Platform",
+        "Better High-Growth Software Stock for 2026: Figma vs. ServiceNow"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "NOW",
+          "company": "ServiceNow",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Salesforce vs. ServiceNow: Here's What Revenue Trends Tell Investors About These Software Giants and Their Move to AI",
+          "representative_link": "https://www.fool.com/coverage/charts/2026/10/15/salesforce-vs-servicenow-here-s-what-revenue-trends-tell-investors-about-these-software-giants-and-their-move-to-ai/?.tsrc=rss",
+          "source_domain": "fool.com",
+          "source_quality_label": "Secondary",
+          "cluster_size": 2,
+          "latest_published": "2026-10-16T06:53:07+00:00",
+          "materiality_score": 31,
+          "catalyst": "Salesforce vs. ServiceNow: Here's What Revenue Trends Tell Investors About These Software Giants and Their Move to AI",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure",
+            "Enterprise software"
+          ],
+          "sources": [
+            {
+              "title": "Salesforce vs. ServiceNow: Here's What Revenue Trends Tell Investors About These Software Giants and Their Move to AI",
+              "link": "https://www.fool.com/coverage/charts/2026/10/15/salesforce-vs-servicenow-here-s-what-revenue-trends-tell-investors-about-these-software-giants-and-their-move-to-ai/?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "fool.com"
+            },
+            {
+              "title": "CrowdStrike vs. ServiceNow: Comparing Revenue Trends Between These Growing Software Giants",
+              "link": "https://www.fool.com/coverage/charts/2026/10/16/crowdstrike-vs-servicenow-comparing-revenue-trends-between-these-growing-software-giants/?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "fool.com"
+            }
+          ]
+        },
+        {
+          "ticker": "NOW",
+          "company": "ServiceNow",
+          "event_type": "product",
+          "event_label": "Product",
+          "impact": "positive",
+          "representative_title": "ServiceNow (NOW) Unveils EmployeeWorks AI Platform",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/servicenow-now-unveils-employeeworks-ai-171202458.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-15T17:12:02+00:00",
+          "materiality_score": 26,
+          "catalyst": "ServiceNow (NOW) Unveils EmployeeWorks AI Platform",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "ServiceNow (NOW) Unveils EmployeeWorks AI Platform",
+              "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-now-unveils-employeeworks-ai-171202458.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "NOW",
+          "company": "ServiceNow",
+          "event_type": "general",
+          "event_label": "General",
+          "impact": "neutral",
+          "representative_title": "ServiceNow advances its operational harness for enterprise AI with AI Passport and expanded governance capabilities",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/servicenow-advances-operational-harness-enterprise-130000571.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-15T13:00:00+00:00",
+          "materiality_score": 25,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure",
+            "Enterprise software"
+          ],
+          "sources": [
+            {
+              "title": "ServiceNow advances its operational harness for enterprise AI with AI Passport and expanded governance capabilities",
+              "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-advances-operational-harness-enterprise-130000571.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 31
+    },
+    {
+      "ticker": "AMPX",
+      "company": "Amprius Technologies",
+      "overview": "Earnings coverage leans constructive; top signal is 'Amprius Technologies Inc (AMPX) (Q2 2026) Earnings Call Highlights: Record Revenue and Raised ...' with corroborating variants.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "Earnings",
+          "count": 2
+        },
+        {
+          "label": "General",
+          "count": 2
+        },
+        {
+          "label": "Regulation",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Amprius Technologies Inc (AMPX) (Q2 2026) Earnings Call Highlights: Record Revenue and Raised ...",
+        "AMPX Q2 Earnings Call Highlights Higher Guidance and Drone Demand"
+      ],
+      "risks": [
+        "Amprius Technologies Shares Rise 11% After Securing Up to $75 Million Defense Grant"
+      ],
+      "top_clusters": [
+        {
+          "ticker": "AMPX",
+          "company": "Amprius Technologies",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "positive",
+          "representative_title": "Amprius Technologies Inc (AMPX) (Q2 2026) Earnings Call Highlights: Record Revenue and Raised ...",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/amprius-technologies-inc-ampx-q2-210251235.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 4,
+          "latest_published": "2026-08-12T02:14:44+00:00",
+          "materiality_score": 29,
+          "catalyst": "Amprius Technologies Inc (AMPX) (Q2 2026) Earnings Call Highlights: Record Revenue and Raised ...",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "Amprius Technologies Inc (AMPX) (Q2 2026) Earnings Call Highlights: Record Revenue and Raised ...",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/amprius-technologies-inc-ampx-q2-210251235.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            },
+            {
+              "title": "Amprius Technologies (AMPX) Reports Q2 Loss, Beats Revenue Estimates",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/amprius-technologies-ampx-reports-q2-230004082.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            },
+            {
+              "title": "Amprius (AMPX) Q2 2026 Earnings Call Transcript",
+              "link": "https://www.fool.com/earnings/call-transcripts/2026/08/11/amprius-ampx-q2-2026-earnings-call-transcript/?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "fool.com"
+            },
+            {
+              "title": "Amprius Technologies Q2 Earnings Call Highlights",
+              "link": "https://www.marketbeat.com/instant-alerts/amprius-technologies-q2-earnings-call-highlights-2026-08-05/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "marketbeat.com"
+            }
+          ]
+        },
+        {
+          "ticker": "AMPX",
+          "company": "Amprius Technologies",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "positive",
+          "representative_title": "AMPX Q2 Earnings Call Highlights Higher Guidance and Drone Demand",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/ampx-q2-earnings-call-highlights-140000411.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-08-07T14:00:00+00:00",
+          "materiality_score": 20,
+          "catalyst": "AMPX Q2 Earnings Call Highlights Higher Guidance and Drone Demand",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "AMPX Q2 Earnings Call Highlights Higher Guidance and Drone Demand",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/ampx-q2-earnings-call-highlights-140000411.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "AMPX",
+          "company": "Amprius Technologies",
+          "event_type": "general",
+          "event_label": "General",
+          "impact": "neutral",
+          "representative_title": "Amprius Technologies (AMPX) Files Shelf Registration, Is The Stock Still 61% Undervalued?",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/amprius-technologies-ampx-files-shelf-021126031.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-14T02:11:26+00:00",
+          "materiality_score": 19,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Amprius Technologies (AMPX) Files Shelf Registration, Is The Stock Still 61% Undervalued?",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/amprius-technologies-ampx-files-shelf-021126031.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 29
+    },
+    {
+      "ticker": "PENG",
+      "company": "Penguin Solutions",
+      "overview": "Earnings coverage leans constructive; top signal is 'Is Penguin Solutions (PENG) Undervalued After Its Earnings Beat And 2027 Outlook Raise?' with corroborating variants.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "Earnings",
+          "count": 3
+        },
+        {
+          "label": "Product",
+          "count": 2
+        }
+      ],
+      "catalysts": [
+        "Is Penguin Solutions (PENG) Undervalued After Its Earnings Beat And 2027 Outlook Raise?",
+        "Surging Earnings Estimates Signal Upside for Penguin Solutions, Inc. (PENG) Stock",
+        "The Top 5 Analyst Questions From Penguin Solutions\u2019s Q3 Earnings Call"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "PENG",
+          "company": "Penguin Solutions",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "positive",
+          "representative_title": "Is Penguin Solutions (PENG) Undervalued After Its Earnings Beat And 2027 Outlook Raise?",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/penguin-solutions-peng-undervalued-earnings-231808120.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 3,
+          "latest_published": "2026-10-07T23:18:08+00:00",
+          "materiality_score": 29,
+          "catalyst": "Is Penguin Solutions (PENG) Undervalued After Its Earnings Beat And 2027 Outlook Raise?",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "Is Penguin Solutions (PENG) Undervalued After Its Earnings Beat And 2027 Outlook Raise?",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/penguin-solutions-peng-undervalued-earnings-231808120.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            },
+            {
+              "title": "Penguin Solutions (PENG) Flies 13% on Stellar Earnings, FY Outlook",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/penguin-solutions-peng-flies-13-224051948.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            },
+            {
+              "title": "Penguin Solutions (PENG) Q4 2026 Earnings Call Transcript",
+              "link": "https://www.fool.com/earnings/call-transcripts/2026/10/07/penguin-solutions-peng-q4-2026-earnings-call-transcript/?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "fool.com"
+            }
+          ]
+        },
+        {
+          "ticker": "PENG",
+          "company": "Penguin Solutions",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Surging Earnings Estimates Signal Upside for Penguin Solutions, Inc. (PENG) Stock",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/surging-earnings-estimates-signal-upside-152002196.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-12T15:20:02+00:00",
+          "materiality_score": 26,
+          "catalyst": "Surging Earnings Estimates Signal Upside for Penguin Solutions, Inc. (PENG) Stock",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Surging Earnings Estimates Signal Upside for Penguin Solutions, Inc. (PENG) Stock",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/surging-earnings-estimates-signal-upside-152002196.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "PENG",
+          "company": "Penguin Solutions",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "The Top 5 Analyst Questions From Penguin Solutions\u2019s Q3 Earnings Call",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/top-5-analyst-questions-penguin-073609114.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-08T07:36:09+00:00",
+          "materiality_score": 25,
+          "catalyst": "The Top 5 Analyst Questions From Penguin Solutions\u2019s Q3 Earnings Call",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "The Top 5 Analyst Questions From Penguin Solutions\u2019s Q3 Earnings Call",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/top-5-analyst-questions-penguin-073609114.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 29
+    },
+    {
+      "ticker": "AMBA",
+      "company": "Ambarella",
+      "overview": "Earnings coverage is mixed; top signal is 'Ambarella (AMBA) Grew 2Q Revenue 13.2% and Signed 7-Year Channel Agreements. Can Edge-AI Scale Reverse Margin Compression?'.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "General",
+          "count": 3
+        },
+        {
+          "label": "Product",
+          "count": 2
+        },
+        {
+          "label": "Earnings",
+          "count": 1
+        },
+        {
+          "label": "Partnership",
+          "count": 1
+        },
+        {
+          "label": "Regulation",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Ambarella (AMBA) Grew 2Q Revenue 13.2% and Signed 7-Year Channel Agreements. Can Edge-AI Scale Reverse Margin Compression?",
+        "Ambarella (AMBA) Could Be 23% Undervalued After Its Edge AI Partnerships",
+        "Is Ambarella (AMBA) Quietly Turning Its AI SoC Footprint Into A Strategic Cloud Platform?"
+      ],
+      "risks": [
+        "Ambarella CEO Sees Edge AI Growth Across Security, Autos and Wearables"
+      ],
+      "top_clusters": [
+        {
+          "ticker": "AMBA",
+          "company": "Ambarella",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Ambarella (AMBA) Grew 2Q Revenue 13.2% and Signed 7-Year Channel Agreements. Can Edge-AI Scale Reverse Margin Compression?",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/ambarella-amba-grew-2q-revenue-231537538.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-09-04T23:15:37+00:00",
+          "materiality_score": 28,
+          "catalyst": "Ambarella (AMBA) Grew 2Q Revenue 13.2% and Signed 7-Year Channel Agreements. Can Edge-AI Scale Reverse Margin Compression?",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "Ambarella (AMBA) Grew 2Q Revenue 13.2% and Signed 7-Year Channel Agreements. Can Edge-AI Scale Reverse Margin Compression?",
+              "link": "https://finance.yahoo.com/technology/ai/articles/ambarella-amba-grew-2q-revenue-231537538.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "AMBA",
+          "company": "Ambarella",
+          "event_type": "partnership",
+          "event_label": "Partnership",
+          "impact": "positive",
+          "representative_title": "Ambarella (AMBA) Could Be 23% Undervalued After Its Edge AI Partnerships",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/ambarella-amba-could-23-undervalued-161505085.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-09-22T16:15:05+00:00",
+          "materiality_score": 23,
+          "catalyst": "Ambarella (AMBA) Could Be 23% Undervalued After Its Edge AI Partnerships",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure"
+          ],
+          "sources": [
+            {
+              "title": "Ambarella (AMBA) Could Be 23% Undervalued After Its Edge AI Partnerships",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/ambarella-amba-could-23-undervalued-161505085.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "AMBA",
+          "company": "Ambarella",
+          "event_type": "product",
+          "event_label": "Product",
+          "impact": "positive",
+          "representative_title": "Is Ambarella (AMBA) Quietly Turning Its AI SoC Footprint Into A Strategic Cloud Platform?",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/ambarella-amba-quietly-turning-ai-082000255.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-09-22T08:20:00+00:00",
+          "materiality_score": 22,
+          "catalyst": "Is Ambarella (AMBA) Quietly Turning Its AI SoC Footprint Into A Strategic Cloud Platform?",
+          "risk": "",
+          "theme_tags": [
+            "AI infrastructure",
+            "Enterprise software"
+          ],
+          "sources": [
+            {
+              "title": "Is Ambarella (AMBA) Quietly Turning Its AI SoC Footprint Into A Strategic Cloud Platform?",
+              "link": "https://finance.yahoo.com/technology/ai/articles/ambarella-amba-quietly-turning-ai-082000255.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 28
+    },
+    {
+      "ticker": "CPSH",
+      "company": "CPS Technologies",
+      "overview": "Earnings coverage leans constructive; top signal is 'CPS Technologies Corp (CPSH) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic ...' with corroborating variants.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "Earnings",
+          "count": 3
+        },
+        {
+          "label": "Regulation",
+          "count": 1
+        },
+        {
+          "label": "General",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "CPS Technologies Corp (CPSH) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic ...",
+        "CPS Technologies Announces Second Quarter 2026 Financial Results",
+        "CPS Technologies Schedules Its Q2 Earnings Call"
+      ],
+      "risks": [
+        "CPS Technologies Secures Initial Defense Order for Tungsten Components"
+      ],
+      "top_clusters": [
+        {
+          "ticker": "CPSH",
+          "company": "CPS Technologies",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "positive",
+          "representative_title": "CPS Technologies Corp (CPSH) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic ...",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/cps-technologies-corp-cpsh-q2-010513160.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 4,
+          "latest_published": "2026-08-07T01:05:13+00:00",
+          "materiality_score": 28,
+          "catalyst": "CPS Technologies Corp (CPSH) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic ...",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "CPS Technologies Corp (CPSH) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic ...",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/cps-technologies-corp-cpsh-q2-010513160.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            },
+            {
+              "title": "CPS Technologies Q1 Earnings Call Highlights",
+              "link": "https://www.marketbeat.com/instant-alerts/cps-technologies-q1-earnings-call-highlights-2026-05-05/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "marketbeat.com"
+            },
+            {
+              "title": "CPS Technologies Q2 Earnings Call Highlights",
+              "link": "https://www.marketbeat.com/instant-alerts/cps-technologies-q2-earnings-call-highlights-2026-08-05/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "marketbeat.com"
+            },
+            {
+              "title": "CPS Technologies Corporation Q2 2026 Earnings Call Summary",
+              "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-cps-technologies-corporation-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "app.moby.co"
+            }
+          ]
+        },
+        {
+          "ticker": "CPSH",
+          "company": "CPS Technologies",
+          "event_type": "regulation",
+          "event_label": "Regulation",
+          "impact": "neutral",
+          "representative_title": "CPS Technologies Secures Initial Defense Order for Tungsten Components",
+          "representative_link": "https://finance.yahoo.com/technology/articles/cps-technologies-secures-initial-defense-120000061.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-08-31T12:00:00+00:00",
+          "materiality_score": 20,
+          "catalyst": "",
+          "risk": "CPS Technologies Secures Initial Defense Order for Tungsten Components",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "CPS Technologies Secures Initial Defense Order for Tungsten Components",
+              "link": "https://finance.yahoo.com/technology/articles/cps-technologies-secures-initial-defense-120000061.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "CPSH",
+          "company": "CPS Technologies",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "CPS Technologies Announces Second Quarter 2026 Financial Results",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/cps-technologies-announces-second-quarter-203000896.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-08-04T20:30:00+00:00",
+          "materiality_score": 19,
+          "catalyst": "CPS Technologies Announces Second Quarter 2026 Financial Results",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "CPS Technologies Announces Second Quarter 2026 Financial Results",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/cps-technologies-announces-second-quarter-203000896.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 28
+    },
+    {
+      "ticker": "ADEA",
+      "company": "Adeia",
+      "overview": "Earnings coverage is mixed; top signal is 'Adeia Inc (ADEA) (Q2 2026) Earnings Call Highlights: Revenue Hits $96. ...' with corroborating variants.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "General",
+          "count": 2
+        },
+        {
+          "label": "Earnings",
+          "count": 1
+        },
+        {
+          "label": "Partnership",
+          "count": 1
+        },
+        {
+          "label": "Customer",
+          "count": 1
+        },
+        {
+          "label": "Management",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Adeia Inc (ADEA) (Q2 2026) Earnings Call Highlights: Revenue Hits $96. ...",
+        "Adeia Renews IP License Agreement with Spectrum",
+        "Adeia Recognized with Two Asia Pacific Business Awards Honoring Regional Innovation and Leadership"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "ADEA",
+          "company": "Adeia",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Adeia Inc (ADEA) (Q2 2026) Earnings Call Highlights: Revenue Hits $96. ...",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/adeia-inc-adea-q2-2026-050634400.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 3,
+          "latest_published": "2026-08-11T01:58:35+00:00",
+          "materiality_score": 27,
+          "catalyst": "Adeia Inc (ADEA) (Q2 2026) Earnings Call Highlights: Revenue Hits $96. ...",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Adeia Inc (ADEA) (Q2 2026) Earnings Call Highlights: Revenue Hits $96. ...",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/adeia-inc-adea-q2-2026-050634400.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            },
+            {
+              "title": "Adeia (ADEA) Q2 2026 Earnings Call Transcript",
+              "link": "https://www.fool.com/earnings/call-transcripts/2026/08/10/adeia-adea-q2-2026-earnings-call-transcript/?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "fool.com"
+            },
+            {
+              "title": "Adeia Inc. Q2 2026 Earnings Call Summary",
+              "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-adeia-inc-q2-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "app.moby.co"
+            }
+          ]
+        },
+        {
+          "ticker": "ADEA",
+          "company": "Adeia",
+          "event_type": "general",
+          "event_label": "General",
+          "impact": "neutral",
+          "representative_title": "Why Adeia (ADEA) Is Back In The Spotlight",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/why-adeia-adea-back-spotlight-043036247.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-16T04:30:36+00:00",
+          "materiality_score": 20,
+          "catalyst": "",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Why Adeia (ADEA) Is Back In The Spotlight",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/why-adeia-adea-back-spotlight-043036247.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "ADEA",
+          "company": "Adeia",
+          "event_type": "partnership",
+          "event_label": "Partnership",
+          "impact": "positive",
+          "representative_title": "Adeia Renews IP License Agreement with Spectrum",
+          "representative_link": "https://finance.yahoo.com/media-advertising/articles/adeia-renews-ip-license-agreement-200500776.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-05T20:05:00+00:00",
+          "materiality_score": 18,
+          "catalyst": "Adeia Renews IP License Agreement with Spectrum",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Adeia Renews IP License Agreement with Spectrum",
+              "link": "https://finance.yahoo.com/media-advertising/articles/adeia-renews-ip-license-agreement-200500776.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 27
+    },
+    {
+      "ticker": "OUST",
+      "company": "Ouster",
+      "overview": "Partnership coverage leans constructive; top signal is 'Is Ouster (OUST) Using Drone Lidar Partnerships To Quietly Redefine Its Autonomy Strategy?'.",
+      "dominant_event": "Partnership",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "Partnership",
+          "count": 2
+        },
+        {
+          "label": "General",
+          "count": 2
+        },
+        {
+          "label": "Earnings",
+          "count": 1
+        },
+        {
+          "label": "Product",
+          "count": 1
+        },
+        {
+          "label": "Macro",
+          "count": 1
+        }
+      ],
+      "catalysts": [
+        "Is Ouster (OUST) Using Drone Lidar Partnerships To Quietly Redefine Its Autonomy Strategy?",
+        "Ouster Announces Date for Third Quarter 2026 Earnings Call",
+        "Is Ouster's Flyability Collaboration Expanding Lidar Applications?"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "OUST",
+          "company": "Ouster",
+          "event_type": "partnership",
+          "event_label": "Partnership",
+          "impact": "positive",
+          "representative_title": "Is Ouster (OUST) Using Drone Lidar Partnerships To Quietly Redefine Its Autonomy Strategy?",
+          "representative_link": "https://finance.yahoo.com/technology/ai/articles/ouster-oust-using-drone-lidar-001611707.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-07T00:16:11+00:00",
+          "materiality_score": 26,
+          "catalyst": "Is Ouster (OUST) Using Drone Lidar Partnerships To Quietly Redefine Its Autonomy Strategy?",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Is Ouster (OUST) Using Drone Lidar Partnerships To Quietly Redefine Its Autonomy Strategy?",
+              "link": "https://finance.yahoo.com/technology/ai/articles/ouster-oust-using-drone-lidar-001611707.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "OUST",
+          "company": "Ouster",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Ouster Announces Date for Third Quarter 2026 Earnings Call",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/ouster-announces-date-third-quarter-110000222.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-10-13T11:00:00+00:00",
+          "materiality_score": 26,
+          "catalyst": "Ouster Announces Date for Third Quarter 2026 Earnings Call",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Ouster Announces Date for Third Quarter 2026 Earnings Call",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/ouster-announces-date-third-quarter-110000222.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "OUST",
+          "company": "Ouster",
+          "event_type": "partnership",
+          "event_label": "Partnership",
+          "impact": "positive",
+          "representative_title": "Is Ouster's Flyability Collaboration Expanding Lidar Applications?",
+          "representative_link": "https://finance.yahoo.com/technology/articles/ousters-flyability-collaboration-expanding-lidar-134000314.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-09-25T13:40:00+00:00",
+          "materiality_score": 23,
+          "catalyst": "Is Ouster's Flyability Collaboration Expanding Lidar Applications?",
+          "risk": "",
+          "theme_tags": [],
+          "sources": [
+            {
+              "title": "Is Ouster's Flyability Collaboration Expanding Lidar Applications?",
+              "link": "https://finance.yahoo.com/technology/articles/ousters-flyability-collaboration-expanding-lidar-134000314.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 26
+    },
+    {
+      "ticker": "SIVE",
+      "company": "Sivers Semiconductors",
+      "overview": "Earnings coverage leans constructive; top signal is 'Sivers Semiconductors AB (SIVEF) (Q2 2026) Earnings Call Highlights: Pipeline Surges 268% to $1. ...'.",
+      "dominant_event": "Earnings",
+      "decision_relevance": "High",
+      "event_counts": [
+        {
+          "label": "General",
+          "count": 5
+        },
+        {
+          "label": "Earnings",
+          "count": 3
+        }
+      ],
+      "catalysts": [
+        "Sivers Semiconductors AB (SIVEF) (Q2 2026) Earnings Call Highlights: Pipeline Surges 268% to $1. ...",
+        "Sivers Semiconductors Reports Q2 2026 Results as Product Growth, Record Pipeline and Customer Ramps Position Company for Growth Acceleration",
+        "Invitation to Presentation of Sivers Semiconductors' Q2 2026 Report"
+      ],
+      "risks": [],
+      "top_clusters": [
+        {
+          "ticker": "SIVE",
+          "company": "Sivers Semiconductors",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "positive",
+          "representative_title": "Sivers Semiconductors AB (SIVEF) (Q2 2026) Earnings Call Highlights: Pipeline Surges 268% to $1. ...",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/sivers-semiconductors-ab-sivef-q2-010113113.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-08-28T01:01:13+00:00",
+          "materiality_score": 26,
+          "catalyst": "Sivers Semiconductors AB (SIVEF) (Q2 2026) Earnings Call Highlights: Pipeline Surges 268% to $1. ...",
+          "risk": "",
+          "theme_tags": [
+            "Semiconductor supply chain"
+          ],
+          "sources": [
+            {
+              "title": "Sivers Semiconductors AB (SIVEF) (Q2 2026) Earnings Call Highlights: Pipeline Surges 268% to $1. ...",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/sivers-semiconductors-ab-sivef-q2-010113113.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "SIVE",
+          "company": "Sivers Semiconductors",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "positive",
+          "representative_title": "Sivers Semiconductors Reports Q2 2026 Results as Product Growth, Record Pipeline and Customer Ramps Position Company for Growth Acceleration",
+          "representative_link": "https://finance.yahoo.com/technology/articles/sivers-semiconductors-reports-q2-2026-165900907.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-08-27T16:59:00+00:00",
+          "materiality_score": 25,
+          "catalyst": "Sivers Semiconductors Reports Q2 2026 Results as Product Growth, Record Pipeline and Customer Ramps Position Company for Growth Acceleration",
+          "risk": "",
+          "theme_tags": [
+            "Semiconductor supply chain"
+          ],
+          "sources": [
+            {
+              "title": "Sivers Semiconductors Reports Q2 2026 Results as Product Growth, Record Pipeline and Customer Ramps Position Company for Growth Acceleration",
+              "link": "https://finance.yahoo.com/technology/articles/sivers-semiconductors-reports-q2-2026-165900907.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        },
+        {
+          "ticker": "SIVE",
+          "company": "Sivers Semiconductors",
+          "event_type": "earnings",
+          "event_label": "Earnings",
+          "impact": "neutral",
+          "representative_title": "Invitation to Presentation of Sivers Semiconductors' Q2 2026 Report",
+          "representative_link": "https://finance.yahoo.com/markets/stocks/articles/invitation-presentation-sivers-semiconductors-q2-052500947.html?.tsrc=rss",
+          "source_domain": "finance.yahoo.com",
+          "source_quality_label": "Core",
+          "cluster_size": 1,
+          "latest_published": "2026-08-20T05:25:00+00:00",
+          "materiality_score": 25,
+          "catalyst": "Invitation to Presentation of Sivers Semiconductors' Q2 2026 Report",
+          "risk": "",
+          "theme_tags": [
+            "Semiconductor supply chain"
+          ],
+          "sources": [
+            {
+              "title": "Invitation to Presentation of Sivers Semiconductors' Q2 2026 Report",
+              "link": "https://finance.yahoo.com/markets/stocks/articles/invitation-presentation-sivers-semiconductors-q2-052500947.html?.tsrc=rss",
+              "source": "Yahoo Finance",
+              "domain": "finance.yahoo.com"
+            }
+          ]
+        }
+      ],
+      "score": 26
+    }
+  ],
+  "cross_themes": [
+    {
+      "theme": "AI infrastructure",
+      "tickers": [
+        "NOW",
+        "AMPX",
+        "PENG",
+        "AMBA",
+        "AMSC",
+        "TXN",
+        "TSM",
+        "ASE",
+        "NVTS",
+        "IFX",
+        "AAOI",
+        "HLIT",
+        "SMCI",
+        "SHMD",
+        "LPK",
+        "SMSN"
+      ],
+      "count": 16
+    },
+    {
+      "theme": "Semiconductor supply chain",
+      "tickers": [
+        "SIVE",
+        "TSM",
+        "ASE",
+        "NVTS",
+        "IFX",
+        "SMCI"
+      ],
+      "count": 6
+    },
+    {
+      "theme": "Enterprise software",
+      "tickers": [
+        "NOW",
+        "AMBA",
+        "SMSN"
+      ],
+      "count": 3
+    },
+    {
+      "theme": "Power and grid",
+      "tickers": [
+        "AMSC",
+        "NVTS",
+        "M7U"
+      ],
+      "count": 3
+    }
+  ],
+  "top_risks": [
+    {
+      "ticker": "AMPX",
+      "company": "Amprius Technologies",
+      "risk": "Amprius Technologies Shares Rise 11% After Securing Up to $75 Million Defense Grant"
+    },
+    {
+      "ticker": "AMBA",
+      "company": "Ambarella",
+      "risk": "Ambarella CEO Sees Edge AI Growth Across Security, Autos and Wearables"
+    },
+    {
+      "ticker": "CPSH",
+      "company": "CPS Technologies",
+      "risk": "CPS Technologies Secures Initial Defense Order for Tungsten Components"
+    },
+    {
+      "ticker": "VICR",
+      "company": "Vicor",
+      "risk": "USITC Institutes Investigation of Vertical Power Delivery (VPD) Modules and Computing Systems Infringing a Vicor Patent"
+    },
+    {
+      "ticker": "TXN",
+      "company": "Texas Instruments",
+      "risk": "Texas Instruments (TXN) Stock Falls Amid Market Uptick: What Investors Need to Know"
+    },
+    {
+      "ticker": "TXN",
+      "company": "Texas Instruments",
+      "risk": "TI unveils new ADC to enable nanosecond-level telemetry and minimize downtime in AI data centers"
+    },
+    {
+      "ticker": "AAOI",
+      "company": "Applied Optoelectronics",
+      "risk": "Applied Optoelectronics (AAOI) Stock May Be Below Fair Value After Equity Offering"
+    },
+    {
+      "ticker": "AAOI",
+      "company": "Applied Optoelectronics",
+      "risk": "Applied Optoelectronics Dives 9% as AI Funding Fears Hit Optical Stocks; Coherent Slides 7%, Lumentum Drops 7%"
+    },
+    {
+      "ticker": "HLIT",
+      "company": "Harmonic",
+      "risk": "Harmonic Security Raises $50 Million Series B, Enabling Safe AI Adoption for Millions More Employees"
+    },
+    {
+      "ticker": "SHMD",
+      "company": "SCHMID Group",
+      "risk": "SCHMID Group Secures Repeat Order Exceeding EUR 37 Million for Advanced HDI-ML and mSAP Equipment"
+    }
+  ],
+  "follow_up_questions": [
+    "What did management say on the latest NOW call about durability beyond this quarter?",
+    "What did management say on the latest AMPX call about durability beyond this quarter?",
+    "What did management say on the latest PENG call about durability beyond this quarter?",
+    "What did management say on the latest AMBA call about durability beyond this quarter?",
+    "What did management say on the latest CPSH call about durability beyond this quarter?",
+    "What did management say on the latest ADEA call about durability beyond this quarter?",
+    "Is the OUST partnership likely to affect revenue timing or mostly narrative?",
+    "What did management say on the latest OUST call about durability beyond this quarter?"
+  ],
+  "sources": [
+    {
+      "ticker": "NOW",
+      "title": "Salesforce vs. ServiceNow: Here's What Revenue Trends Tell Investors About These Software Giants and Their Move to AI",
+      "link": "https://www.fool.com/coverage/charts/2026/10/15/salesforce-vs-servicenow-here-s-what-revenue-trends-tell-investors-about-these-software-giants-and-their-move-to-ai/?.tsrc=rss",
+      "quality": "Secondary",
+      "domain": "fool.com"
+    },
+    {
+      "ticker": "AMPX",
+      "title": "Amprius Technologies Inc (AMPX) (Q2 2026) Earnings Call Highlights: Record Revenue and Raised ...",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amprius-technologies-inc-ampx-q2-210251235.html?.tsrc=rss",
+      "quality": "Core",
+      "domain": "finance.yahoo.com"
+    },
+    {
+      "ticker": "PENG",
+      "title": "Is Penguin Solutions (PENG) Undervalued After Its Earnings Beat And 2027 Outlook Raise?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/penguin-solutions-peng-undervalued-earnings-231808120.html?.tsrc=rss",
+      "quality": "Core",
+      "domain": "finance.yahoo.com"
+    },
+    {
+      "ticker": "AMBA",
+      "title": "Ambarella (AMBA) Grew 2Q Revenue 13.2% and Signed 7-Year Channel Agreements. Can Edge-AI Scale Reverse Margin Compression?",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ambarella-amba-grew-2q-revenue-231537538.html?.tsrc=rss",
+      "quality": "Core",
+      "domain": "finance.yahoo.com"
+    },
+    {
+      "ticker": "CPSH",
+      "title": "CPS Technologies Corp (CPSH) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic ...",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/cps-technologies-corp-cpsh-q2-010513160.html?.tsrc=rss",
+      "quality": "Core",
+      "domain": "finance.yahoo.com"
+    },
+    {
+      "ticker": "ADEA",
+      "title": "Adeia Inc (ADEA) (Q2 2026) Earnings Call Highlights: Revenue Hits $96. ...",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/adeia-inc-adea-q2-2026-050634400.html?.tsrc=rss",
+      "quality": "Core",
+      "domain": "finance.yahoo.com"
+    },
+    {
+      "ticker": "OUST",
+      "title": "Is Ouster (OUST) Using Drone Lidar Partnerships To Quietly Redefine Its Autonomy Strategy?",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ouster-oust-using-drone-lidar-001611707.html?.tsrc=rss",
+      "quality": "Core",
+      "domain": "finance.yahoo.com"
+    },
+    {
+      "ticker": "OUST",
+      "title": "Ouster Announces Date for Third Quarter 2026 Earnings Call",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ouster-announces-date-third-quarter-110000222.html?.tsrc=rss",
+      "quality": "Core",
+      "domain": "finance.yahoo.com"
+    },
+    {
+      "ticker": "SIVE",
+      "title": "Sivers Semiconductors AB (SIVEF) (Q2 2026) Earnings Call Highlights: Pipeline Surges 268% to $1. ...",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sivers-semiconductors-ab-sivef-q2-010113113.html?.tsrc=rss",
+      "quality": "Core",
+      "domain": "finance.yahoo.com"
+    },
+    {
+      "ticker": "AMSC",
+      "title": "Q2 Earnings Roundup: American Superconductor (NASDAQ:AMSC) And The Rest Of The Renewable Energy Segment",
+      "link": "https://finance.yahoo.com/energy/articles/q2-earnings-roundup-american-superconductor-013223459.html?.tsrc=rss",
+      "quality": "Core",
+      "domain": "finance.yahoo.com"
+    },
+    {
+      "ticker": "AMSC",
+      "title": "The Bull Case For American Superconductor (AMSC) Could Change Following Strong Q1 Earnings And Profitability Guidance - Learn Why",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bull-case-american-superconductor-amsc-081040720.html?.tsrc=rss",
+      "quality": "Core",
+      "domain": "finance.yahoo.com"
+    },
+    {
+      "ticker": "VICR",
+      "title": "Vicor (VICR) Reports Next Week: Wall Street Expects Earnings Growth",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/vicor-vicr-reports-next-week-130016224.html?.tsrc=rss",
+      "quality": "Core",
+      "domain": "finance.yahoo.com"
+    },
+    {
+      "ticker": "NOW",
+      "title": "ServiceNow (NOW) Unveils EmployeeWorks AI Platform",
+      "link": "https://finance.yahoo.com/technology/ai/articles/servicenow-now-unveils-employeeworks-ai-171202458.html?.tsrc=rss",
+      "quality": "Core",
+      "domain": "finance.yahoo.com"
+    },
+    {
+      "ticker": "PENG",
+      "title": "Surging Earnings Estimates Signal Upside for Penguin Solutions, Inc. (PENG) Stock",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/surging-earnings-estimates-signal-upside-152002196.html?.tsrc=rss",
+      "quality": "Core",
+      "domain": "finance.yahoo.com"
+    },
+    {
+      "ticker": "SIVE",
+      "title": "Sivers Semiconductors Reports Q2 2026 Results as Product Growth, Record Pipeline and Customer Ramps Position Company for Growth Acceleration",
+      "link": "https://finance.yahoo.com/technology/articles/sivers-semiconductors-reports-q2-2026-165900907.html?.tsrc=rss",
+      "quality": "Core",
+      "domain": "finance.yahoo.com"
+    },
+    {
+      "ticker": "SIVE",
+      "title": "Invitation to Presentation of Sivers Semiconductors' Q2 2026 Report",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/invitation-presentation-sivers-semiconductors-q2-052500947.html?.tsrc=rss",
+      "quality": "Core",
+      "domain": "finance.yahoo.com"
+    }
+  ],
+  "earnings_calendar": [
+    {
+      "ticker": "VICR",
+      "company": "Vicor",
+      "earnings_date": "2026-10-20",
+      "display_date": "Oct 20",
+      "time_label": "time-pre-market",
+      "fiscal_quarter": "Sep/2026",
+      "eps_forecast": "$1.38",
+      "last_year_eps": "$0.63",
+      "calendar_url": "https://www.nasdaq.com/market-activity/earnings?date=2026-10-20"
+    },
+    {
+      "ticker": "TXN",
+      "company": "Texas Instruments",
+      "earnings_date": "2026-10-21",
+      "display_date": "Oct 21",
+      "time_label": "After close",
+      "fiscal_quarter": "Sep/2026",
+      "eps_forecast": "$2.39",
+      "last_year_eps": "$1.48",
+      "calendar_url": "https://www.nasdaq.com/market-activity/earnings?date=2026-10-21"
+    },
+    {
+      "ticker": "NOW",
+      "company": "ServiceNow",
+      "earnings_date": "2026-10-28",
+      "display_date": "Oct 28",
+      "time_label": "After close",
+      "fiscal_quarter": "Sep/2026",
+      "eps_forecast": "$0.56",
+      "last_year_eps": "$0.59",
+      "calendar_url": "https://www.nasdaq.com/market-activity/earnings?date=2026-10-28"
+    },
+    {
+      "ticker": "ADEA",
+      "company": "Adeia",
+      "earnings_date": "2026-11-02",
+      "display_date": "Nov 02",
+      "time_label": "Time not listed",
+      "fiscal_quarter": "Sep/2026",
+      "eps_forecast": "$0.25",
+      "last_year_eps": "$0.21",
+      "calendar_url": "https://www.nasdaq.com/market-activity/earnings?date=2026-11-02"
+    },
+    {
+      "ticker": "HLIT",
+      "company": "Harmonic",
+      "earnings_date": "2026-11-02",
+      "display_date": "Nov 02",
+      "time_label": "Time not listed",
+      "fiscal_quarter": "Sep/2026",
+      "eps_forecast": "$0.13",
+      "last_year_eps": "$0.06",
+      "calendar_url": "https://www.nasdaq.com/market-activity/earnings?date=2026-11-02"
+    }
+  ],
+  "overview": {
+    "summary_cards": [
+      {
+        "label": "High relevance",
+        "value": 21,
+        "detail": "names with the strongest new signal"
+      },
+      {
+        "label": "Catalysts",
+        "value": 64,
+        "detail": "constructive developments surfaced"
+      },
+      {
+        "label": "Risk flags",
+        "value": 10,
+        "detail": "negative or cautionary callouts"
+      },
+      {
+        "label": "Upcoming earnings",
+        "value": 5,
+        "detail": "tracked names with the next report date"
+      }
+    ],
+    "relevance_mix": [
+      {
+        "label": "High",
+        "count": 21,
+        "share": 88
+      },
+      {
+        "label": "Medium",
+        "count": 3,
+        "share": 12
+      }
+    ],
+    "event_mix": [
+      {
+        "label": "Earnings",
+        "count": 14,
+        "share": 58
+      },
+      {
+        "label": "Product",
+        "count": 4,
+        "share": 17
+      },
+      {
+        "label": "Regulation",
+        "count": 2,
+        "share": 8
+      },
+      {
+        "label": "Partnership",
+        "count": 1,
+        "share": 4
+      },
+      {
+        "label": "Financing",
+        "count": 1,
+        "share": 4
+      },
+      {
+        "label": "Macro",
+        "count": 1,
+        "share": 4
+      }
+    ],
+    "theme_count": 4,
+    "cluster_count": 71
+  },
+  "fed_monitor": {
+    "generated_at": "2026-10-16T09:31:51.858615",
+    "current_target_range": "3.50% - 3.75%",
+    "released_date": "April 29, 2026",
+    "statement_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+    "policy_summary": "In support of its goals, the Committee decided to maintain the target range for the federal funds rate at 3.50% - 3.75%. In considering the extent and timing of additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective.",
+    "watch_summary": "",
+    "watch_items": [
+      "Labor market conditions",
+      "Inflation pressures and expectations",
+      "Financial and international developments"
+    ],
+    "calendar": [
+      {
+        "month": "January",
+        "dates": "27-28",
+        "label": "January 27-28, 2026"
+      },
+      {
+        "month": "March",
+        "dates": "17-18",
+        "label": "March 17-18, 2026"
+      },
+      {
+        "month": "April",
+        "dates": "28-29",
+        "label": "April 28-29, 2026"
+      },
+      {
+        "month": "June",
+        "dates": "16-17",
+        "label": "June 16-17, 2026"
+      }
+    ],
+    "market_probabilities": [
+      {
+        "meeting_date": "Oct 28, 2026",
+        "updated_at": "Oct 16, 2026 05:05AM EDT",
+        "base_case_range": "3.75 - 4.00",
+        "base_case_probability": "83.9%",
+        "cut_probability": 0.0,
+        "hold_probability": 0.0,
+        "hike_probability": 100.0,
+        "probabilities": [
+          {
+            "range": "3.75 - 4.00",
+            "current_probability": "83.9%",
+            "current_probability_value": 83.9,
+            "previous_day_probability": "86.2%",
+            "previous_week_probability": "81.6%"
+          },
+          {
+            "range": "4.00 - 4.25",
+            "current_probability": "16.1%",
+            "current_probability_value": 16.1,
+            "previous_day_probability": "13.8%",
+            "previous_week_probability": "18.4%"
+          }
+        ]
+      },
+      {
+        "meeting_date": "Dec 09, 2026",
+        "updated_at": "Oct 16, 2026 05:05AM EDT",
+        "base_case_range": "4.00 - 4.25",
+        "base_case_probability": "74.1%",
+        "cut_probability": 0.0,
+        "hold_probability": 0.0,
+        "hike_probability": 100.0,
+        "probabilities": [
+          {
+            "range": "3.75 - 4.00",
+            "current_probability": "12.2%",
+            "current_probability_value": 12.2,
+            "previous_day_probability": "12.5%",
+            "previous_week_probability": "16.8%"
+          },
+          {
+            "range": "4.00 - 4.25",
+            "current_probability": "74.1%",
+            "current_probability_value": 74.1,
+            "previous_day_probability": "75.7%",
+            "previous_week_probability": "68.6%"
+          },
+          {
+            "range": "4.25 - 4.50",
+            "current_probability": "13.7%",
+            "current_probability_value": 13.7,
+            "previous_day_probability": "11.8%",
+            "previous_week_probability": "14.6%"
+          }
+        ]
+      },
+      {
+        "meeting_date": "Jan 27, 2027",
+        "updated_at": "Oct 16, 2026 05:05AM EDT",
+        "base_case_range": "4.00 - 4.25",
+        "base_case_probability": "49.0%",
+        "cut_probability": 0.0,
+        "hold_probability": 0.0,
+        "hike_probability": 100.1,
+        "probabilities": [
+          {
+            "range": "3.75 - 4.00",
+            "current_probability": "7.3%",
+            "current_probability_value": 7.3,
+            "previous_day_probability": "7.5%",
+            "previous_week_probability": "10.0%"
+          },
+          {
+            "range": "4.00 - 4.25",
+            "current_probability": "49.0%",
+            "current_probability_value": 49.0,
+            "previous_day_probability": "50.1%",
+            "previous_week_probability": "47.6%"
+          },
+          {
+            "range": "4.25 - 4.50",
+            "current_probability": "38.2%",
+            "current_probability_value": 38.2,
+            "previous_day_probability": "37.7%",
+            "previous_week_probability": "36.5%"
+          },
+          {
+            "range": "4.50 - 4.75",
+            "current_probability": "5.6%",
+            "current_probability_value": 5.6,
+            "previous_day_probability": "4.8%",
+            "previous_week_probability": "5.9%"
+          }
+        ]
+      }
+    ],
+    "market_probabilities_source": "https://www.investing.com/central-banks/fed-rate-monitor",
+    "next_meeting_base_case": "Target-range pricing currently leans toward 3.75 - 4.00 at the Oct 28, 2026 meeting (83.9%).",
+    "effr_view": {},
+    "effr_take": "",
+    "macro_takeaways": [
+      "Official policy is still data-dependent, with the Fed explicitly weighing incoming data, the evolving outlook, and the balance of risks.",
+      "Target-range pricing currently leans toward 3.75 - 4.00 at the Oct 28, 2026 meeting (83.9%).",
+      ""
+    ]
+  }
+}
